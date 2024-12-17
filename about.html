@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+
+  </head>
+
+
+  <body>
+    <header>
+      <nav class="nav-container">
+        <div class="nav-div-1">
+          <a class="button-nav nav-home" href="index.html">H.</a>
+        </div>
+        <div class="nav-div-2">
+          <a class="button-nav nav-project" href="index.html">Projects</a>
+          <a class="button-nav nav-about" href="about.html">About</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="about-section">
+      <div class="hero-container">
+        <div class="grid about-two-column">
+
+          <div class="about-image-container">
+            <img class="about-image about-image-1" src="img/about.jpg" width="2040" height="1179">
+            <img class="about-image about-image-2" src="img/about-BG.jpg" width="2024" height="1179">
+          </div>
+
+          <div class="about-info-container">
+            <div class="face-container">
+              <div class="eye-container eye-container-about">
+                <div class="eye">
+                  <img class="eye-white" src="img/eye.png" width="1658" height="2656" alt="white oval">
+                  <img class="ball" id="left-ball" src="img/ball.png" width="864" height="1003" alt="eye pupil">
+                </div>
+                <div class="eye">
+                  <img class="eye-white" src="img/eye.png" width="1658" height="2656" alt="white oval">
+                  <img class="ball" id="right-ball" src="img/ball.png" width="864" height="1003" alt="eye pupil">
+                </div>
+              </div>
+              <img class="mouth mouth-about" src="img/mouth.png" width="67" height="25" alt="white arc">
+            </div>
+            <p class="about-text"><span id="words">Hi!</span></p>
+            <p class="about-text about-subtext">My name is Hung, and I am a UI designer with a passion for creating intuitive and visually appealing interfaces.</p>
+            <p class="about-text about-subtext">Throughout my undergraduate degree, I have developed many UI skills such as researching, sketching, prototyping, and designing responsive interfaces on Figma. During which, I also learned to excel in collaborative environments with fellow designers as well as working with non-designer clients to bring their visions to life.</p>
+            <p class="about-text about-subtext about-subtext-margin-bottom">In the future, my goal as a UI designer is to continually innovate and push the boundaries of design, creating solutions that are both functional and aesthetically pleasing.</p>
+
+            <a class="button" href="#">Resume</a>
+            <a class="button button-margin-left" href="#">LinkedIn</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      var balls = document.getElementsByClassName("ball");
+      // var wholeFace = document.getElementsByClassName("face-container");
+      document.onmousemove = function(){
+        var x = event.clientX * 100 / 1600 + "%"
+        var y = event.clientY * 100 / 900 + "%"
+        // var xFace = (event.clientX * 4 / window.innerWidth - 10) + "%";
+        // var yFace = (event.clientY * 15 / window.innerHeight - 10) + "%";
+
+        for (var i=0; i<2; i++){
+          balls[i].style.left = x;
+          balls[i].style.top = y;
+          balls[i].style.transform = "translate(-"+x+", -"+y+")";
+        }
+        // wholeFace[0].style.transform = "translate(" + xFace + ", " + yFace + ")"; // Apply movement to face-container
+      }
+    </script>
+
+    <script type="text/javascript">
+      (function() {
+        var words = ["Hi!", "Xin chào!"], i=0;
+        setInterval(function() {
+          $('#words').fadeOut(function(){
+            $(this).html(words[(i=(i+1) % words.length)]).fadeIn();
+          });
+        }, 2500)
+      })()
+    </script>
+
+  </body>
+</html>
