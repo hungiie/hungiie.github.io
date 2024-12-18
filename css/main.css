@@ -765,6 +765,7 @@ button.button.button-margin-top:hover{
         border-bottom-color: rgb(150, 150, 150);
     }
     .project-analysis-overview-vid-container{
+        justify-content: center;
         display: flex;
         margin-bottom: 2rem;
         margin-top: 3rem;
@@ -1238,6 +1239,7 @@ button.button.button-margin-top:hover{
         transform: rotate(3deg) translate(0,2rem);
     }
     .solution-image.solution-image-final{
+        width: 14rem;
         margin-left: 0;
         justify-self: end;
     }
