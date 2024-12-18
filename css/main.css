@@ -838,6 +838,24 @@ button.button.button-margin-top:hover{
     .homepage-project-info.info-margin-left{
         margin-left: 0rem;
     }
+    #cardio-cover-1{
+        display: none;
+    }
+    #cardio-cover-2{
+        display: block;
+    }
+    #jackalope-cover-1{
+        display: none;
+    }
+    #jackalope-cover-2{
+        display: block;
+    }
+    #dear-cover-1{
+        display: none;
+    }
+    #dear-cover-2{
+        display: block;
+    }
     .homepage-project-image-container{
         margin-top: 1.3rem;
         border-radius: 0.7rem;
@@ -996,6 +1014,24 @@ button.button.button-margin-top:hover{
     }
     .homepage-project-info.info-margin-left{
         margin-left: 5rem;
+    }
+    #cardio-cover-1{
+        display: block;
+    }
+    #cardio-cover-2{
+        display: none;
+    }
+    #jackalope-cover-1{
+        display: block;
+    }
+    #jackalope-cover-2{
+        display: none;
+    }
+    #dear-cover-1{
+        display: block;
+    }
+    #dear-cover-2{
+        display: none;
     }
     .homepage-project-image-container{
         margin-top: 0;
