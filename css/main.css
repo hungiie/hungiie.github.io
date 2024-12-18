@@ -358,10 +358,6 @@ button.button.button-margin-top:hover{
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
-.project-analysis-overview-vid-container{
-    display: flex;
-    margin-bottom: 2rem;
-}
 .project-analysis-overview-vid{
     filter: drop-shadow(5px 5px 10px rgb(0,0,0,0.3));
 }
@@ -388,22 +384,6 @@ button.button.button-margin-top:hover{
 }
 .solution-image{
     filter: brightness(95%);
-}
-.user-profile-container{
-    display: grid;
-    align-items: center;
-    filter: drop-shadow(5px 5px 10px rgb(0,0,0,0.5));
-    overflow: hidden;
-
-    padding: 2rem 2rem 2rem 2rem;
-    border-radius: 2rem;
-}
-.user-profile-container.user-profile-container-black{
-    background-color: black;
-    z-index: 2;
-}
-.user-profile-container.user-profile-container-green{
-    background: linear-gradient(to right, #34772E, #098A73);
 }
 .sketch{
     width: 100%;
@@ -476,9 +456,6 @@ button.button.button-margin-top:hover{
     position: relative;
     display: block;
     overflow: hidden;
-
-    border-radius: 1.5rem;
-    margin-bottom: -1rem;
 }
 .refined-interface{
     width: 100%;
@@ -500,8 +477,6 @@ button.button.button-margin-top:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-
-    font-size: 1.2rem;
 }
 
 .pop-up-overlay{
@@ -611,6 +586,7 @@ button.button.button-margin-top:hover{
         font-size: 0.8rem;
     }
     .button{
+        font-size: 0.8rem;
         letter-spacing: 0.5px;
         border: 1px solid #a4a4a4;
         padding:1rem 1.5rem 1rem 1.5rem;
@@ -788,12 +764,10 @@ button.button.button-margin-top:hover{
         border-bottom-width: 0.3px;
         border-bottom-color: rgb(150, 150, 150);
     }
-    .project-analysis-individual-container{
-        padding-top: 1rem;
-        padding-bottom: 5rem;
-        border-bottom-style: solid;
-        border-bottom-width: 0.3px;
-        border-bottom-color: rgb(150, 150, 150);
+    .project-analysis-overview-vid-container{
+        display: flex;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
     }
     .project-analysis-overview-vid{
         width: 6rem;
@@ -813,19 +787,20 @@ button.button.button-margin-top:hover{
         margin-bottom: 1.5rem;
     }
     .solution-image-container{
+        margin-top: 1rem;
         display: flex;
         justify-content: center;
     }
     .solution-image{
-        width: 25%;
+        width: 30%;
         height: auto;
         border-radius: 0.5rem;
         margin-left: 0.5rem;
     }
     .draft-vid{
-        width: 4rem;
+        width: 30%;
         height: auto;
-        border-radius: 2rem;
+        border-radius: 0.5rem;
         margin-right: 0.5rem;
     }
     .project-analysis-text{
@@ -836,7 +811,7 @@ button.button.button-margin-top:hover{
     .project-analysis-text.slightly-bigger{
         font-size: 1rem;
         margin-bottom: 2rem;
-        margin-top: 4rem;
+        margin-top: 2rem;
         line-height: 1.3rem;
     }
     .project-analysis-text.bigger{
@@ -863,17 +838,29 @@ button.button.button-margin-top:hover{
         border-radius: 1.7rem;
     }
     .statement-container.quote{
-        padding: 2rem 1rem 2rem 1rem;
+        padding: 1.75rem 1.75rem 1.75rem 1.75rem;
+    }
+    .user-profile-container{
+        display: block;
+        align-items: center;
+        overflow: hidden;
+        filter: drop-shadow(5px 5px 10px rgb(0,0,0,0));
+        padding: 0rem 0rem 0rem 0rem;
+        border-radius: 0rem;
     }
     .user-profile-container.user-profile-container-black{
+        background-color: transparent;
         transform: rotate(0deg) translate(0rem,0rem);
+        margin-bottom: 3rem;
     }
     .user-profile-container.user-profile-container-green{
+        background: none;
         transform: rotate(0deg) translate(0,0rem);
     }
     .solution-image.solution-image-final{
+        width: 6rem;
         margin-left: 0;
-        justify-self: start;
+        justify-self: center;
     }
     .flex{
         display: block;
@@ -881,6 +868,13 @@ button.button.button-margin-top:hover{
     }
     .heuristic-text-container{
         padding: 0 2rem 0 2rem;
+    }
+    .project-analysis-text.refined-interface-text{
+        font-size: 0.8rem;
+    }
+    .refined-interface-container{
+        border-radius: 0.5rem;
+        margin-bottom: 0rem;
     }
     .grid.project-analysis-two-column{
         grid-template-columns: 1fr;
@@ -897,8 +891,8 @@ button.button.button-margin-top:hover{
     .grid.project-analysis-overview-info-two-column{
         grid-template-columns: 1fr 1.5fr;
     
-        margin-top: 3rem;
-        margin-bottom: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         width: 100%;
     }
     .grid.context-vid-four-column{
@@ -941,10 +935,9 @@ button.button.button-margin-top:hover{
     .grid.heuristic-image-container{
         grid-template-columns: 1fr;
     
-        row-gap: 2rem;
-        column-gap: 0rem;
+        row-gap: 1rem;
         margin-top: 3rem;
-        margin-bottom: 1.8rem;
+        margin-bottom: 1.3rem;
     }
 }
 
@@ -981,6 +974,7 @@ button.button.button-margin-top:hover{
         font-size: 1.05rem;
     }
     .button{
+        font-size: 1rem;
         letter-spacing: 0.5px;
         border: 1px solid #a4a4a4;
         padding:1.2rem 3rem 1.2rem 3rem;
@@ -1150,6 +1144,11 @@ button.button.button-margin-top:hover{
     .project-analysis-heading{
         font-size: 3.5rem;
     }
+    .project-analysis-overview-vid-container{
+        display: flex;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+    }
     .project-analysis-overview-vid{
         width: 14rem;
         height: auto;
@@ -1168,6 +1167,7 @@ button.button.button-margin-top:hover{
         margin-bottom: 3rem;
     }
     .solution-image-container{
+        margin-top: 1rem;
         justify-content: flex-end;
     }
     .solution-image{
@@ -1219,10 +1219,22 @@ button.button.button-margin-top:hover{
     .statement-container.quote{
         padding: 2rem 3rem 2rem 3rem;
     }
+    .user-profile-container{
+        display: grid;
+        align-items: center;
+        overflow: hidden;
+        filter: drop-shadow(5px 5px 10px rgb(0,0,0,0.5));
+        padding: 2rem 2rem 2rem 2rem;
+        border-radius: 2rem;
+    }
     .user-profile-container.user-profile-container-black{
+        background-color: black;
+        z-index: 2;
         transform: rotate(-3deg) translate(1rem,-1rem);
+        margin-bottom: 0rem;
     }
     .user-profile-container.user-profile-container-green{
+        background: linear-gradient(to right, #34772E, #098A73);
         transform: rotate(3deg) translate(0,2rem);
     }
     .solution-image.solution-image-final{
@@ -1235,6 +1247,13 @@ button.button.button-margin-top:hover{
     }
     .heuristic-text-container{
         padding: 0 9rem 0 9rem;
+    }
+    .project-analysis-text.refined-interface-text{
+        font-size: 1.2rem;
+    }
+    .refined-interface-container{
+        border-radius: 1.5rem;
+        margin-bottom: -1rem;
     }
     .grid.project-analysis-two-column{
         grid-template-columns: 1fr 4fr;
