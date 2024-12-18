@@ -263,26 +263,13 @@ button.button.button-margin-top:hover{
 
 
 /* ABOUT PAGE */
-.about-section{
-    margin-top: 10rem;
-    margin-bottom: 15rem;
-}
 .about-image-container{
-    width: 25rem;
-    height: 38rem;
-    border-radius: 2rem;
     overflow: hidden;
 }
 .about-image{
-    width: auto;
-    height: 100%;
-    transform: translate(4%, 0) scale(1.4);
-}
-.about-image.about-image-1{
-    display: block;
-}
-.about-image.about-image-2{
-    display: none;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 .about-text{
     font-family: "Helvetica Neue", sans-serif;
@@ -290,22 +277,11 @@ button.button.button-margin-top:hover{
     font-style: normal;
     font-variation-settings:"slnt" 0;
     color: #f1f1f1;
-    letter-spacing: -2px;
-
-    font-size: 3rem;
-    line-height: 4rem;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
 }
 .about-text.about-subtext{
     font-weight: 200;
-
-    font-size: 1.1rem;
     color: #a4a4a4;
     letter-spacing: 0.3px;
-    line-height: 1.6rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 .about-text.about-subtext.about-subtext-margin-bottom{
     margin-bottom: 4rem;
@@ -699,14 +675,6 @@ button.button.button-margin-top:hover{
 .grid{
     display: grid;
 }
-
-.grid.about-two-column{
-    grid-template-columns: 1fr 4fr;
-    width: 100%;
-    height:auto;
-
-    column-gap: 3rem;
-}
 .grid.project-analysis-two-column{
     grid-template-columns: 1fr 4fr;
     margin-left: 2.5rem;
@@ -797,7 +765,7 @@ button.button.button-margin-top:hover{
     .button{
         letter-spacing: 0.5px;
         border: 1px solid #a4a4a4;
-        padding:1rem 1.8rem 1rem 1.8rem;
+        padding:1rem 1.5rem 1rem 1.5rem;
     }
     .button.button-margin-left{
         margin-left: 1rem;
@@ -885,6 +853,38 @@ button.button.button-margin-top:hover{
         margin-left: 6rem;
         margin-bottom: 6rem;
         font-size: 0.8rem;
+    }
+    /* ABOUT PAGE */
+    .about-section{
+        margin: 7rem 2rem 5rem 0;
+    }
+    .about-image-container{
+        width: 100%;
+        height: 15rem;
+        border-radius: 1.5rem;
+    }
+    .grid.about-two-column{
+        grid-template-columns: 1fr;
+        width: 100%;
+        height:auto;
+    
+        column-gap: 0rem;
+    }
+    .about-image{
+        transform: translate(-5%, -10%) scale(1.4);
+    }
+    .about-text{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+        letter-spacing: -0.8px;
+    }
+    .about-text.about-subtext{
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
 }
@@ -1007,6 +1007,38 @@ button.button.button-margin-top:hover{
         margin-right: 2.5rem;
         margin-bottom: 9rem;
         font-size: 1.1rem;
+    }
+    /* ABOUT PAGE */
+    .about-section{
+        margin: 10rem 0 15rem 0;
+    }
+    .about-image-container{
+        width: 25rem;
+        height: 38rem;
+        border-radius: 2rem;
+    }
+    .grid.about-two-column{
+        grid-template-columns: 1fr 4fr;
+        width: 100%;
+        height:auto;
+    
+        column-gap: 3rem;
+    }
+    .about-image{
+        transform: translate(-6%, -5%) scale(1.4);
+    }
+    .about-text{
+        font-size: 3rem;
+        line-height: 4rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        letter-spacing: -2px;
+    }
+    .about-text.about-subtext{
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
