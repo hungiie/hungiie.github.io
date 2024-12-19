@@ -398,41 +398,79 @@
       </section>
 
     <script>
-        const openPopupButton1 = document.getElementById('openPopup1');
-        const closePopupButton1 = document.getElementById('closePopup1');
-        const popupOverlay1 = document.getElementById('popupOverlay1');
-        openPopupButton1.addEventListener('click', () => {
-            popupOverlay1.style.display = 'flex';
-            document.body.style.overflow = 'hidden'; // Disable background scrolling
-        });
-        closePopupButton1.addEventListener('click', () => {
-            popupOverlay1.style.display = 'none';
-            document.body.style.overflow = 'auto'; // Re-enable background scrolling
+        // const openPopupButton1 = document.getElementById('openPopup1');
+        // const closePopupButton1 = document.getElementById('closePopup1');
+        // const popupOverlay1 = document.getElementById('popupOverlay1');
+        // openPopupButton1.addEventListener('click', () => {
+        //     popupOverlay1.style.display = 'flex';
+        //     document.body.style.overflow = 'hidden'; // Disable background scrolling
+        // });
+        // closePopupButton1.addEventListener('click', () => {
+        //     popupOverlay1.style.display = 'none';
+        //     document.body.style.overflow = 'auto'; // Re-enable background scrolling
+        // });
+
+        // const openPopupButton2 = document.getElementById('openPopup2');
+        // const closePopupButton2 = document.getElementById('closePopup2');
+        // const popupOverlay2 = document.getElementById('popupOverlay2');
+        // openPopupButton2.addEventListener('click', () => {
+        //     popupOverlay2.style.display = 'flex';
+        //     document.body.style.overflow = 'hidden'; // Disable background scrolling
+        // });
+        // closePopupButton2.addEventListener('click', () => {
+        //     popupOverlay2.style.display = 'none';
+        //     document.body.style.overflow = 'auto'; // Re-enable background scrolling
+        // });
+
+        // const openPopupButton3 = document.getElementById('openPopup3');
+        // const closePopupButton3 = document.getElementById('closePopup3');
+        // const popupOverlay3 = document.getElementById('popupOverlay3');
+        // openPopupButton3.addEventListener('click', () => {
+        //     popupOverlay3.style.display = 'flex';
+        //     document.body.style.overflow = 'hidden'; // Disable background scrolling
+        // });
+        // closePopupButton3.addEventListener('click', () => {
+        //     popupOverlay3.style.display = 'none';
+        //     document.body.style.overflow = 'auto'; // Re-enable background scrolling
+        // });
+
+        // Get all elements with the class "fullscreen-image"
+        const images = document.querySelectorAll('.solution-image, .sketch')
+
+        // Loop through the collection and add an event listener to each image
+        Array.from(images).forEach(image => {
+            image.addEventListener('click', () => {
+                if (image.requestFullscreen) {
+                    image.requestFullscreen();
+                } else if (image.webkitRequestFullscreen) { // For Safari
+                    image.webkitRequestFullscreen();
+                } else if (image.msRequestFullscreen) { // For IE11
+                    image.msRequestFullscreen();
+                }
+            });
         });
 
-        const openPopupButton2 = document.getElementById('openPopup2');
-        const closePopupButton2 = document.getElementById('closePopup2');
-        const popupOverlay2 = document.getElementById('popupOverlay2');
-        openPopupButton2.addEventListener('click', () => {
-            popupOverlay2.style.display = 'flex';
-            document.body.style.overflow = 'hidden'; // Disable background scrolling
-        });
-        closePopupButton2.addEventListener('click', () => {
-            popupOverlay2.style.display = 'none';
-            document.body.style.overflow = 'auto'; // Re-enable background scrolling
+         // Add a listener for the document's fullscreen change event
+         document.addEventListener('fullscreenchange', () => {
+            if (document.fullscreenElement) {
+                // If in fullscreen mode, allow exiting by clicking anywhere
+                document.addEventListener('click', exitFullscreen);
+            } else {
+                // Remove the click listener when exiting fullscreen
+                document.removeEventListener('click', exitFullscreen);
+            }
         });
 
-        const openPopupButton3 = document.getElementById('openPopup3');
-        const closePopupButton3 = document.getElementById('closePopup3');
-        const popupOverlay3 = document.getElementById('popupOverlay3');
-        openPopupButton3.addEventListener('click', () => {
-            popupOverlay3.style.display = 'flex';
-            document.body.style.overflow = 'hidden'; // Disable background scrolling
-        });
-        closePopupButton3.addEventListener('click', () => {
-            popupOverlay3.style.display = 'none';
-            document.body.style.overflow = 'auto'; // Re-enable background scrolling
-        });
+        // Function to exit fullscreen
+        function exitFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) { // For Safari
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) { // For IE11
+                document.msExitFullscreen();
+            }
+        }
     </script>
 
   </body>
