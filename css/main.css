@@ -1104,7 +1104,7 @@ button.button.button-margin-top:hover{
         column-gap: 3rem;
     }
     .about-image{
-        transform: translate(-6%, -5%) scale(1.4);
+        transform: translate(-6%, -8%) scale(1.29);
     }
     .about-text{
         font-size: 3rem;
