@@ -86,6 +86,9 @@ button.button.button-margin-top:hover{
 .align-center-div{
     text-align: center;
 }
+.no-margin-top{
+    margin-top: 0;
+}
 
 .grey{
     color: #a4a4a4;
@@ -108,6 +111,7 @@ button.button.button-margin-top:hover{
 }
 .center{
     text-align: center;
+    justify-content: center;
 }
 .project-analysis-text.italic{
     font-style: italic;
@@ -352,6 +356,9 @@ button.button.button-margin-top:hover{
     margin-top: 0rem;
     margin-bottom: 2rem;
 }
+.project-analysis-text.margin-bottom{
+    margin-bottom: 2rem;
+}
 .project-analysis-text.project-analysis-text-margintop{
     margin-top: 1.5rem;
 }
@@ -435,9 +442,8 @@ button.button.button-margin-top:hover{
 }
 .project-analysis-text.decorated-title.jackalope-decorated-title{
     background: linear-gradient(to right, #1792D8, #072B71);
-    margin-top: 0;
 }
-.project-analysis-text.decorated-title.jackalope-decorated-title.margin-top{
+.project-analysis-text.margin-top{
     margin-top: 4rem;
 }
 .heuristic-container{
