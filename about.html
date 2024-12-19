@@ -9,7 +9,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
-    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   </head>
 
@@ -71,19 +71,15 @@
 
     <script>
       var balls = document.getElementsByClassName("ball");
-      // var wholeFace = document.getElementsByClassName("face-container");
       document.onmousemove = function(){
         var x = event.clientX * 100 / 1600 + "%"
         var y = event.clientY * 100 / 900 + "%"
-        // var xFace = (event.clientX * 4 / window.innerWidth - 10) + "%";
-        // var yFace = (event.clientY * 15 / window.innerHeight - 10) + "%";
 
         for (var i=0; i<2; i++){
           balls[i].style.left = x;
           balls[i].style.top = y;
           balls[i].style.transform = "translate(-"+x+", -"+y+")";
         }
-        // wholeFace[0].style.transform = "translate(" + xFace + ", " + yFace + ")"; // Apply movement to face-container
       }
     </script>
 
@@ -94,8 +90,8 @@
           $('#words').fadeOut(function(){
             $(this).html(words[(i=(i+1) % words.length)]).fadeIn();
           });
-        }, 2500)
-      })()
+        }, 2500);
+      })();
     </script>
 
   </body>
