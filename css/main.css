@@ -387,6 +387,13 @@ button.button.button-margin-top:hover{
     filter: brightness(95%);
     cursor: pointer;
 }
+.solution-image.flex-start{
+    margin-left: 0;
+    justify-self: flex-start;
+}
+.solution-image.full-width{
+    width: 100%;
+}
 .sketch{
     width: 100%;
     height: auto;
@@ -394,8 +401,17 @@ button.button.button-margin-top:hover{
 
     border-radius: 1rem;
 }
+.sketch.center{
+    justify-self: center;
+    align-self: center;
+}
 .sketch.smaller{
     width: 80%;
+    height:auto;
+    text-align: center;
+}
+.sketch.much-smaller{
+    width: 60%;
     height:auto;
     text-align: center;
 }
@@ -555,6 +571,7 @@ button.button.button-margin-top:hover{
     grid-template-columns: 1fr 3fr;
 
     column-gap: 2rem;
+    row-gap: 1rem;
     margin-bottom: 2rem;
 }
 .grid.project-analysis-jackalopesketch-two-column-reversed{
