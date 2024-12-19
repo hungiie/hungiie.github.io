@@ -217,9 +217,9 @@ button.button.button-margin-top:hover{
     overflow: hidden;
 }
 .homepage-project-image{
+    display: block;
     width: 100%;
     height: auto;
-    transform: scale(1.03);
     transition-property: all;
     transition-duration: .5s;
 }
