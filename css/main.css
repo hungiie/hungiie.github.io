@@ -681,10 +681,10 @@ button.button.button-margin-top:hover{
     #jackalope-cover-2{
         display: block;
     }
-    #dear-cover-1{
+    #capcut-cover-1{
         display: none;
     }
-    #dear-cover-2{
+    #capcut-cover-2{
         display: block;
     }
     .homepage-project-image-container{
@@ -695,7 +695,7 @@ button.button.button-margin-top:hover{
         font-size: 0.8rem;
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
-        line-height: 1rem;
+        line-height: 1.2rem;
     }
     .vault-thumbnail-container{
         border-radius: 0.5rem;
@@ -1070,10 +1070,10 @@ button.button.button-margin-top:hover{
     #jackalope-cover-2{
         display: none;
     }
-    #dear-cover-1{
+    #capcut-cover-1{
         display: block;
     }
-    #dear-cover-2{
+    #capcut-cover-2{
         display: none;
     }
     .homepage-project-image-container{
@@ -1081,6 +1081,7 @@ button.button.button-margin-top:hover{
         border-radius: 1.4rem;
     }
     .homepage-project-des{
+        letter-spacing: 1px;
         font-size: 1.1rem;
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
