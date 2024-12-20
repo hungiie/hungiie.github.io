@@ -365,7 +365,6 @@ button.button.button-margin-top:hover{
     filter: drop-shadow(5px 5px 10px rgb(0,0,0,0.3));
 }
 .project-analysis-context-vid{
-    filter: brightness(50%);
     transition-property: all;
     transition-duration: .25s;
 }
@@ -798,12 +797,13 @@ button.button.button-margin-top:hover{
         margin-top: 3rem;
     }
     .project-analysis-overview-vid{
-        width: 6rem;
+        width: 50%;
         height: auto;
         border-radius: 0.6rem;
         margin-left: 0.5rem;
     }
     .project-analysis-context-vid{
+        filter: brightness(100%);
         width: 100%;
         height: auto;
         border-radius: 0.5rem;
@@ -886,7 +886,7 @@ button.button.button-margin-top:hover{
         transform: rotate(0deg) translate(0,0rem);
     }
     .solution-image.solution-image-final{
-        width: 6rem;
+        width: 100%;
         margin-left: 0;
         justify-self: center;
     }
@@ -1191,6 +1191,7 @@ button.button.button-margin-top:hover{
         margin-left: 1rem;
     }
     .project-analysis-context-vid{
+        filter: brightness(50%);
         width: 15rem;
         height: auto;
         border-radius: 0.7rem;
