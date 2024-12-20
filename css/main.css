@@ -233,11 +233,6 @@ button.button.button-margin-top:hover{
     transition-property: all;
     transition-duration: .5s;
 }
-.homepage-project-image.vault-image:hover{
-    transform: scale(1.08);
-    transition-property: all;
-    transition-duration: .5s;
-}
 .homepage-project-des{
     color: #f1f1f1;
     text-align: center;
@@ -670,21 +665,27 @@ button.button.button-margin-top:hover{
         margin-left: 0rem;
     }
     #cardio-cover-1{
+        visibility: hidden;
         display: none;
     }
     #cardio-cover-2{
+        visibility: visible;
         display: block;
     }
     #jackalope-cover-1{
+        visibility: hidden;
         display: none;
     }
     #jackalope-cover-2{
+        visibility: visible;
         display: block;
     }
     #capcut-cover-1{
+        visibility: hidden;
         display: none;
     }
     #capcut-cover-2{
+        visibility: visible;
         display: block;
     }
     .homepage-project-image-container{
@@ -1059,21 +1060,27 @@ button.button.button-margin-top:hover{
         margin-left: 5rem;
     }
     #cardio-cover-1{
+        visibility: visible;
         display: block;
     }
     #cardio-cover-2{
+        visibility: hidden;
         display: none;
     }
     #jackalope-cover-1{
+        visibility: visible;
         display: block;
     }
     #jackalope-cover-2{
+        visibility: hidden;
         display: none;
     }
     #capcut-cover-1{
+        visibility: visible;
         display: block;
     }
     #capcut-cover-2{
+        visibility: hidden;
         display: none;
     }
     .homepage-project-image-container{
