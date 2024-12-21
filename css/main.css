@@ -475,6 +475,7 @@ button.button.button-margin-top:hover{
     overflow: hidden;
 }
 .refined-interface{
+    display: block;
     width: 100%;
     height: auto;
     transition-property: all;
