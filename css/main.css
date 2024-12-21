@@ -341,12 +341,6 @@ button.button.button-margin-top:hover{
 .project-analysis-container{
     margin-right: 0rem;
 }
-.jackalope-logo{
-    justify-self: right;
-
-    width: 18rem;
-    height: auto;
-}
 .project-analysis-text.slightly-bigger.no-margin-top{
     margin-top: 0rem;
     margin-bottom: 2rem;
@@ -784,6 +778,13 @@ button.button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 0;
     }
+    .jackalope-logo{
+        justify-self: center;
+    
+        width: 10rem;
+        height: auto;
+        margin-top: 2rem;
+    }
     .project-analysis-section{
         margin: 0 2rem 0 2rem;
     }
@@ -1183,6 +1184,13 @@ button.button.button-margin-top:hover{
     .project-analysis-text.slightly-bigger.slogan{
         margin-top: 0;
         margin-bottom: 0;
+    }
+    .jackalope-logo{
+        justify-self: right;
+    
+        width: 18rem;
+        height: auto;
+        margin-top: 0;
     }
     .project-analysis-section{
         margin: 0 2.5rem 0 2.5rem;
