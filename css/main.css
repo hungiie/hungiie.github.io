@@ -920,6 +920,40 @@ button.button.button-margin-top:hover{
         border-radius: 0.5rem;
         margin-bottom: 0rem;
     }
+    #issue-1{
+        grid-row:1;
+    }
+    #issue-2{
+        grid-row:3;
+    }
+    #issue-3{
+        grid-row:5;
+    }
+    #stat-1{
+        grid-row:2;
+        margin-bottom: 2rem;
+    }
+    #stat-2{
+        grid-row:4;
+        margin-bottom: 2rem;
+    }
+    #stat-3{
+        grid-row:6;
+        margin-bottom: 2rem;
+    }
+    #outcome-1{
+        grid-row: 1;
+    }
+    #outcome-2{
+        grid-row: 3;
+    }
+    #outcome-11{
+        grid-row: 2;
+        margin-bottom: 2rem;
+    }
+    #outcome-22{
+        grid-row: 4;
+    }
     .grid.project-analysis-two-column{
         grid-template-columns: 1fr;
         margin-top: 1.5rem;
@@ -1318,6 +1352,40 @@ button.button.button-margin-top:hover{
     .refined-interface-container{
         border-radius: 1.5rem;
         margin-bottom: -1rem;
+    }
+    #issue-1{
+        grid-row:auto;
+    }
+    #issue-2{
+        grid-row:auto;
+    }
+    #issue-3{
+        grid-row:auto;
+    }
+    #stat-1{
+        grid-row:auto;
+        margin-bottom: 0;
+    }
+    #stat-2{
+        grid-row:auto;
+        margin-bottom: 0;
+    }
+    #stat-3{
+        grid-row:auto;
+        margin-bottom: 0;
+    }
+    #outcome-1{
+        grid-row: auto;
+    }
+    #outcome-2{
+        grid-row: auto;
+    }
+    #outcome-11{
+        grid-row: auto;
+        margin-bottom: 0;
+    }
+    #outcome-22{
+        grid-row: auto;
     }
     .grid.project-analysis-two-column{
         grid-template-columns: 1fr 4fr;
