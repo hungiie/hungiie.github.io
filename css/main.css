@@ -437,6 +437,10 @@ button.button.button-margin-top:hover{
 .project-analysis-text.decorated-title.jackalope-decorated-title{
     background: linear-gradient(to right, #1792D8, #072B71);
 }
+.project-analysis-text.decorated-title.no-margin-top{
+    margin-top: 0;
+}
+
 .project-analysis-text.margin-top{
     margin-top: 4rem;
 }
@@ -566,6 +570,13 @@ button.button.button-margin-top:hover{
 
 .grid{
     display: grid;
+}
+.grid.project-analysis-research-three-column.no-row-gap{
+    row-gap: 0rem;
+    margin-bottom: 6rem;
+}
+.grid.heuristic-image-container.no-row-gap{
+    row-gap: 0;
 }
 .grid.project-analysis-jackalopesketch-two-column{
     grid-template-columns: 1fr 3fr;
