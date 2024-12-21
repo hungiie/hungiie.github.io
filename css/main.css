@@ -780,6 +780,10 @@ button.button.button-margin-top:hover{
         width: 100%;
         height: auto;
     }
+    .project-analysis-text.slightly-bigger.slogan{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
     .project-analysis-section{
         margin: 0 2rem 0 2rem;
     }
@@ -1175,6 +1179,10 @@ button.button.button-margin-top:hover{
         border-radius: 1.5rem;
         width: 100%;
         height: auto;
+    }
+    .project-analysis-text.slightly-bigger.slogan{
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .project-analysis-section{
         margin: 0 2.5rem 0 2.5rem;
