@@ -89,6 +89,9 @@ button.button.button-margin-top:hover{
 .no-margin-top{
     margin-top: 0;
 }
+.project-analysis-text.slightly-bigger.no-margin-bottom{
+    margin-bottom: 1rem;
+}
 
 .grey{
     color: #a4a4a4;
@@ -1339,6 +1342,10 @@ button.button.button-margin-top:hover{
         width: 14rem;
         margin-left: 0;
         justify-self: end;
+    }
+    .cta{
+        margin-left: 9rem;
+        margin-right: 9rem;
     }
     .flex{
         display: flex;
