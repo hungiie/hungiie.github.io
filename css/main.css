@@ -89,7 +89,7 @@ button.button.button-margin-top:hover{
 .no-margin-top{
     margin-top: 0;
 }
-.project-analysis-text.slightly-bigger.no-margin-bottom{
+.project-analysis-text.slightly-bigger.no-margin-top.no-margin-bottom{
     margin-bottom: 1rem;
 }
 
@@ -111,6 +111,9 @@ button.button.button-margin-top:hover{
 }
 .white{
     color: white;
+}
+.orange{
+    color: #e56300;
 }
 .center{
     text-align: center;
@@ -376,6 +379,9 @@ button.button.button-margin-top:hover{
 .statement-container.jackalope{
     background: linear-gradient(to right, #1BADFF, #005CE5);
 }
+.john-container{
+    margin-left: 2rem;
+}
 .solution-info-container{
     display: flex;
     align-items: center;
@@ -583,6 +589,9 @@ button.button.button-margin-top:hover{
     row-gap: 1rem;
     margin-bottom: 2rem;
 }
+.grid.project-analysis-jackalopesketch-two-column.grid-john{
+    margin-top: 4rem;
+}
 .grid.project-analysis-jackalopesketch-two-column-reversed{
     grid-template-columns: 1.7fr 1fr;
 
@@ -782,7 +791,7 @@ button.button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 0;
     }
-    .jackalope-logo{
+    .john{
         justify-self: center;
     
         width: 10rem;
@@ -1225,12 +1234,12 @@ button.button.button-margin-top:hover{
         margin-top: 0;
         margin-bottom: 0;
     }
-    .jackalope-logo{
-        justify-self: right;
+    .john{
+        justify-self: center;
     
-        width: 18rem;
+        width: 15rem;
         height: auto;
-        margin-top: 0;
+        margin-top: 4rem;
     }
     .project-analysis-section{
         margin: 0 2.5rem 0 2.5rem;
