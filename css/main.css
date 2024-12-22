@@ -379,9 +379,6 @@ button.button.button-margin-top:hover{
 .statement-container.jackalope{
     background: linear-gradient(to right, #1BADFF, #005CE5);
 }
-.john-container{
-    margin-left: 2rem;
-}
 .solution-info-container{
     display: flex;
     align-items: center;
@@ -589,8 +586,9 @@ button.button.button-margin-top:hover{
     row-gap: 1rem;
     margin-bottom: 2rem;
 }
-.grid.project-analysis-jackalopesketch-two-column.grid-john{
-    margin-top: 4rem;
+.grid.project-analysis-jackalopesketch-two-column-reversed.grid-john{
+    margin-top: 2rem;
+    margin-bottom: 6rem;
 }
 .grid.project-analysis-jackalopesketch-two-column-reversed{
     grid-template-columns: 1.7fr 1fr;
