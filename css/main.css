@@ -1077,7 +1077,7 @@ button.button.button-margin-top:hover{
         display: block;
     }
     .hero-section{
-        margin-top: 15rem;
+        margin-top: 14rem;
     }
     .hero-container{
         padding-left: 9rem;
@@ -1106,7 +1106,7 @@ button.button.button-margin-top:hover{
 
     /* HOMEPAGE - PROJECT SECTION */
     .project-section{
-        margin: 15rem 10rem 15rem 10rem;
+        margin: 9rem 10rem 15rem 10rem;
     }
     .homepage-project-name{
         letter-spacing: -0.3px;
