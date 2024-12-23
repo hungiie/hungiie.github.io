@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+  }
+
 body {
     scroll-behavior: smooth;
 }
@@ -334,7 +338,11 @@ button.button.button-margin-top:hover{
 }
 .bold{
     font-weight: 400;
-    letter-spacing: -0.1px;
+    letter-spacing: -0.4px;
+}
+.more-bold{
+    font-weight: 500;
+    letter-spacing: -0.7px;
 }
 .project-analysis-toc:hover{
     color: white;
@@ -391,6 +399,9 @@ button.button.button-margin-top:hover{
     filter: drop-shadow(0px 0px 7px rgb(0,0,0,0.07));
     /* filter: brightness(95%); */
     cursor: pointer;
+}
+.solution-image.grey-border{
+    border: 3px solid rgb(231, 231, 231);
 }
 .solution-image.flex-start{
     margin-left: 0;
@@ -880,7 +891,6 @@ button.button.button-margin-top:hover{
     .project-analysis-text.bigger{
         font-size: 1rem;
         line-height: 1.4rem;
-        letter-spacing: 0px;
     }
     .project-analysis-text.extremely-bigger{
         font-size: 1.9rem;
@@ -1310,7 +1320,6 @@ button.button.button-margin-top:hover{
     .project-analysis-text.bigger{
         font-size: 1.7rem;
         line-height: 2.4rem;
-        letter-spacing: 0px;
     }
     .project-analysis-text.extremely-bigger{
         font-size: 3rem;
@@ -1438,13 +1447,13 @@ button.button.button-margin-top:hover{
         /* background-color: rgb(219, 227, 248); */
         background-color: whitesmoke;
         padding: 2rem 2rem 2rem 3rem;
-        border-radius: 2rem;
+        border-radius: 3rem;
         margin-bottom: 2rem;
         column-gap: 2rem;
 
-        transform: translateY(20px);
+        /* transform: translateY(20px);
         opacity: 0;
-        transition: transform 0.5s ease, opacity 0.5s ease;
+        transition: transform 0.5s ease, opacity 0.5s ease; */
     }
     .grid.project-analysis-solution1-two-column.black-background{
         background-color: black;
