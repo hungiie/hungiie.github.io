@@ -96,6 +96,9 @@ button.button.button-margin-top:hover{
 .grey{
     color: #a4a4a4;
 }
+.dark-grey{
+    color: rgb(93, 93, 93);
+}
 .light-grey{
     color: white;
     opacity: 0.8;
@@ -385,7 +388,8 @@ button.button.button-margin-top:hover{
     justify-content: center;
 }
 .solution-image{
-    filter: brightness(95%);
+    filter: drop-shadow(0px 0px 7px rgb(0,0,0,0.07));
+    /* filter: brightness(95%); */
     cursor: pointer;
 }
 .solution-image.flex-start{
@@ -587,6 +591,10 @@ button.button.button-margin-top:hover{
     margin-bottom: 2rem;
 }
 .grid.project-analysis-jackalopesketch-two-column-reversed.grid-john{
+    background-color: black;
+    /* border: 3px solid rgb(43, 43, 43); */
+    border-radius: 2rem;
+    padding:4rem 1rem 5rem 5rem;
     margin-top: 2rem;
     margin-bottom: 6rem;
 }
@@ -842,9 +850,9 @@ button.button.button-margin-top:hover{
         margin-bottom: 1.5rem;
     }
     .solution-image-container{
-        margin-top: 1rem;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .solution-image{
         width: 30%;
@@ -1276,10 +1284,6 @@ button.button.button-margin-top:hover{
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
-    .solution-image-container{
-        margin-top: 1rem;
-        justify-content: flex-end;
-    }
     .solution-image{
         width: 14rem;
         height: auto;
@@ -1431,8 +1435,27 @@ button.button.button-margin-top:hover{
     }
     .grid.project-analysis-solution1-two-column{
         grid-template-columns: 1fr 1fr;
-    
-        margin-bottom: 3rem;
+        /* background-color: rgb(219, 227, 248); */
+        background-color: whitesmoke;
+        padding: 2rem 2rem 2rem 3rem;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        column-gap: 2rem;
+
+        transform: translateY(20px);
+        opacity: 0;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+    .grid.project-analysis-solution1-two-column.black-background{
+        background-color: black;
+    }
+    .grid.project-analysis-solution1-two-column.black-background.visible{
+        transform: translateY(0); 
+        opacity: 1;
+    }
+    .grid.project-analysis-solution1-two-column.visible{
+        transform: translateY(0); 
+        opacity: 1;
     }
     .grid.project-analysis-research-two-column{
         grid-template-columns: 1fr 1fr;

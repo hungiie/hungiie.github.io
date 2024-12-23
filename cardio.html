@@ -170,11 +170,12 @@
                 <div class="project-analysis-individual-container" id="proposed-solutions">
                     <h2 class="project-analysis-section-name">Proposed solutions</h2>
 
-                    <div class="grid project-analysis-solution1-two-column">
+                    <div class="grid project-analysis-solution1-two-column black-background">
                         <div class="solution-info-container">
                             <div>
-                                <!-- <p class="project-analysis-text extremely-bigger">1</p> -->
-                                <p class="project-analysis-text slightly-bigger bold">Offer personalized, pre-made cardio playlists with <span class="bold green">strategically organized songs that matches different phases of the session</span>: warm up, endurance and cool down (Auto mode)</p>
+                                <p class="project-analysis-text slightly-bigger bold no-margin-top">Offer <span class="green">personalized</span>, <span class="green">pre-made</span> cardio playlists</p>
+                                <p class="project-analysis-text slightly-bigger bold no-margin-top">Songs are <span class="bold green">strategically organized</span> to match different phases of the session: warm up, endurance and cool down (Auto mode)</p>
+                                <p class="project-analysis-text">1/4</p>
                             </div>
                         </div>
                             <div class="solution-image-container">
@@ -183,11 +184,12 @@
                         </div>
                     </div>
 
-                    <div class="grid project-analysis-solution1-two-column">
+                    <div class="grid project-analysis-solution1-two-column black-background">
                         <div class="solution-info-container">
                             <div>
-                                <!-- <p class="project-analysis-text extremely-bigger">2</p> -->
-                                <p class="project-analysis-text slightly-bigger bold">Offer a more personalized running experience that takes user’s <span class="bold green">physical attributes and goals into consideration through questionnaire</span>.</p>
+                                <p class="project-analysis-text slightly-bigger bold no-margin-top">A more personalized running experience.</p>
+                                <p class="project-analysis-text slightly-bigger bold no-margin-top">Taking user’s <span class="bold green">physical attributes</span> and <span class="green">goals</span> into consideration through questionnaire.</p>
+                                <p class="project-analysis-text">2/4</p>
                             </div>
                         </div>
                         <div class="solution-image-container">
@@ -197,11 +199,11 @@
                         </div>
                     </div>
 
-                    <div class="grid project-analysis-solution1-two-column">
+                    <div class="grid project-analysis-solution1-two-column black-background ">
                         <div class="solution-info-container">
                             <div>
-                                <!-- <p class="project-analysis-text extremely-bigger">3</p> -->
-                                <p class="project-analysis-text slightly-bigger bold">Offer <span class="bold green">real-time report of important information</span> related to the session such as timer, current song’s BPM, suggested MPH, suggested incline, etc.</p>
+                                <p class="project-analysis-text slightly-bigger bold no-margin-top"><span class="bold green">Real-time report of important information</span> related to the session such as timer, current song’s BPM, suggested MPH, suggested incline, etc.</p>
+                                <p class="project-analysis-text">3/4</p>
                             </div>
                         </div>
                         <div class="solution-image-container">
@@ -211,11 +213,13 @@
                         </div>
                     </div>
 
-                    <div class="grid project-analysis-solution1-two-column">
+                    <div class="grid project-analysis-solution1-two-column black-background">
                         <div class="solution-info-container">
                             <div>
-                                <!-- <p class="project-analysis-text extremely-bigger">4</p> -->
-                                <p class="project-analysis-text slightly-bigger bold">Assist runners in editing their cardio playlist by <span class="bold green">suggesting songs within the same range of BPM</span>, or sorting songs based on BPM (Manual mode)</p>
+                                <p class="project-analysis-text slightly-bigger bold no-margin-top">Assist runners in editing their cardio playlist</p>
+                                <p class="project-analysis-text slightly-bigger bold no-margin-top"><span class="green">Suggests</span> songs within the same range of BPM.</p>
+                                <p class="project-analysis-text slightly-bigger bold no-margin-top"><span class="green">Sorting</span> songs based on BPM.</p>
+                                <p class="project-analysis-text">4/4</p>
                             </div>
                         </div>
                         <div class="solution-image-container">
@@ -411,6 +415,23 @@
       </section>
 
     <script>
+        const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target); // Stop observing once it's in view
+            }
+        });
+        }, {
+        threshold: 0.3 // Trigger when 50% of the element is in view
+        });
+
+        const slideInElements = document.querySelectorAll('.grid.project-analysis-solution1-two-column'); // Select all divs with class 'slide-in'
+
+        slideInElements.forEach(element => {
+        observer.observe(element); // Observe each element
+        });
+
         // const openPopupButton1 = document.getElementById('openPopup1');
         // const closePopupButton1 = document.getElementById('closePopup1');
         // const popupOverlay1 = document.getElementById('popupOverlay1');
