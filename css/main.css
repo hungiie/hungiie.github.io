@@ -485,6 +485,9 @@ button.button.button-margin-top:hover{
 .project-analysis-text.margin-top{
     margin-top: 4rem;
 }
+.project-analysis-text.one-margin-top{
+    margin-top: 1rem;
+}
 .heuristic-container{
     margin-bottom: 5rem;
 }
@@ -643,6 +646,9 @@ button.button.button-margin-top:hover{
 
     column-gap: 2rem;
     margin-bottom: 2rem;
+}
+.other-container{
+    display: grid;
 }
 
 /* BREAKPOINT 1 */
@@ -1074,6 +1080,10 @@ button.button.button-margin-top:hover{
         row-gap: 1rem;
         margin-top: 3rem;
         margin-bottom: 1.3rem;
+    }
+    .grid.grid.project-analysis-research-three-column.more-projects{
+        row-gap: 2rem;
+        column-gap: 0;
     }
 }
 
@@ -1526,6 +1536,10 @@ button.button.button-margin-top:hover{
         column-gap: 2rem;
         margin-top: 3rem;
         margin-bottom: 1.8rem;
+    }
+    .grid.grid.project-analysis-research-three-column.more-projects{
+        row-gap: 6rem;
+        column-gap: 2rem;
     }
 }
 
