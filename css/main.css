@@ -16,6 +16,16 @@ a{
 body{
     background-color: #171717;
 }
+.emoji{
+    display: inline;
+    width: 4rem;
+    height: auto;
+    margin-bottom: -1rem;
+}
+.emoji.smaller{
+    width: 4rem;
+    height: auto;
+}
 h1{
     font-family: "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -1142,8 +1152,8 @@ button.button.button-margin-top:hover{
         margin-top: 14rem;
     }
     .hero-container{
-        padding-left: 9rem;
-        padding-right: 9rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
     }
     .hero-text{
         font-size: 3.2rem;
