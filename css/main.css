@@ -251,7 +251,7 @@ button.button.button-margin-top:hover{
     left: 2rem;
 }
 .hero-text{
-    color: #f1f1f1;
+    /* color: #f1f1f1; */
 }
 .subtext{
     color: #a4a4a4;
@@ -1121,13 +1121,9 @@ button.button.button-margin-top:hover{
     /* HOMEPAGE - HERO SECTION */
     .emoji{
         display: inline;
-        width: 4rem;
+        width: 3.5rem;
         height: auto;
-        margin-bottom: -1rem;
-    }
-    .emoji.smaller{
-        width: 4rem;
-        height: auto;
+        margin-bottom: -0.5rem;
     }
     p{
         letter-spacing: 0.5px;
