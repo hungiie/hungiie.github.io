@@ -1429,6 +1429,7 @@ button.button.button-margin-top:hover{
     }
     .persona-container{
         grid-row: auto;
+        margin-top: 0;
     }
     #outcome-1{
         grid-row: auto;
