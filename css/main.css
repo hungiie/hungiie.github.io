@@ -642,8 +642,15 @@ button.button.button-margin-top:hover{
 .grid.project-analysis-research-three-column.one-column-gap{
     column-gap: 1rem;
 }
+.grid.project-analysis-research-three-column.two-margin-top{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
 .grid.project-analysis-jackalopesketch-two-column.no-margin-bottom{
     margin-bottom: 0;
+}
+.grid.context-vid-four-column.no-margin-top{
+    margin-top: 0;
 }
 .other-container{
     display: grid;
