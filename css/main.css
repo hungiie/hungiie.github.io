@@ -672,9 +672,8 @@ button.button.button-margin-top:hover{
         height: auto;
         margin-bottom: 0rem;
     }
-    .emoji.smaller{
-        width: 1.8rem;
-        height: auto;
+    .emoji.move-down{
+        margin-bottom: -0.25rem;
     }
     p{
         letter-spacing: 0.5px;
@@ -1124,6 +1123,9 @@ button.button.button-margin-top:hover{
         width: 3.5rem;
         height: auto;
         margin-bottom: -0.5rem;
+    }
+    .emoji.move-down{
+        margin-bottom: -0.8rem;
     }
     p{
         letter-spacing: 0.5px;
