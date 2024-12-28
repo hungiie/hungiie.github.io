@@ -514,8 +514,12 @@ button.button.button-margin-top:hover{
     height: auto;
     transition-property: all;
     transition-duration: .25s;
+    border: 1px solid rgb(60, 60, 60);
 
     border-radius: 1rem;
+}
+.heuristic-image.margin-top{
+    margin-top: 2rem;
 }
 .heuristic-text-container{
     text-align: center;
