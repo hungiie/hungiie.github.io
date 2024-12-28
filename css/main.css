@@ -413,10 +413,6 @@ button.button.button-margin-top:hover{
 .project-analysis-text.more-margin-bottom{
     margin-bottom: 3rem;
 }
-.project-analysis-overview-info{
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
 .project-analysis-overview-vid{
     filter: drop-shadow(5px 5px 10px rgb(0,0,0,0.3));
 }
