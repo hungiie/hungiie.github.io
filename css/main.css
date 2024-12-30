@@ -413,9 +413,6 @@ button.button.button-margin-top:hover{
 .project-analysis-text.more-margin-bottom{
     margin-bottom: 3rem;
 }
-.project-analysis-overview-vid{
-    filter: drop-shadow(5px 5px 10px rgb(0,0,0,0.3));
-}
 .project-analysis-context-vid{
     transition-property: all;
     transition-duration: .25s;
