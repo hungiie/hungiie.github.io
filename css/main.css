@@ -1166,8 +1166,8 @@ button.button.button-margin-top:hover{
         margin-top: 16rem;
     }
     .hero-container{
-        padding-left: 10rem;
-        padding-right: 10rem;
+        padding-left: 8rem;
+        padding-right: 4.5rem;
     }
     .hero-text{
         font-size: 3.2rem;
@@ -1187,7 +1187,7 @@ button.button.button-margin-top:hover{
         font-size: 1.2rem;
         line-height: 2rem;
         margin-bottom: 4rem;
-        padding-right: 16rem;
+        padding-right: 20rem;
     }
 
     /* HOMEPAGE - PROJECT SECTION */
@@ -1267,7 +1267,7 @@ button.button.button-margin-top:hover{
     .footer{
         margin-right: 2.5rem;
         margin-bottom: 9rem;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
     /* ABOUT PAGE */
     .about-section{
