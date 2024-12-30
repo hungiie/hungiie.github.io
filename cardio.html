@@ -525,23 +525,6 @@
     </section>
 
     <script>
-        const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target); // Stop observing once it's in view
-            }
-        });
-        }, {
-        threshold: 0.3 // Trigger when 50% of the element is in view
-        });
-
-        const slideInElements = document.querySelectorAll('.grid.project-analysis-solution1-two-column'); // Select all divs with class 'slide-in'
-
-        slideInElements.forEach(element => {
-        observer.observe(element); // Observe each element
-        });
-
         // const openPopupButton1 = document.getElementById('openPopup1');
         // const closePopupButton1 = document.getElementById('closePopup1');
         // const popupOverlay1 = document.getElementById('popupOverlay1');
