@@ -722,14 +722,14 @@ button.button.button-margin-top:hover{
         padding-right: 0rem;
     }
     .hero-text{
-        font-size: 2.2rem;
+        font-size: 2rem;
         line-height: 2.7rem;
         margin-top: 0;
         margin-bottom: 2rem;
         padding-right: 3rem;
     }
     .grid.intro-two-column{
-        grid-template-columns: 5fr 1fr;
+        grid-template-columns: 1fr;
         width: 100%;
         height:auto;
     
@@ -820,6 +820,7 @@ button.button.button-margin-top:hover{
         margin-left: 6rem;
         margin-bottom: 6rem;
         font-size: 0.8rem;
+        line-height: 1.3rem;
     }
     /* ABOUT PAGE */
     .about-section{
@@ -838,7 +839,7 @@ button.button.button-margin-top:hover{
         column-gap: 0rem;
     }
     .about-image{
-        transform: translate(-5%, -10%) scale(1.4);
+        transform: translate(-5%, 30%) scale(1.6);
     }
     .about-text{
         font-size: 2rem;
