@@ -525,6 +525,7 @@ button.button.button-margin-top:hover{
 }
 .issue-container.quote{
     background-color: black;
+    /* text-align: center; */
     overflow: hidden;
     display: grid;
     align-items: center;
