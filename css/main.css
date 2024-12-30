@@ -1186,7 +1186,6 @@ button.button.button-margin-top:hover{
         line-height: 4rem;
         margin-top: 0;
         margin-bottom: 2rem;
-        /* margin-right: 3rem; */
     }
     .grid.intro-two-column{
         grid-template-columns: 1fr 5fr;
