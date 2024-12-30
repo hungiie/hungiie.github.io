@@ -1423,7 +1423,7 @@ button.button.button-margin-top:hover{
         border-radius: 1.7rem;
     }
     .solution-image.solution-image-final{
-        width: 14rem;
+        width: 100%;
         margin-left: 0;
         justify-self: end;
     }
