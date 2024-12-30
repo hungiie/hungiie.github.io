@@ -523,8 +523,7 @@ button.button.button-margin-top:hover{
 .heuristic-text-container{
     text-align: center;
 }
-.statement-container.quote{
-    background: none;
+.issue-container.quote{
     background-color: black;
     overflow: hidden;
     display: grid;
@@ -655,11 +654,25 @@ button.button.button-margin-top:hover{
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
+.grid.project-analysis-research-three-column.one-margin-top{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
 .grid.project-analysis-jackalopesketch-two-column.no-margin-bottom{
     margin-bottom: 0;
 }
 .grid.context-vid-four-column.no-margin-top{
     margin-top: 0;
+}
+.grid.response-three-column{
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    margin-bottom: 4rem;
+}
+.grid.response-two-column{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    margin-bottom: 4rem;
 }
 .other-container{
     display: grid;
@@ -962,9 +975,6 @@ button.button.button-margin-top:hover{
     .statement-container{
         padding: 1rem 2rem 1rem 2rem;
         border-radius: 1.7rem;
-    }
-    .statement-container.quote{
-        padding: 1.75rem 1.75rem 1.75rem 1.75rem;
     }
     .solution-image.solution-image-final{
         width: 100%;
@@ -1413,9 +1423,6 @@ button.button.button-margin-top:hover{
         padding: 2rem 7rem 2rem 7rem;
         border-radius: 1.7rem;
     }
-    .statement-container.quote{
-        padding: 2rem 3rem 2rem 3rem;
-    }
     .solution-image.solution-image-final{
         width: 14rem;
         margin-left: 0;
@@ -1425,6 +1432,9 @@ button.button.button-margin-top:hover{
         padding: 2rem 2rem 2rem 2rem;
         border-radius: 2rem;
         height: 21rem;
+    }
+    .issue-container.quote{
+        padding: 2rem 3rem 2rem 3rem;
     }
     .issue-container.smaller{
         padding: 1rem 1.5rem 1rem 1.5rem;
