@@ -375,15 +375,6 @@ to {
     font-variation-settings:"slnt" 0;
     color: #f1f1f1;
 }
-.about-text.about-subtext{
-    font-weight: 200;
-    color: #a4a4a4;
-    letter-spacing: 0.3px;
-}
-.about-text.about-subtext.about-subtext-margin-bottom{
-    margin-bottom: 4rem;
-}
-
 
 
 /* CARDIO PAGE  */
@@ -879,12 +870,6 @@ to {
         margin-bottom: 0rem;
         letter-spacing: -0.8px;
     }
-    .about-text.about-subtext{
-        font-size: 0.8rem;
-        line-height: 1.1rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
     /* CARDIO PAGE */
     .cover-image-section{
         margin: 6rem 2rem 0 2rem;
@@ -1311,7 +1296,7 @@ to {
     }
     /* ABOUT PAGE */
     .about-section{
-        margin: 10rem 0 15rem 0;
+        margin: 4rem 0 10rem 0;
     }
     .about-image-container{
         width: 100%;
@@ -1331,15 +1316,9 @@ to {
     .about-text{
         font-size: 3rem;
         line-height: 4rem;
-        margin-top: 4rem;
+        margin-top: 2rem;
         margin-bottom: 2rem;
         letter-spacing: -2px;
-    }
-    .about-text.about-subtext{
-        font-size: 1.1rem;
-        line-height: 1.6rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
     }
     .about-button{
         display: block;
