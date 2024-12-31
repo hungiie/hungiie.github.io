@@ -262,29 +262,40 @@ button.button.button-margin-top:hover{
     display: block; 
     white-space: normal; /* Ensure words can break naturally without breaking mid-word */
     overflow: hidden;
-  }
-  .hero-text .letter {
-    display: inline;
+}
+.hero-text .letter {
+    display: inline-block;
     word-break: normal;
     transform: translateY(100%);
     opacity: 0;
     animation: slide-up 0.3s ease-out forwards;
-  }
- 
-@keyframes slide-up {
-from {
+}
+.hero-text-smaller {
+    display: block; 
+    white-space: normal; /* Ensure words can break naturally without breaking mid-word */
+    overflow: hidden;
+}
+.hero-text-smaller .letter {
+    display: inline-block;
+    word-break: normal;
     transform: translateY(100%);
     opacity: 0;
+    animation: slide-up 0.3s ease-out 2s forwards;
 }
-to {
-    transform: translateY(0);
-    opacity: 1;
-}
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .emoji{
     opacity: 0;
-    animation: emojianim 0.2s ease 2.7s forwards;
+    animation: emojianim 0.2s ease 2.5s forwards;
 }
 .emoji.inline{
     display: inline;
@@ -296,7 +307,7 @@ to {
         opacity: 0;
     }
     to{
-        opacity: 1;
+        opacity: 0.6;
     }
 }
 
@@ -758,7 +769,7 @@ to {
         margin-bottom: 2rem;
         padding-right: 3rem;
     }
-    .hero-text.hero-text-smaller{
+    .hero-text-smaller{
         font-size: 1.3rem;
         line-height: 1.7rem;
         padding-right: 0rem;
@@ -1180,9 +1191,9 @@ to {
     /* HOMEPAGE - HERO SECTION */
     .emoji{
         display: inline;
-        width: 5rem;
+        width: 3rem;
         height: auto;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
     p{
         letter-spacing: 0.5px;
@@ -1216,12 +1227,16 @@ to {
         font-size: 3.2rem;
         line-height: 4rem;
         margin-top: 0;
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
     }
-    .hero-text.hero-text-smaller{
+    .hero-text-smaller{
+        margin-top: 2rem;
         font-size: 2.1rem;
         line-height: 2.8rem;
         padding-right: 10rem;
+    }
+    .hero-text-smaller.hero-no-margin-top{
+        margin-top: 0;
     }
     .grid.intro-two-column{
         grid-template-columns: 1fr 5fr;
