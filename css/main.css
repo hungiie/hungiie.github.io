@@ -286,6 +286,10 @@ to {
     opacity: 0;
     animation: emojianim 0.2s ease 2.7s forwards;
 }
+.emoji.inline{
+    display: inline;
+    transform: rotate(-90deg);
+}
 
 @keyframes emojianim {
     from {
@@ -454,6 +458,10 @@ to {
 }
 .statement-container.jackalope{
     background: linear-gradient(to right, #1BADFF, #005CE5);
+}
+.arrow{
+    display: inline;
+    margin-right: 0.5rem;
 }
 .solution-info-container{
     display: flex;
@@ -987,6 +995,10 @@ to {
         padding: 1rem 2rem 1rem 2rem;
         border-radius: 1.7rem;
     }
+    .arrow{
+        width: 1rem;
+        height: auto;
+    }
     .solution-image.solution-image-final{
         width: 100%;
         margin-left: 0;
@@ -1439,6 +1451,14 @@ to {
     .statement-container{
         padding: 2rem 7rem 2rem 7rem;
         border-radius: 1.7rem;
+    }
+    .arrow{
+        width: 1.2rem;
+        height: auto;
+    }
+    .arrow.bigger{
+        width: 1.4rem;
+        height: auto;
     }
     .solution-image.solution-image-final{
         width: 100%;
