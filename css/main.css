@@ -206,6 +206,7 @@ button.button.button-margin-top:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .face-container{
@@ -257,9 +258,44 @@ button.button.button-margin-top:hover{
     position: absolute;
     left: 2rem;
 }
-.subtext{
-    color: #a4a4a4;
+.hero-text {
+    display: block; 
+    white-space: normal; /* Ensure words can break naturally without breaking mid-word */
+    overflow: hidden;
+  }
+  .hero-text .letter {
+    display: inline;
+    word-break: normal;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: slide-up 0.3s ease-out forwards;
+  }
+ 
+@keyframes slide-up {
+from {
+    transform: translateY(100%);
+    opacity: 0;
 }
+to {
+    transform: translateY(0);
+    opacity: 1;
+}
+}
+
+.emoji{
+    opacity: 0;
+    animation: emojianim 0.2s ease 2.7s forwards;
+}
+
+@keyframes emojianim {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 
 /* PROJECTS SECTION */
 .homepage-project-name{
@@ -689,9 +725,6 @@ button.button.button-margin-top:hover{
         height: auto;
         margin-bottom: 0rem;
     }
-    .emoji.move-down{
-        margin-bottom: -0.25rem;
-    }
     p{
         letter-spacing: 0.5px;
         font-size: 0.8rem;
@@ -713,7 +746,7 @@ button.button.button-margin-top:hover{
         display: none;
     }
     .hero-section{
-        margin-top: 10rem;
+        margin-top: 0rem;
     }
     .hero-container{
         padding-left: 2rem;
@@ -1145,12 +1178,9 @@ button.button.button-margin-top:hover{
     /* HOMEPAGE - HERO SECTION */
     .emoji{
         display: inline;
-        width: 3.5rem;
+        width: 5rem;
         height: auto;
-        margin-bottom: -0.5rem;
-    }
-    .emoji.move-down{
-        margin-bottom: -0.8rem;
+        margin-top: 2rem;
     }
     p{
         letter-spacing: 0.5px;
@@ -1173,14 +1203,15 @@ button.button.button-margin-top:hover{
         display: block;
     }
     .hero-section{
-        margin-top: 14rem;
+        margin-top: 0rem;
     }
     .hero-container{
+        padding-top: 2rem;
         padding-left: 9rem;
-        padding-right: 15rem;
+        padding-right: 9rem;
     }
     .hero-text{
-        font-size: 3.2rem;
+        font-size: 3rem;
         line-height: 4rem;
         margin-top: 0;
         margin-bottom: 2rem;
