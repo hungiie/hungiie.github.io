@@ -752,14 +752,14 @@ to {
         padding-right: 0rem;
     }
     .hero-text{
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height: 2.7rem;
         margin-top: 0;
         margin-bottom: 2rem;
         padding-right: 3rem;
     }
     .hero-text.hero-text-smaller{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     .grid.intro-two-column{
         grid-template-columns: 1fr;
