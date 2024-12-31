@@ -204,7 +204,7 @@ button.button.button-margin-top:hover{
 /* HERO SECTION */
 .hero-container{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 100vh;
 }
@@ -1221,7 +1221,7 @@ button.button.button-margin-top:hover{
     .hero-container{
         padding-top: 2rem;
         padding-left: 9rem;
-        padding-right: 9rem;
+        padding-right: 0;
     }
     .hero-text{
         font-size: 3.2rem;
@@ -1233,7 +1233,7 @@ button.button.button-margin-top:hover{
         margin-top: 2rem;
         font-size: 2.1rem;
         line-height: 2.8rem;
-        padding-right: 10rem;
+        padding-right: 0;
     }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 0;
