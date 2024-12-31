@@ -158,32 +158,31 @@
     
     <script>
       const heroTextElements = document.querySelectorAll('.hero-text');
+      // Function to animate text in the same way for both elements
+      function animateText(element, delay = 0) {
+        const fullText = element.textContent; // Get all visible text (ignores tags)
+        let animatedHTML = "";
 
-// Function to animate text in the same way for both elements
-function animateText(element, delay = 0) {
-  const fullText = element.textContent; // Get all visible text (ignores tags)
-  let animatedHTML = "";
+        // Wrap each character in a span with an animation delay
+        fullText.split("").forEach((char, index) => {
+          if (char.trim()) {
+            // Wrap non-space characters
+            animatedHTML += `<span class="letter" style="animation-delay: ${index * 0.01 + delay}s">${char}</span>`;
+          } else {
+            // Keep spaces as-is (no wrapping for spaces)
+            animatedHTML += char;
+          }
+        });
 
-  // Wrap each character in a span with an animation delay
-  fullText.split("").forEach((char, index) => {
-    if (char.trim()) {
-      // Wrap non-space characters
-      animatedHTML += `<span class="letter" style="animation-delay: ${index * 0.01 + delay}s">${char}</span>`;
-    } else {
-      // Keep spaces as-is (no wrapping for spaces)
-      animatedHTML += char;
-    }
-  });
+        // Replace the element's inner HTML with the animated spans
+        element.innerHTML = animatedHTML;
+      }
 
-  // Replace the element's inner HTML with the animated spans
-  element.innerHTML = animatedHTML;
-}
-
-// Apply the animation to both hero-text elements with a delay for the second element
-heroTextElements.forEach((element, index) => {
-  const delay = index === 0 ? 0 : 0.25 * heroTextElements[0].textContent.length * 0.05; // Delay second line based on first line's duration
-  animateText(element, delay);
-});
+      // Apply the animation to both hero-text elements with a delay for the second element
+      heroTextElements.forEach((element, index) => {
+        const delay = index === 0 ? 0 : 0.25 * heroTextElements[0].textContent.length * 0.05; // Delay second line based on first line's duration
+        animateText(element, delay);
+      });
 
 
 
