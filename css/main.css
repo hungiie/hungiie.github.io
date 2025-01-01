@@ -1654,7 +1654,7 @@ button.button.button-margin-top:hover{
 }
 
 /* BREAKPOINT 5 */
-@media (min-width: 75em) {
+@media (min-width: 100em) {
     /* NAV BAR */
     .button-nav{
         font-size: 1rem;
