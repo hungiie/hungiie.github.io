@@ -690,7 +690,7 @@ button.button.button-margin-top:hover{
 }
 
 /* BREAKPOINT 1 */
-@media (min-width: 19.5em) {
+@media (min-width: 20rem) {
     /* NAV BAR */
     .button-nav{
         font-size: 0.8rem;
@@ -1163,15 +1163,15 @@ button.button.button-margin-top:hover{
 }
 
 /* BREAKPOINT 2 */
-@media (min-width: 30em) {
+@media (min-width: 30rem) {
 }
 
 /* BREAKPOINT 3 */
-@media (min-width: 48em) {
+@media (min-width: 48rem) {
 }
 
 /* BREAKPOINT 4 */
-@media (min-width: 64em) {
+@media (min-width: 64rem) {
     /* NAV BAR */
     .button-nav{
         font-size: 1rem;
@@ -1654,7 +1654,7 @@ button.button.button-margin-top:hover{
 }
 
 /* BREAKPOINT 5 */
-@media (min-width: 100em) {
+@media (min-width: 95rem) {
     /* NAV BAR */
     .button-nav{
         font-size: 1rem;
