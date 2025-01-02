@@ -10,10 +10,10 @@ body {
     scroll-behavior: smooth;
 }
 a{
-    text-decoration: none;
+    font-family: "Inter Tight", Arial, sans-serif;
+    font-weight: 300;
     color: #c5c5c5;
-
-    letter-spacing: 0px;
+    text-decoration: none;
 }
 body{
     background-color: #171717;
@@ -54,10 +54,6 @@ ul{
     font-weight: 200;
     color: #a4a4a4;
     background-color: none;
-    border-radius: 50rem;
-    text-align: center;
-    width: auto;
-    height: auto;
     transition-property: all;
     transition-duration: .25s;
 }
@@ -68,15 +64,11 @@ ul{
     margin-top: 2rem;
 }
 button.button.button-margin-top:hover{
-    background-color: white;
-    color: #171717;
+    color: white;
     cursor: pointer;
 }
 .button:hover{
-    color: #171717;
-    background-color: #f1f1f1;
-
-    border: 1px solid #f1f1f1;
+    color: white
 }
 .button.in-grid{
     display: flex;
@@ -203,6 +195,7 @@ button.button.button-margin-top:hover{
     font-family: "Inter Tight", Arial, sans-serif;
     font-weight: 200;
     color: #f1f1f1;
+    text-decoration: none;
 }
 
 /* HOMEPAGE */
@@ -364,7 +357,7 @@ button.button.button-margin-top:hover{
 }
 .about-text{
     font-family: "Inter Tight", Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
     color: #f1f1f1;
@@ -394,6 +387,7 @@ button.button.button-margin-top:hover{
     color: #a4a4a4;
     transition-property: all;
     transition-duration: .25s;
+    text-decoration: none;
 
     letter-spacing: 0px;
     margin-bottom: 1.5rem;
@@ -726,8 +720,6 @@ button.button.button-margin-top:hover{
     .button{
         font-size: 0.8rem;
         letter-spacing: 0px;
-        border: 1px solid #a4a4a4;
-        padding:1rem 1.5rem 1rem 1.5rem;
     }
     .button.button-margin-left{
         margin-left: 1rem;
@@ -1209,11 +1201,9 @@ button.button.button-margin-top:hover{
     .button{
         font-size: 1rem;
         letter-spacing: 0px;
-        border: 1px solid #a4a4a4;
-        padding:1.2rem 3rem 1.2rem 3rem;
     }
     .button.button-margin-left{
-        margin-left: 2rem;
+        margin-left: 4rem;
     }
     .face-container{
         display: block;
@@ -1378,7 +1368,7 @@ button.button.button-margin-top:hover{
         line-height: 4rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        letter-spacing: -2px;
+        letter-spacing: -0.4px;
     }
     .about-button{
         display: block;
@@ -1697,8 +1687,6 @@ button.button.button-margin-top:hover{
     .button{
         font-size: 1rem;
         letter-spacing: 0px;
-        border: 1px solid #a4a4a4;
-        padding:1.2rem 3rem 1.2rem 3rem;
     }
     .button.button-margin-left{
         margin-left: 2rem;
