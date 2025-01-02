@@ -20,15 +20,15 @@ body{
 }
 h1{
     font-family: "Inter Tight", Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: #f1f1f1;
 
-    letter-spacing: -1px;
+    letter-spacing: -0.6px;
     margin: 0 0 0 0;
 }
 h2{
     font-family: "Inter Tight", Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
     color: #e2e2e2;
@@ -400,12 +400,12 @@ button.button.button-margin-top:hover{
     margin-left: 1rem;
 }
 .bold{
-    font-weight: 500;
-    letter-spacing: -0.3px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
 }
 .more-bold{
-    font-weight: 600;
-    letter-spacing: -0.5px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
 }
 .project-analysis-toc:hover{
     color: white;
@@ -1479,7 +1479,8 @@ button.button.button-margin-top:hover{
         margin-left: 2rem;
     }
     .project-analysis-text.decorated-title{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        letter-spacing: 0.2px;
         padding: 0.8rem 1.5rem 0.8rem 1.5rem;
         margin-bottom: 2rem;
         margin-top: 4rem;
@@ -1549,7 +1550,7 @@ button.button.button-margin-top:hover{
         grid-row: auto;
     }
     .grid.project-analysis-two-column{
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 1fr 5fr;
         margin-top: 4rem;
         column-gap: 6rem;
     }
