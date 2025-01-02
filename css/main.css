@@ -754,8 +754,8 @@ button.button.button-margin-top:hover{
         display: inline;
         word-break: normal;
         transform: translateY(0%);
-        opacity: 0;
-        animation: slide-up 0.3s ease-out forwards;
+        opacity: 1;
+        animation: none;
     }
     .hero-text-smaller {
         display: block; 
@@ -771,8 +771,8 @@ button.button.button-margin-top:hover{
         display: inline;
         word-break: normal;
         transform: translateY(0%);
-        opacity: 0;
-        animation: slide-up 0.3s ease-out forwards;
+        opacity: 1;
+        animation: none;
     }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 0;
