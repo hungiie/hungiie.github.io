@@ -211,7 +211,7 @@ button.button.button-margin-top:hover{
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    height: 100vh;
+    height: 40rem;
 }
 
 .face-container{
