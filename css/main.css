@@ -101,6 +101,9 @@ button.button.button-margin-top:hover{
 .no-margin-top{
     margin-top: 0;
 }
+.project-analysis-text.one-margin-bottom{
+    margin-bottom: 1rem;
+}
 .project-analysis-text.slightly-bigger.one-margin-top{
     margin-top: 1rem;
 }
