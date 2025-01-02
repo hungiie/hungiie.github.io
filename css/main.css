@@ -1224,7 +1224,7 @@ button.button.button-margin-top:hover{
         white-space: normal; /* Ensure words can break naturally without breaking mid-word */
         overflow: hidden;
         
-        font-size: 3.2rem;
+        font-size: 3rem;
         line-height: 4rem;
         margin-top: 0;
         margin-bottom: 0rem;
@@ -1242,7 +1242,7 @@ button.button.button-margin-top:hover{
         overflow: hidden;
 
         margin-top: 2rem;
-        font-size: 2.1rem;
+        font-size: 1.8rem;
         line-height: 2.8rem;
         padding-right: 0;
     }
