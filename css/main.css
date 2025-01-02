@@ -354,11 +354,6 @@ button.button.button-margin-top:hover{
 .about-image-container{
     overflow: hidden;
 }
-.about-image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .about-text{
     font-family: "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -882,7 +877,10 @@ button.button.button-margin-top:hover{
         column-gap: 0rem;
     }
     .about-image{
-        transform: translate(-5%, 30%) scale(1.6);
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transform: translate(-5%, -10%) scale(1.5);
     }
     .about-text{
         font-size: 2rem;
@@ -1362,6 +1360,9 @@ button.button.button-margin-top:hover{
         column-gap: 3rem;
     }
     .about-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         transform: translate(-9%, 0%) scale(1.6);
     }
     .about-text{
@@ -1374,40 +1375,6 @@ button.button.button-margin-top:hover{
     .about-button{
         display: block;
     }
-
-
-/* 
-    .about-section{
-        margin: 12rem 16rem 10rem 9rem;
-    }
-    .about-image-container{
-        width: 100%;
-        height: 100%;
-        border-radius: 2rem;
-    }
-    .grid.about-two-column{
-        grid-template-columns: 1fr 3fr;
-        width: 100%;
-        height:auto;
-    
-        column-gap: 3rem;
-    }
-    .about-image{
-        transform: translate(-9%, 0%) scale(1.6);
-    }
-    .about-text{
-        font-size: 4rem;
-        line-height: 4rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        letter-spacing: -2px;
-    }
-    .about-button{
-        display: block;
-
-    } */
-
-
 
     /* CARDIO PAGE */
     .cover-image-section{
