@@ -17,7 +17,7 @@ body{
     background-color: #171717;
 }
 h1{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     color: #f1f1f1;
 
@@ -25,19 +25,19 @@ h1{
     margin: 0 0 0 0;
 }
 h2{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
     color: #e2e2e2;
 }
 p{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 300;
     color: #c5c5c5;
 }
 li{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 300;
     color: #c5c5c5;
 }
@@ -48,7 +48,7 @@ ul{
     list-style: none;
 }
 .button{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 200;
     color: #a4a4a4;
     background-color: none;
@@ -195,7 +195,7 @@ button.button.button-margin-top:hover{
     top:3rem;
 }
 .button-nav{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 200;
     color: #f1f1f1;
 }
@@ -290,7 +290,7 @@ button.button.button-margin-top:hover{
 
 /* PROJECTS SECTION */
 .homepage-project-name{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     color: #f1f1f1;
 }
@@ -355,7 +355,7 @@ button.button.button-margin-top:hover{
     overflow: hidden;
 }
 .about-text{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
@@ -376,7 +376,7 @@ button.button.button-margin-top:hover{
     width: 100%;
 }
 .project-analysis-toc-container{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     color: #e2e2e2;
 
@@ -619,21 +619,21 @@ button.button.button-margin-top:hover{
     border-radius: 2rem;
 }
 #closePopup1{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
     cursor: pointer;
 }
 #closePopup2{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
     cursor: pointer;
 }
 #closePopup3{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
