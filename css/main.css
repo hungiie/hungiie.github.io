@@ -706,7 +706,7 @@ button.button.button-margin-top:hover{
     }
     /* HOMEPAGE - HERO SECTION */
     .emoji{
-        visibility: hidden;
+        visibility: visible;
         display: inline;
         width: 3rem;
         height: auto;
@@ -754,8 +754,8 @@ button.button.button-margin-top:hover{
         display: inline;
         word-break: normal;
         transform: translateY(0%);
-        opacity: 1;
-        animation: none;
+        opacity: 0;
+        animation: slide-up 0.3s ease-out forwards;
     }
     .hero-text-smaller {
         display: block; 
@@ -765,14 +765,14 @@ button.button.button-margin-top:hover{
         margin-top: 2rem;
         font-size: 1.3rem;
         line-height: 1.7rem;
-        padding-right: 0rem;
+        padding-right: 4rem;
     }
     .hero-text-smaller .letter {
         display: inline;
         word-break: normal;
         transform: translateY(0%);
-        opacity: 1;
-        animation: none;
+        opacity: 0;
+        animation: slide-up 0.3s ease-out forwards;
     }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 0;
@@ -867,7 +867,7 @@ button.button.button-margin-top:hover{
     }
     /* ABOUT PAGE */
     .about-section{
-        margin: 7rem 2rem 5rem 0;
+        margin: 7rem 2rem 5rem 2rem;
     }
     .about-image-container{
         width: 100%;
