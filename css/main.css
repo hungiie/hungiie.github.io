@@ -289,8 +289,7 @@ button.button.button-margin-top:hover{
 /* PROJECTS SECTION */
 .homepage-project-name{
     font-family: "Inter Tight", Arial, sans-serif;
-    font-weight: 500;
-    color: #f1f1f1;
+    font-weight: 400;
 }
 .homepage-project-info-container{
     display: flex;
@@ -319,6 +318,9 @@ button.button.button-margin-top:hover{
     transform: scale(1.02);
     transition-property: all;
     transition-duration: .5s;
+}
+.homepage-project-image-container:hover ~ .homepage-project-name .text-arrow {
+    transform: translate(5px); /* Move to the right */
 }
 .homepage-project-des{
     color: #f1f1f1;
@@ -362,6 +364,21 @@ button.button.button-margin-top:hover{
     font-variation-settings:"slnt" 0;
     color: #f1f1f1;
 }
+.arrow-button{
+    display: block;
+}
+.arrow-button:hover .text-arrow {
+    transform: translate(5px); /* Animation on hover */
+}
+.arrow-button:hover + .text-arrow {
+    transform: translate(5px); /* Animation on hover */
+}
+.text-arrow {
+    display: inline-block;
+    transform: translate(0); /* Default state */
+    transition: transform 0.25s; /* Apply transition here */
+}
+
 
 
 /* CARDIO PAGE  */
@@ -785,7 +802,6 @@ button.button.button-margin-top:hover{
         margin: 9rem 2rem 5rem 2rem;
     }
     .homepage-project-name{
-        letter-spacing: -0.3px;
         margin-bottom: 1rem;
         font-size: 2rem;
     }
@@ -1267,7 +1283,6 @@ button.button.button-margin-top:hover{
         margin: 0 7rem 15rem 7rem;
     }
     .homepage-project-name{
-        letter-spacing: -0.3px;
         margin-bottom: 0;
         font-size: 2.2rem;
     }
@@ -1369,9 +1384,6 @@ button.button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 2rem;
         letter-spacing: -0.4px;
-    }
-    .about-button{
-        display: block;
     }
 
     /* CARDIO PAGE */
@@ -1752,7 +1764,6 @@ button.button.button-margin-top:hover{
         margin: 9rem 15rem 15rem 15rem;
     }
     .homepage-project-name{
-        letter-spacing: -0.3px;
         margin-bottom: 0;
         font-size: 3.1rem;
     }
@@ -1850,10 +1861,6 @@ button.button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 2rem;
         letter-spacing: -2px;
-    }
-    .about-button{
-        display: block;
-
     }
     /* CARDIO PAGE */
     .cover-image-section{

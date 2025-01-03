@@ -69,7 +69,7 @@
     </section>
 
     <section class="project-section" id="projects">
-      <p class="homepage-project-name">card.io</p>
+      <p class="homepage-project-name grey">card.io <span class="text-arrow">&rarr;</span></p>
       <div class="homepage-project-info-container">
         <p class="homepage-project-info">Project type: UI Design</p>
         <p class="homepage-project-info info-margin-left">Duration: 1.5 month</p>
@@ -83,7 +83,7 @@
     </section>
 
     <section class="project-section">
-      <p class="homepage-project-name">Jackalope</p>
+      <p class="homepage-project-name grey">Jackalope <span class="text-arrow">&rarr;</span></p>
       <div class="homepage-project-info-container">
         <p class="homepage-project-info">Project type: UX Research & UI Design</p>
         <p class="homepage-project-info info-margin-left">Duration: 2 months</p>
@@ -189,27 +189,52 @@
           const textLength = element.textContent.length; // Number of characters in the current line
           cumulativeDelay += textLength * 0.01; // Increment the delay based on the duration of the current line
       });
+    
+
+
+
+      const imageContainers = document.querySelectorAll('.homepage-project-image-container');
+      const projectNames = document.querySelectorAll('.homepage-project-name');
+      const textArrows = document.querySelectorAll('.homepage-project-name .text-arrow');
+
+      imageContainers.forEach((container, index) => {
+          container.addEventListener('mouseover', () => {
+              if (projectNames[index]) {
+                  projectNames[index].style.color = 'white'; // Change text color to white
+              }
+              if (textArrows[index]) {
+                  textArrows[index].style.transform = 'translate(15px)'; // Move arrow
+              }
+          });
+
+          container.addEventListener('mouseout', () => {
+              if (projectNames[index]) {
+                  projectNames[index].style.color = ''; // Revert text color to original
+              }
+              if (textArrows[index]) {
+                  textArrows[index].style.transform = 'translate(0)'; // Reset arrow position
+              }
+          });
+      });
 
 
 
 
+      // var balls = document.getElementsByClassName("ball");
+      // var wholeFace = document.getElementsByClassName("face-container");
+      // document.onmousemove = function(){
+      //   var x = event.clientX * 100 / 1600 + "%"
+      //   var y = event.clientY * 100 / 900 + "%"
+      //   var xFace = (event.clientX * 20 / window.innerWidth - 10) + "%"; // Reduced movement factor for x
+      //   var yFace = (event.clientY * 20 / window.innerHeight - 10) + "%"; // Reduced movement factor for y
 
-
-      var balls = document.getElementsByClassName("ball");
-      var wholeFace = document.getElementsByClassName("face-container");
-      document.onmousemove = function(){
-        var x = event.clientX * 100 / 1600 + "%"
-        var y = event.clientY * 100 / 900 + "%"
-        var xFace = (event.clientX * 20 / window.innerWidth - 10) + "%"; // Reduced movement factor for x
-        var yFace = (event.clientY * 20 / window.innerHeight - 10) + "%"; // Reduced movement factor for y
-
-        for (var i=0; i<2; i++){
-          balls[i].style.left = x;
-          balls[i].style.top = y;
-          balls[i].style.transform = "translate(-"+x+", -"+y+")";
-        }
-        wholeFace[0].style.transform = "translate(" + xFace + ", " + yFace + ")"; // Apply movement to face-container
-      }
+      //   for (var i=0; i<2; i++){
+      //     balls[i].style.left = x;
+      //     balls[i].style.top = y;
+      //     balls[i].style.transform = "translate(-"+x+", -"+y+")";
+      //   }
+      //   wholeFace[0].style.transform = "translate(" + xFace + ", " + yFace + ")"; // Apply movement to face-container
+      // }
     </script>
 
   </body>
