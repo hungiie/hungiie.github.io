@@ -211,7 +211,7 @@ button.button.button-margin-top:hover{
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    height: 45rem;
+    height: 40rem;
 }
 
 .face-container{
@@ -367,10 +367,15 @@ button.button.button-margin-top:hover{
     color: #f1f1f1;
 }
 .arrow-button{
-    display: block;
+    display:inline-block;
+    transform-origin: left center;
+    position: relative;
 }
 .arrow-button:hover .text-arrow {
     transform: translate(10px); /* Animation on hover */
+}
+.arrow-button:hover{
+    transform: scale(1.06);
 }
 .text-arrow {
     font-family: Arial;
@@ -409,10 +414,6 @@ button.button.button-margin-top:hover{
     letter-spacing: 0px;
     margin-bottom: 1.5rem;
 }
-.project-analysis-toc.toc-indent{
-    size: 1rem;
-    margin-left: 1rem;
-}
 .bold{
     font-weight: 400;
     letter-spacing: -0.4px;
@@ -423,6 +424,10 @@ button.button.button-margin-top:hover{
 }
 .project-analysis-toc:hover{
     color: white;
+    transform: scale(1.06);
+    transform-origin: left center;
+    transition-property: all;
+    transition-duration: .25s;
 }
 .slogan-big-container{
     width: 100%;
@@ -798,6 +803,7 @@ button.button.button-margin-top:hover{
         margin: 9rem 2rem 5rem 2rem;
     }
     .homepage-project-name{
+        margin-top: 0;
         margin-bottom: 1rem;
         font-size: 2rem;
     }
