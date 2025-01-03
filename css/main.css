@@ -267,13 +267,11 @@ button.button.button-margin-top:hover{
     }
 }
 
-.emoji{
+.arrow-down{
+    font-family: Arial;
+    display: block;
     opacity: 0;
     animation: emojianim 0.2s ease 2.5s forwards;
-}
-.emoji.inline{
-    display: inline;
-    transform: rotate(-90deg);
 }
 
 @keyframes emojianim {
@@ -368,6 +366,7 @@ button.button.button-margin-top:hover{
     transform: translate(10px); /* Animation on hover */
 }
 .text-arrow {
+    font-family: Arial;
     display: inline-block;
     transform: translate(0); /* Default state */
     transition: transform 0.25s; /* Apply transition here */
@@ -713,11 +712,9 @@ button.button.button-margin-top:hover{
         margin-right: 1.5rem;
     }
     /* HOMEPAGE - HERO SECTION */
-    .emoji{
+    .arrow-down{
         visibility: visible;
-        display: inline;
-        width: 3rem;
-        height: auto;
+        font-size: 1rem;
         margin-top: 3rem;
     }
     p{
@@ -1193,11 +1190,9 @@ button.button.button-margin-top:hover{
         margin-right: 5rem;
     }
     /* HOMEPAGE - HERO SECTION */
-    .emoji{
+    .arrow-down{
         visibility: visible;
-        display: inline;
-        width: 3rem;
-        height: auto;
+        font-size: 2rem;
         margin-top: 3rem;
     }
     p{
@@ -1675,11 +1670,10 @@ button.button.button-margin-top:hover{
         margin-right: 5rem;
     }
     /* HOMEPAGE - HERO SECTION */
-    .emoji{
+    .arrow-down{
         visibility: visible;
         display: inline;
-        width: 5rem;
-        height: auto;
+        font-size: 1.5rem;
         margin-top: 3rem;
     }
     p{
