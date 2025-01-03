@@ -1264,7 +1264,7 @@ button.button.button-margin-top:hover{
 
     /* HOMEPAGE - PROJECT SECTION */
     .project-section{
-        margin: 9rem 7rem 15rem 7rem;
+        margin: 0 7rem 15rem 7rem;
     }
     .homepage-project-name{
         letter-spacing: -0.3px;
