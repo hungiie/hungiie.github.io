@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:wght@100..900&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -10,7 +9,7 @@ body {
     scroll-behavior: smooth;
 }
 a{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 300;
     color: #c5c5c5;
     text-decoration: none;
@@ -19,27 +18,27 @@ body{
     background-color: #171717;
 }
 h1{
-    font-family: "Inter Tight", Arial, sans-serif;
-    font-weight: 400;
-    color: #f1f1f1;
+    font-family: "Geist", Arial, sans-serif;
+    font-weight: 500;
+    color: #e2e2e2;
 
-    letter-spacing: -0.6px;
+    letter-spacing: -1px;
     margin: 0 0 0 0;
 }
 h2{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
     color: #e2e2e2;
 }
 p{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 300;
     color: #c5c5c5;
 }
 li{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 300;
     color: #c5c5c5;
 }
@@ -50,7 +49,7 @@ ul{
     list-style: none;
 }
 .button{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 200;
     color: #a4a4a4;
     background-color: none;
@@ -192,10 +191,18 @@ button.button.button-margin-top:hover{
     top:3rem;
 }
 .button-nav{
-    font-family: "Inter Tight", Arial, sans-serif;
-    font-weight: 200;
-    color: #f1f1f1;
+    font-family: "Geist", Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(174, 174, 174);
     text-decoration: none;
+    transition-property: all;
+    transition-duration: .25s;
+    letter-spacing: -0.2px;
+}
+.button-nav:hover{
+    color: whitesmoke;
+    transition-property: all;
+    transition-duration: .25s;
 }
 
 /* HOMEPAGE */
@@ -286,7 +293,7 @@ button.button.button-margin-top:hover{
 
 /* PROJECTS SECTION */
 .homepage-project-name{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 400;
 }
 .homepage-project-info-container{
@@ -353,7 +360,7 @@ button.button.button-margin-top:hover{
     overflow: hidden;
 }
 .about-text{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:"slnt" 0;
@@ -408,7 +415,7 @@ button.button.button-margin-top:hover{
 }
 .bold{
     font-weight: 400;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.4px;
 }
 .more-bold{
     font-weight: 500;
@@ -623,21 +630,21 @@ button.button.button-margin-top:hover{
     border-radius: 2rem;
 }
 #closePopup1{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-variation-settings:"slnt" 0;
     cursor: pointer;
 }
 #closePopup2{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-variation-settings:"slnt" 0;
     cursor: pointer;
 }
 #closePopup3{
-    font-family: "Inter Tight", Arial, sans-serif;
+    font-family: "Geist", Arial, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-variation-settings:"slnt" 0;
@@ -757,10 +764,12 @@ button.button.button-margin-top:hover{
         animation: none;
     }
     .hero-text-smaller {
+        font-weight: 300;
         display: block; 
         white-space: normal; /* Ensure words can break naturally without breaking mid-word */
         overflow: hidden;
 
+        letter-spacing: -0.5px;
         margin-top: 2rem;
         font-size: 1.3rem;
         line-height: 1.7rem;
@@ -923,6 +932,7 @@ button.button.button-margin-top:hover{
     }
     .project-analysis-heading{
         font-size: 2.5rem;
+        font-weight: 400;
     }
     .project-analysis-individual-container{
         padding-top: 1rem;
@@ -1235,9 +1245,8 @@ button.button.button-margin-top:hover{
         white-space: normal; /* Ensure words can break naturally without breaking mid-word */
         overflow: hidden;
 
-        letter-spacing: 0;
         margin-top: 2rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 2.2rem;
         padding-right: 0;
     }
@@ -1266,6 +1275,7 @@ button.button.button-margin-top:hover{
     .homepage-project-name{
         margin-bottom: 0;
         font-size: 2.2rem;
+        letter-spacing: -0.5px;
     }
     .homepage-project-info-container{
         flex-direction: row;
