@@ -449,10 +449,6 @@ button.button.button-margin-top:hover{
 .statement-container.jackalope{
     background: linear-gradient(to right, #1BADFF, #005CE5);
 }
-.arrow{
-    display: inline;
-    margin-right: 0.5rem;
-}
 .solution-info-container{
     display: flex;
     align-items: center;
@@ -1009,10 +1005,6 @@ button.button.button-margin-top:hover{
         padding: 1rem 2rem 1rem 2rem;
         border-radius: 1.7rem;
     }
-    .arrow{
-        width: 1rem;
-        height: auto;
-    }
     .solution-image.solution-image-final{
         width: 100%;
         margin-left: 0;
@@ -1484,14 +1476,6 @@ button.button.button-margin-top:hover{
         padding: 2rem 5rem 2rem 5rem;
         border-radius: 1.7rem;
     }
-    .arrow{
-        width: 1rem;
-        height: auto;
-    }
-    .arrow.bigger{
-        width: 1.4rem;
-        height: auto;
-    }
     .solution-image.solution-image-final{
         width: 100%;
         margin-left: 0;
@@ -1958,14 +1942,6 @@ button.button.button-margin-top:hover{
     .statement-container{
         padding: 2rem 7rem 2rem 7rem;
         border-radius: 1.7rem;
-    }
-    .arrow{
-        width: 1.2rem;
-        height: auto;
-    }
-    .arrow.bigger{
-        width: 1.4rem;
-        height: auto;
     }
     .solution-image.solution-image-final{
         width: 100%;
