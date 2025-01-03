@@ -319,9 +319,6 @@ button.button.button-margin-top:hover{
     transition-property: all;
     transition-duration: .5s;
 }
-.homepage-project-image-container:hover ~ .homepage-project-name .text-arrow {
-    transform: translate(5px); /* Move to the right */
-}
 .homepage-project-des{
     color: #f1f1f1;
     text-align: center;
@@ -368,10 +365,7 @@ button.button.button-margin-top:hover{
     display: block;
 }
 .arrow-button:hover .text-arrow {
-    transform: translate(5px); /* Animation on hover */
-}
-.arrow-button:hover + .text-arrow {
-    transform: translate(5px); /* Animation on hover */
+    transform: translate(10px); /* Animation on hover */
 }
 .text-arrow {
     display: inline-block;
@@ -1344,11 +1338,11 @@ button.button.button-margin-top:hover{
         line-height: 1.7rem;
     }
     .grid.thumbnail-two-column{
-        grid-template-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 1.75fr;
         width:100%;
         height:auto;
     
-        column-gap: 4rem;
+        column-gap: 2rem;
         margin-top: 3rem;
         margin-bottom: 0;
     }
