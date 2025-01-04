@@ -211,7 +211,6 @@ button.button.button-margin-top:hover{
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    height: 40rem;
 }
 
 .face-container{
@@ -417,8 +416,7 @@ button.button.button-margin-top:hover{
 }
 .project-analysis-toc:hover{
     color: white;
-    transform: scale(1.06);
-    transform-origin: left;
+    transform: translate(5px);
     transition-property: all;
     transition-duration: .25s;
 }
@@ -737,6 +735,7 @@ button.button.button-margin-top:hover{
     .hero-container{
         padding-left: 2rem;
         padding-right: 0rem;
+        height: 40rem;
     }
     .hero-text{
         display: block; 
@@ -1208,6 +1207,7 @@ button.button.button-margin-top:hover{
         padding-top: 2rem;
         padding-left: 7rem;
         padding-right: 0;
+        height: 40rem;
     }
     .hero-text{
         display: block; 
@@ -1660,7 +1660,7 @@ button.button.button-margin-top:hover{
         letter-spacing: 0px;
     }
     .button.button-margin-left{
-        margin-left: 2rem;
+        margin-left: 5rem;
     }
     .face-container{
         display: block;
@@ -1672,6 +1672,7 @@ button.button.button-margin-top:hover{
         padding-top: 2rem;
         padding-left: 15rem;
         padding-right: 0;
+        height:45rem;
     }
     .hero-text{
         display: block; 
