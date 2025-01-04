@@ -274,13 +274,6 @@ button.button.button-margin-top:hover{
     }
 }
 
-.arrow-down{
-    font-family: Arial;
-    display: block;
-    opacity: 0;
-    animation: emojianim 0.2s ease 2.5s forwards;
-}
-
 @keyframes emojianim {
     from {
         opacity: 0;
@@ -425,7 +418,7 @@ button.button.button-margin-top:hover{
 .project-analysis-toc:hover{
     color: white;
     transform: scale(1.06);
-    transform-origin: left center;
+    transform-origin: left;
     transition-property: all;
     transition-duration: .25s;
 }
@@ -720,11 +713,6 @@ button.button.button-margin-top:hover{
         margin-right: 1.5rem;
     }
     /* HOMEPAGE - HERO SECTION */
-    .arrow-down{
-        visibility: visible;
-        font-size: 1rem;
-        margin-top: 3rem;
-    }
     p{
         letter-spacing: 0px;
         font-size: 0.8rem;
@@ -1195,11 +1183,6 @@ button.button.button-margin-top:hover{
         margin-right: 5rem;
     }
     /* HOMEPAGE - HERO SECTION */
-    .arrow-down{
-        visibility: visible;
-        font-size: 2rem;
-        margin-top: 3rem;
-    }
     p{
         letter-spacing: 0px;
         font-size: 1rem;
@@ -1664,19 +1647,13 @@ button.button.button-margin-top:hover{
         margin-right: 5rem;
     }
     /* HOMEPAGE - HERO SECTION */
-    .arrow-down{
-        visibility: visible;
-        display: inline;
-        font-size: 1.5rem;
-        margin-top: 3rem;
-    }
     p{
         letter-spacing: 0px;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     li{
         letter-spacing: 0px;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .button{
         font-size: 1rem;
@@ -1701,8 +1678,8 @@ button.button.button-margin-top:hover{
         white-space: normal; /* Ensure words can break naturally without breaking mid-word */
         overflow: hidden;
         
-        font-size: 4rem;
-        line-height: 5rem;
+        font-size: 3.5rem;
+        line-height: 4.3rem;
         margin-top: 0;
         margin-bottom: 0rem;
     }
@@ -1719,8 +1696,8 @@ button.button.button-margin-top:hover{
         overflow: hidden;
 
         margin-top: 2rem;
-        font-size: 2.1rem;
-        line-height: 2.9rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
         padding-right: 0;
     }
     .hero-text-smaller .letter {
@@ -1747,7 +1724,7 @@ button.button.button-margin-top:hover{
     }
     .homepage-project-name{
         margin-bottom: 0;
-        font-size: 3.1rem;
+        font-size: 2.5rem;
     }
     .homepage-project-info-container{
         flex-direction: row;
@@ -1917,7 +1894,6 @@ button.button.button-margin-top:hover{
         margin-right: 1rem;
     }
     .project-analysis-text{
-        font-size: 1.2rem;
         margin-top: 0;
         margin-bottom: 0.5rem;
         line-height: 1.7rem;
