@@ -191,6 +191,7 @@ button.button.button-margin-top:hover{
     top:3rem;
 }
 .button-nav{
+    display: inline-block;
     font-family: "Geist", Arial, sans-serif;
     font-weight: 400;
     color: rgb(174, 174, 174);
@@ -201,6 +202,7 @@ button.button.button-margin-top:hover{
 }
 .button-nav:hover{
     color: whitesmoke;
+    transform: scale(1.05);
     transition-property: all;
     transition-duration: .25s;
 }
@@ -1180,7 +1182,7 @@ button.button.button-margin-top:hover{
         margin-right: 2.5rem;
     }
     .nav-project{
-        margin-right: 5rem;
+        margin-right: 3rem;
     }
     /* HOMEPAGE - HERO SECTION */
     p{
@@ -1317,6 +1319,12 @@ button.button.button-margin-top:hover{
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
         line-height: 1.7rem;
+    }
+    .vault-info-big{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        line-height: 2.1rem;
     }
     .grid.thumbnail-two-column{
         grid-template-columns: 1fr 1.75fr;
