@@ -367,7 +367,7 @@ button.button.button-margin-top:hover{
     transform: translate(10px); /* Animation on hover */
 }
 .arrow-button:hover{
-    transform: scale(1.06);
+    transform: scale(1.04);
 }
 .text-arrow {
     font-family: Arial;
@@ -1332,7 +1332,7 @@ button.button.button-margin-top:hover{
     }
     /* ABOUT PAGE */
     .about-section{
-        margin: 10rem 6rem 10rem 6rem;
+        margin: 10rem 6rem 7rem 6rem;
     }
     .about-image-container{
         width: 100%;
@@ -1795,7 +1795,7 @@ button.button.button-margin-top:hover{
     }
     /* ABOUT PAGE */
     .about-section{
-        margin: 12rem 16rem 10rem 9rem;
+        margin: 12rem 16rem 7rem 9rem;
     }
     .about-image-container{
         width: 100%;
