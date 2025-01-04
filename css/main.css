@@ -367,6 +367,7 @@ button.button.button-margin-top:hover{
     transform: translate(10px); /* Animation on hover */
 }
 .arrow-button:hover{
+    transform-origin: left center;
     transform: scale(1.04);
 }
 .text-arrow {
