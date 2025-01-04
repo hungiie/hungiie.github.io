@@ -374,7 +374,7 @@ button.button.button-margin-top:hover{
     font-family: Arial;
     display: inline-block;
     transform: translate(0); /* Default state */
-    transition: transform 0.25s; /* Apply transition here */
+    transition: transform 0.25s;
 }
 
 
