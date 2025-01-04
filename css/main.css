@@ -98,6 +98,9 @@ button.button.button-margin-top:hover{
 .project-analysis-text.slightly-bigger.one-margin-top{
     margin-top: 1rem;
 }
+.project-analysis-text.slightly-bigger.two-margin-top{
+    margin-top: 2rem;
+}
 .project-analysis-text.slightly-bigger.no-margin-top{
     margin-top: 0;
 }
@@ -436,6 +439,9 @@ button.button.button-margin-top:hover{
 }
 .project-analysis-text.margin-bottom{
     margin-bottom: 2rem;
+}
+.project-analysis-text.no-margin-bottom{
+    margin-bottom: 0;
 }
 .project-analysis-text.more-margin-bottom{
     margin-bottom: 3rem;
@@ -1493,7 +1499,7 @@ button.button.button-margin-top:hover{
     }
     .issue-container.smaller{
         padding: 1rem 1.5rem 1rem 1.5rem;
-        border-radius: 1.2rem;
+        border-radius: 0.8rem;
     }
     .cta{
         margin-left: 9rem;
