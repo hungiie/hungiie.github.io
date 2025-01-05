@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 16px;
   }
 
 body {
@@ -1216,7 +1217,7 @@ button.button.button-margin-top:hover{
         padding-top: 2rem;
         padding-left: 7rem;
         padding-right: 0;
-        height: 40rem;
+        height: 35rem;
     }
     .hero-text{
         display: block; 
@@ -1687,7 +1688,7 @@ button.button.button-margin-top:hover{
         padding-top: 2rem;
         padding-left: 15rem;
         padding-right: 0;
-        height:45rem;
+        height:40rem;
     }
     .hero-text{
         display: block; 
