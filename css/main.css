@@ -184,6 +184,40 @@ button.button.button-margin-top:hover{
     margin-top: 1rem;
 }
 
+/* Slide-out animation for Page 1 */
+body.slide-out {
+    animation: slideOut 0.5s ease-in-out forwards;
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+/* Slide-in animation for Page 2 */
+body.slide-in {
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
 /* NAV BAR */
 .nav-container{
     display: flex;
