@@ -422,14 +422,6 @@ button.button.button-margin-top:hover{
     letter-spacing: 0px;
     margin-bottom: 1.5rem;
 }
-.bold{
-    font-weight: 400;
-    letter-spacing: -0.4px;
-}
-.more-bold{
-    font-weight: 500;
-    letter-spacing: -0.3px;
-}
 .project-analysis-toc:hover{
     color: white;
     transform: translate(5px);
@@ -737,6 +729,14 @@ button.button.button-margin-top:hover{
     li{
         letter-spacing: 0px;
         font-size: 0.8rem;
+    }
+    .bold{
+        font-weight: 400;
+        letter-spacing: -0.4px;
+    }
+    .more-bold{
+        font-weight: 500;
+        letter-spacing: -0.3px;
     }
     .button{
         font-size: 0.8rem;
@@ -1209,6 +1209,14 @@ button.button.button-margin-top:hover{
         letter-spacing: 0px;
         font-size: 1rem;
     }
+    .bold{
+        font-weight: 400;
+        letter-spacing: -0.4px;
+    }
+    .more-bold{
+        font-weight: 500;
+        letter-spacing: -0.3px;
+    }
     .button{
         font-size: 1rem;
         letter-spacing: 0px;
@@ -1322,7 +1330,6 @@ button.button.button-margin-top:hover{
         border-radius: 1.4rem;
     }
     .homepage-project-des{
-        letter-spacing: 0px;
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
         line-height: 1.7rem;
@@ -1680,6 +1687,14 @@ button.button.button-margin-top:hover{
         letter-spacing: 0px;
         font-size: 1.1rem;
     }
+    .bold{
+        font-weight: 400;
+        letter-spacing: -0.7px;
+    }
+    .more-bold{
+        font-weight: 500;
+        letter-spacing: -0.7px;
+    }
     .button{
         font-size: 1rem;
         letter-spacing: 0px;
@@ -1791,7 +1806,6 @@ button.button.button-margin-top:hover{
         border-radius: 1.4rem;
     }
     .homepage-project-des{
-        letter-spacing: 1px;
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
         line-height: 1.7rem;
@@ -1942,7 +1956,7 @@ button.button.button-margin-top:hover{
         margin-left: 2rem;
     }
     .project-analysis-text.decorated-title{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 1rem 1.7rem 1rem 1.7rem;
         margin-bottom: 2rem;
         margin-top: 4rem;
