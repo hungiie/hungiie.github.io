@@ -575,8 +575,6 @@ body.slide-in {
     margin-bottom: 5rem;
 }
 .heuristic-image{
-    width: 100%;
-    height: auto;
     transition-property: all;
     transition-duration: .25s;
     border: 1px solid rgb(60, 60, 60);
@@ -1072,6 +1070,10 @@ body.slide-in {
         display: block;
         align-items: center;
     }
+    .heuristic-image{
+        width: 100%;
+        height: auto;
+    }
     .heuristic-text-container{
         padding: 0 2rem 0 2rem;
     }
@@ -1560,6 +1562,10 @@ body.slide-in {
         display: flex;
         align-items: center;
     }
+    .heuristic-image{
+        width: 90%;
+        height: auto;
+    }
     .heuristic-text-container{
         padding: 0 9rem 0 9rem;
     }
@@ -2024,6 +2030,10 @@ body.slide-in {
     .flex{
         display: flex;
         align-items: center;
+    }
+    .heuristic-image{
+        width: 80%;
+        height: auto;
     }
     .heuristic-text-container{
         padding: 0 9rem 0 9rem;
