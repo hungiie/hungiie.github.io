@@ -541,6 +541,9 @@ body.slide-in {
 
     border-radius: 1rem;
 }
+.sketch.no-pointer{
+    cursor:auto;
+}
 .sketch.center{
     justify-self: center;
     align-self: center;
@@ -730,6 +733,9 @@ body.slide-in {
 .grid.heuristic-image-container.grid-no-margin-top-bottom{
     margin-top: 0;
     margin-bottom: 0;
+}
+.grid.heuristic-image-container.grid-two-margin-top{
+    margin-top: 2rem;
 }
 .grid.project-analysis-research-three-column.one-column-gap{
     column-gap: 1rem;
