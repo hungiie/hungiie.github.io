@@ -475,6 +475,16 @@ body.slide-in {
     display: grid;
     align-items: center;
 }
+.fh-image-container{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+.fh-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .project-analysis-container{
     margin-right: 0rem;
 }
@@ -1616,6 +1626,9 @@ body.slide-in {
         column-gap: 2rem;
         margin-top: 3rem;
         width: 100%;
+    }
+    .grid.project-analysis-overview-two-column.for-fh{
+        grid-template-columns: 1.5fr 1fr;
     }
     .grid.project-analysis-overview-two-column.user{
         column-gap: 1rem;
