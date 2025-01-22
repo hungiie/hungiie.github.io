@@ -90,6 +90,9 @@ button.button.button-margin-top:hover{
 .align-center-div{
     text-align: center;
 }
+.align-center-div.margin-top{
+    margin-top: 1rem;
+}
 .no-margin-top{
     margin-top: 0;
 }
