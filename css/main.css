@@ -165,6 +165,9 @@ button.button.button-margin-top:hover{
 .blue{
     color: #1BADFF;
 }
+.fh-blue{
+    color: #4988b8;
+}
 .black{
     color: #171717;
 }
@@ -448,6 +451,9 @@ body.slide-in {
     height: 5rem;
     top: 15rem;
 }
+.project-analysis-toc-container.for-fh{
+    top: 20rem;
+}
 .project-analysis-toc{
     display: block;
     color: #a4a4a4;
@@ -467,11 +473,8 @@ body.slide-in {
 .slogan-big-container{
     width: 100%;
     display: grid;
+    align-items: center;
 }
-.project-analysis-slogan-container{
-    margin-top: 3rem;
-}
-
 .project-analysis-container{
     margin-right: 0rem;
 }
@@ -1464,11 +1467,19 @@ body.slide-in {
         height: 7rem;
         top: 7rem;
     }
+    .project-analysis-heading-container.for-fh{
+        height: 12rem;
+    }
     .project-analysis-toc-container{
         display: block;
     }
     .project-analysis-heading{
         font-size: 3.1rem;
+    }
+    .project-analysis-heading.heading-smaller{
+        font-size: 2rem;
+        line-height: 2.3rem;
+        letter-spacing: -0.7px;
     }
     .project-analysis-overview-vid-container{
         display: flex;
