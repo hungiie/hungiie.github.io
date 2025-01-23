@@ -454,9 +454,6 @@ body.slide-in {
     height: 5rem;
     top: 15rem;
 }
-.project-analysis-toc-container.for-fh{
-    top: 20rem;
-}
 .project-analysis-toc{
     display: block;
     color: #a4a4a4;
@@ -1486,8 +1483,11 @@ body.slide-in {
         height: 7rem;
         top: 7rem;
     }
+    .project-analysis-toc-container.for-fh{
+        top: 22rem;
+    }
     .project-analysis-heading-container.for-fh{
-        height: 12rem;
+        height: 14rem;
     }
     .project-analysis-toc-container{
         display: block;
@@ -1966,6 +1966,12 @@ body.slide-in {
         position: sticky;
         height: 7rem;
         top: 7rem;
+    }
+    .project-analysis-toc-container.for-fh{
+        top: 18rem;
+    }
+    .project-analysis-heading-container.for-fh{
+        height: 10rem;
     }
     .project-analysis-toc-container{
         display: block;
