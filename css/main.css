@@ -978,7 +978,7 @@ body.slide-in {
         height: auto;
     }
     .project-analysis-text.slightly-bigger.slogan{
-        margin-top: 2rem;
+        margin-top: 4rem;
         margin-bottom: 0;
     }
     .project-analysis-section{
@@ -1316,8 +1316,8 @@ body.slide-in {
         overflow: hidden;
 
         margin-top: 2rem;
-        font-size: 1.3rem;
-        line-height: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.9rem;
         padding-right: 0;
     }
     .hero-text-smaller .letter {
