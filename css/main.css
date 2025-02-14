@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:wght@100..900&display=swap');
 
 html {
@@ -428,7 +427,6 @@ body.slide-in {
     transform: scale(1.04);
 }
 .text-arrow {
-    font-family: Arial;
     display: inline-block;
     transform: translate(0); /* Default state */
     transition: transform 0.25s;
