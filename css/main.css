@@ -421,6 +421,7 @@ body.slide-in {
 }
 .arrow-button.arrow-button-hero{
     color: white;
+    font-weight: 400;
 }
 .arrow-button.arrow-button-hero:hover{
     transform-origin: left center;
