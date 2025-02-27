@@ -801,10 +801,6 @@ body.slide-in {
         font-size: 0.8rem;
         letter-spacing: 0px;
     }
-    .arrow-button.arrow-button-hero{
-        font-size: 0.8rem;
-        letter-spacing: 0px;
-    }
     .button.button-margin-left{
         margin-left: 1rem;
     }
@@ -848,6 +844,10 @@ body.slide-in {
         font-size: 1.3rem;
         line-height: 1.7rem;
         padding-right: 4rem;
+    }
+    .arrow-button.arrow-button-hero{
+        font-size: 1.3rem;
+        letter-spacing: -0.5px;
     }
     .hero-text-smaller .letter {
         display: inline;
@@ -1333,6 +1333,10 @@ body.slide-in {
         font-size: 1.1rem;
         line-height: 1.9rem;
         padding-right: 0;
+    }
+    .arrow-button.arrow-button-hero{
+        font-size: 1.1rem;
+        letter-spacing: 0px;
     }
     .hero-text-smaller .letter {
         display: inline-block;
@@ -1833,6 +1837,10 @@ body.slide-in {
         font-size: 1.3rem;
         line-height: 1.9rem;
         padding-right: 0;
+    }
+    .arrow-button.arrow-button-hero{
+        font-size: 1.3rem;
+        letter-spacing: 0px;
     }
     .hero-text-smaller .letter {
         display: inline-block;
