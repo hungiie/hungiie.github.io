@@ -419,6 +419,13 @@ body.slide-in {
     transform-origin: left center;
     position: relative;
 }
+.arrow-button.arrow-button-hero{
+    color: white;
+}
+.arrow-button.arrow-button-hero:hover{
+    transform-origin: left center;
+    transform: scale(1);
+}
 .arrow-button:hover .text-arrow {
     transform: translate(10px); /* Animation on hover */
 }
@@ -790,6 +797,10 @@ body.slide-in {
         letter-spacing: -0.3px;
     }
     .button{
+        font-size: 0.8rem;
+        letter-spacing: 0px;
+    }
+    .arrow-button.arrow-button-hero{
         font-size: 0.8rem;
         letter-spacing: 0px;
     }
@@ -1273,6 +1284,10 @@ body.slide-in {
         letter-spacing: -0.3px;
     }
     .button{
+        font-size: 1rem;
+        letter-spacing: 0px;
+    }
+    .arrow-button.arrow-button-hero{
         font-size: 1rem;
         letter-spacing: 0px;
     }
@@ -1769,6 +1784,10 @@ body.slide-in {
         letter-spacing: -0.7px;
     }
     .button{
+        font-size: 1rem;
+        letter-spacing: 0px;
+    }
+    .arrow-button.arrow-button.arrow-button-hero{
         font-size: 1rem;
         letter-spacing: 0px;
     }

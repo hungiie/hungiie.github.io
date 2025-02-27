@@ -59,6 +59,7 @@
             <h1 class="hero-text white">design engineer, and Oxford comma enthusiast.</h1>
             <h1 class="hero-text-smaller grey"> I am a 4th year student studying Interactive Art & Technology at SFU, and I am</h1>
             <h1 class="hero-text-smaller grey hero-no-margin-top">concentrating in design & development for mobile and web.</h1>
+            <h1 class="hero-text-smaller grey">Currently intern as a UX designer at <a class="button arrow-button arrow-button-hero" href="https://research.samsung.com/srca" target="_blank">Samsung Electronics Canada <span class="text-arrow">&#8594;</span></a></h1>
           </div>
 
         <!-- </div> -->
@@ -173,35 +174,35 @@
 
     
     <script>
-      const heroTextElements = document.querySelectorAll('.hero-text, .hero-text-smaller');
+      // const heroTextElements = document.querySelectorAll('.hero-text, .hero-text-smaller');
 
-      // Function to animate text in the same way for each element
-      function animateText(element, delay = 0) {
-          const fullText = element.textContent; // Get all visible text (ignores tags)
-          let animatedHTML = "";
+      // // Function to animate text in the same way for each element
+      // function animateText(element, delay = 0) {
+      //     const fullText = element.textContent; // Get all visible text (ignores tags)
+      //     let animatedHTML = "";
 
-          // Wrap each character in a span with an animation delay
-          fullText.split("").forEach((char, index) => {
-              if (char.trim()) {
-                  // Wrap non-space characters
-                  animatedHTML += `<span class="letter" style="animation-delay: ${index * 0.01 + delay}s">${char}</span>`;
-              } else {
-                  // Keep spaces as-is (no wrapping for spaces)
-                  animatedHTML += char;
-              }
-          });
+      //     // Wrap each character in a span with an animation delay
+      //     fullText.split("").forEach((char, index) => {
+      //         if (char.trim()) {
+      //             // Wrap non-space characters
+      //             animatedHTML += `<span class="letter" style="animation-delay: ${index * 0.01 + delay}s">${char}</span>`;
+      //         } else {
+      //             // Keep spaces as-is (no wrapping for spaces)
+      //             animatedHTML += char;
+      //         }
+      //     });
 
-          // Replace the element's inner HTML with the animated spans
-          element.innerHTML = animatedHTML;
-      }
+      //     // Replace the element's inner HTML with the animated spans
+      //     element.innerHTML = animatedHTML;
+      // }
 
-      // Apply the animation to hero-text elements with calculated delays
-      let cumulativeDelay = 0; // Keep track of the delay for each line
-      heroTextElements.forEach((element) => {
-          animateText(element, cumulativeDelay);
-          const textLength = element.textContent.length; // Number of characters in the current line
-          cumulativeDelay += textLength * 0.01; // Increment the delay based on the duration of the current line
-      });
+      // // Apply the animation to hero-text elements with calculated delays
+      // let cumulativeDelay = 0; // Keep track of the delay for each line
+      // heroTextElements.forEach((element) => {
+      //     animateText(element, cumulativeDelay);
+      //     const textLength = element.textContent.length; // Number of characters in the current line
+      //     cumulativeDelay += textLength * 0.01; // Increment the delay based on the duration of the current line
+      // });
     
 
 
