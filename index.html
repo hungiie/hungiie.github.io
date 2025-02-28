@@ -233,24 +233,25 @@
 
 
 
-      document.addEventListener("DOMContentLoaded", function () {
-      const sections = document.querySelectorAll(".project-section");
+      // Trigger when 85% into view
+      // document.addEventListener("DOMContentLoaded", function () {
+      // const sections = document.querySelectorAll(".project-section");
 
-        function revealOnScroll() {
-          const windowHeight = window.innerHeight;
+      //   function revealOnScroll() {
+      //     const windowHeight = window.innerHeight;
 
-          sections.forEach((section) => {
-            const sectionTop = section.getBoundingClientRect().top;
+      //     sections.forEach((section) => {
+      //       const sectionTop = section.getBoundingClientRect().top;
             
-            if (sectionTop < windowHeight * 0.85) { // Trigger when 85% into view
-              section.classList.add("show");
-            }
-          });
-        }
+      //       if (sectionTop < windowHeight * 0.85) {
+      //         section.classList.add("show");
+      //       }
+      //     });
+      //   }
 
-        window.addEventListener("scroll", revealOnScroll);
-        revealOnScroll(); // Run on page load in case sections are already in view
-      });
+      //   window.addEventListener("scroll", revealOnScroll);
+      //   revealOnScroll();
+      // });
 
 
       
