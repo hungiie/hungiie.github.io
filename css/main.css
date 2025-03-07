@@ -1311,11 +1311,11 @@ body.slide-in {
         white-space: normal; /* Ensure words can break naturally without breaking mid-word */
         overflow: hidden;
         
-        font-size: 3rem;
+        font-size: 3.2rem;
         line-height: 4rem;
         margin-top: 0;
         margin-bottom: 0rem;
-        letter-spacing: -2px;
+        letter-spacing: -1.5px;
     }
     .hero-text .letter {
         display: inline-block;
