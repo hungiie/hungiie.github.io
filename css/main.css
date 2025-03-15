@@ -792,6 +792,9 @@ body.slide-in {
         letter-spacing: 0px;
         font-size: 0.8rem;
     }
+    .grey-mobile{
+        color: rgb(235, 235, 235);
+    }
     .bold{
         font-weight: 400;
         letter-spacing: -0.4px;
@@ -1280,6 +1283,9 @@ body.slide-in {
     li{
         letter-spacing: 0px;
         font-size: 1rem;
+    }
+    .grey-mobile{
+        color: #a4a4a4;
     }
     .bold{
         font-weight: 400;
@@ -1783,6 +1789,9 @@ body.slide-in {
     li{
         letter-spacing: 0px;
         font-size: 1.1rem;
+    }
+    .grey-mobile{
+        color: #a4a4a4;
     }
     .bold{
         font-weight: 400;
