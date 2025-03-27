@@ -1523,11 +1523,11 @@ body.slide-in {
     .project-analysis-heading{
         font-size: 3.1rem;
     }
-    .project-analysis-heading.heading-smaller{
+    /* .project-analysis-heading.heading-smaller{
         font-size: 2rem;
         line-height: 2.3rem;
         letter-spacing: -0.7px;
-    }
+    } */
     .project-analysis-overview-vid-container{
         display: flex;
         margin-bottom: 2rem;
