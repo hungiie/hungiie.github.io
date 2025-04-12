@@ -971,7 +971,8 @@ body.slide-in {
         width: 100%;
         height: auto;
         object-fit: cover;
-        transform: translate(-5%, -27%) scale(1.2);
+        transform: translate(-5%, -17%) scale(1.1);
+        /* transform: translate(-5%, -27%) scale(1.2); */
     }
     .about-text{
         font-size: 2rem;
