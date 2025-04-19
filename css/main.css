@@ -958,6 +958,8 @@ body.slide-in {
     .about-image-container{
         width: 100%;
         height: auto;
+        align-self: center;
+        justify-self: center;
         border-radius: 1rem;
     }
     .grid.about-two-column{
@@ -1456,6 +1458,8 @@ body.slide-in {
     .about-image-container{
         width: 100%;
         height: auto;
+        align-self: auto;
+        justify-self: auto;
         border-radius: 1.5rem;
     }
     .grid.about-two-column{
