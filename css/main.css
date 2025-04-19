@@ -969,10 +969,11 @@ body.slide-in {
     }
     .about-image{
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: cover;
         /* transform: translate(-5%, -17%) scale(1.1); */
-        transform: translate(-2%, -20%) scale(1.1);
+        /* transform: translate(-2%, -20%) scale(1.1); */
+        object-fit: cover; transform: translate(0%, 10%) scale(1.2);
     }
     .about-text{
         font-size: 2rem;
@@ -1455,7 +1456,7 @@ body.slide-in {
     .about-image-container{
         width: 100%;
         height: 100%;
-        border-radius: 2rem;
+        border-radius: 1.5rem;
     }
     .grid.about-two-column{
         grid-template-columns: 1fr 2.75fr;
@@ -1469,7 +1470,8 @@ body.slide-in {
         height: 100%;
         object-fit: cover;
         /* transform: translate(-1%, -5%) scale(1.5); */
-        transform: translate(-4%, -2%) scale(1.6);
+        /* transform: translate(-4%, -2%) scale(1.6); */
+        object-fit: contain; transform: translate(-40%, -2%) scale(2.4);
     }
     .about-text{
         font-size: 3rem;
