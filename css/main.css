@@ -1835,10 +1835,10 @@ body.slide-in {
         margin-top: 0rem;
     }
     .hero-container{
-        padding-top: 2rem;
-        padding-left: 20rem;
+        padding-top: 9rem;
+        padding-left: 17rem;
         padding-right: 0;
-        height:40rem;
+        height:31rem;
     }
     .hero-text{
         display: block; 
@@ -1893,7 +1893,7 @@ body.slide-in {
 
     /* HOMEPAGE - PROJECT SECTION */
     .project-section{
-        margin: 9rem 20rem 15rem 20rem;
+        margin: 9rem 17rem 15rem 17rem;
     }
     .homepage-project-name{
         margin-bottom: 0;
