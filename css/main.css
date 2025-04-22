@@ -851,12 +851,15 @@ body.slide-in {
         padding-right: 4rem;
         letter-spacing: -0.3px;
     }
+    .hero-text-smaller.sub{
+        margin-right: 0rem;
+    }
     .arrow-button.arrow-button-hero{
         font-size: 1rem;
         letter-spacing: -0.3px;
     }
     .hero-text-smaller.hero-no-margin-top{
-        margin-top: 1rem;
+        margin-top: 0rem;
     }
     .grid.intro-two-column{
         grid-template-columns: 1fr;
@@ -1341,6 +1344,9 @@ body.slide-in {
         line-height: 1.9rem;
         padding-right: 0;
         letter-spacing: -0.2px;
+    }
+    .hero-text-smaller.sub{
+        margin-right: 42rem;
     }
     .arrow-button.arrow-button-hero{
         font-size: 1rem;
@@ -1860,6 +1866,9 @@ body.slide-in {
         line-height: 1.9rem;
         padding-right: 0;
         letter-spacing: 0px;
+    }
+    .hero-text-smaller.sub{
+        margin-right: 52rem;
     }
     .arrow-button.arrow-button-hero{
         font-size: 1.1rem;
