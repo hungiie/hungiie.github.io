@@ -423,10 +423,11 @@ body.slide-in {
     position: relative;
 }
 .arrow-button.arrow-button-hero{
-    color: white;
+    /* color: rgb(174, 174, 174); */
     font-weight: 400;
 }
 .arrow-button.arrow-button-hero:hover{
+    color: white;
     transform-origin: left center;
     transform: scale(1);
 }
@@ -819,7 +820,7 @@ body.slide-in {
     .hero-container{
         padding-left: 2rem;
         padding-right: 0rem;
-        height: 49rem;
+        height: 60rem;
     }
     .hero-text{
         display: block; 
@@ -832,6 +833,9 @@ body.slide-in {
         margin-bottom: 0;
         padding-right: 3rem;
         letter-spacing: -0.9px;
+    }
+    .break-sm {
+        display: none;
     }
     .hero-text .letter {
         display: inline;
@@ -865,7 +869,7 @@ body.slide-in {
         animation: none;
     }
     .hero-text-smaller.hero-no-margin-top{
-        margin-top: 0;
+        margin-top: 1rem;
     }
     .grid.intro-two-column{
         grid-template-columns: 1fr;
@@ -1327,7 +1331,11 @@ body.slide-in {
         line-height: 4rem;
         margin-top: 0;
         margin-bottom: 0rem;
+        padding-right: 25rem;
         letter-spacing: -1.5px;
+    }
+    .break-sm {
+        display: inline;
     }
     .hero-text .letter {
         display: inline-block;
@@ -1851,6 +1859,9 @@ body.slide-in {
         margin-bottom: 0rem;
         letter-spacing: -2px;
     }
+    .break-sm {
+        display: inline;
+    }
     .hero-text .letter {
         display: inline-block;
         word-break: normal;
@@ -1864,13 +1875,13 @@ body.slide-in {
         overflow: hidden;
 
         margin-top: 2rem;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         line-height: 1.9rem;
         padding-right: 0;
         letter-spacing: 0px;
     }
     .arrow-button.arrow-button-hero{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         letter-spacing: 0px;
     }
     .hero-text-smaller .letter {
@@ -2026,10 +2037,10 @@ body.slide-in {
         top: 7rem;
     }
     .project-analysis-toc-container.for-fh{
-        top: 18rem;
+        top: 23rem;
     }
     .project-analysis-heading-container.for-fh{
-        height: 10rem;
+        height: 15rem;
     }
     .project-analysis-toc-container{
         display: block;
