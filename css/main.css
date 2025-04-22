@@ -424,6 +424,7 @@ body.slide-in {
 }
 .arrow-button.arrow-button-hero{
     /* color: rgb(174, 174, 174); */
+    color: white;
     font-weight: 400;
 }
 .arrow-button.arrow-button-hero:hover{
@@ -852,13 +853,13 @@ body.slide-in {
 
         letter-spacing: -0.5px;
         margin-top: 2rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
         line-height: 1.7rem;
         padding-right: 4rem;
         letter-spacing: -0.3px;
     }
     .arrow-button.arrow-button-hero{
-        font-size: 1.3rem;
+        font-size: 1rem;
         letter-spacing: -0.3px;
     }
     .hero-text-smaller .letter {
@@ -1350,13 +1351,13 @@ body.slide-in {
         overflow: hidden;
 
         margin-top: 2rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
         line-height: 1.9rem;
         padding-right: 0;
         letter-spacing: -0.2px;
     }
     .arrow-button.arrow-button-hero{
-        font-size: 1.1rem;
+        font-size: 1rem;
         letter-spacing: -0.2px;
     }
     .hero-text-smaller .letter {
