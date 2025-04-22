@@ -1329,7 +1329,7 @@ body.slide-in {
         letter-spacing: -1.5px;
     }
     .break-sm {
-        display: inline;
+        display: none;
     }
     .hero-text-smaller {
         display: block; 
