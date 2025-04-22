@@ -435,10 +435,10 @@ body.slide-in {
 .arrow-button:hover .text-arrow {
     transform: translate(10px); /* Animation on hover */
 }
-.arrow-button:hover{
+/* .arrow-button:hover{
     transform-origin: left center;
     transform: scale(1.04);
-}
+} */
 .text-arrow {
     display: inline-block;
     transform: translate(0); /* Default state */
