@@ -376,7 +376,7 @@ body.slide-in {
     transition-duration: .5s;
 }
 .homepage-project-des{
-    color: #f1f1f1;
+    color: #c5c5c5;
     text-align: center;
 }
 .vault-thumbnail-container{
@@ -919,6 +919,7 @@ body.slide-in {
     .homepage-project-des{
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
+        padding: 0 2rem 0 2rem;
         line-height: 1.2rem;
     }
     .vault-thumbnail-container{
@@ -929,6 +930,15 @@ body.slide-in {
         margin-top: 1rem;
         margin-bottom: 0.5rem;
         line-height: 1rem;
+    }
+    .vault-info-big{
+        font-size: 1.2rem;
+        margin-top: 0.7rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.6rem;
+    }
+    .homepage-project-info.vault{
+        margin-top: 0.5rem;
     }
     .grid.thumbnail-two-column{
         grid-template-columns: 1fr;
@@ -1415,7 +1425,10 @@ body.slide-in {
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
         line-height: 1.7rem;
-        /* padding: 0 14rem 0 14rem; */
+        font-weight: 400;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        padding: 0 15rem 0 15rem;
     }
     .vault-thumbnail-container{
         border-radius: 1rem;
@@ -1431,6 +1444,9 @@ body.slide-in {
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
         line-height: 2.1rem;
+    }
+    .homepage-project-info.vault{
+        margin-top: 0rem;
     }
     .grid.thumbnail-two-column{
         grid-template-columns: 1fr 1.75fr;
