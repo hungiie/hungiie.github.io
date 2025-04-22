@@ -838,13 +838,6 @@ body.slide-in {
     .break-sm {
         display: none;
     }
-    .hero-text .letter {
-        display: inline;
-        word-break: normal;
-        transform: translateY(0%);
-        opacity: 1;
-        animation: none;
-    }
     .hero-text-smaller {
         font-weight: 300;
         display: block; 
@@ -861,13 +854,6 @@ body.slide-in {
     .arrow-button.arrow-button-hero{
         font-size: 1rem;
         letter-spacing: -0.3px;
-    }
-    .hero-text-smaller .letter {
-        display: inline;
-        word-break: normal;
-        transform: translateY(0%);
-        opacity: 1;
-        animation: none;
     }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 1rem;
@@ -1345,13 +1331,6 @@ body.slide-in {
     .break-sm {
         display: inline;
     }
-    .hero-text .letter {
-        display: inline-block;
-        word-break: normal;
-        transform: translateY(100%);
-        opacity: 0;
-        animation: slide-up 0.3s ease-out forwards;
-    }
     .hero-text-smaller {
         display: block; 
         white-space: normal; /* Ensure words can break naturally without breaking mid-word */
@@ -1366,13 +1345,6 @@ body.slide-in {
     .arrow-button.arrow-button-hero{
         font-size: 1rem;
         letter-spacing: -0.2px;
-    }
-    .hero-text-smaller .letter {
-        display: inline-block;
-        word-break: normal;
-        transform: translateY(100%);
-        opacity: 0;
-        animation: slide-up 0.3s ease-out 2s forwards;
     }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 0;
@@ -1878,13 +1850,6 @@ body.slide-in {
     .break-sm {
         display: inline;
     }
-    .hero-text .letter {
-        display: inline-block;
-        word-break: normal;
-        transform: translateY(100%);
-        opacity: 0;
-        animation: slide-up 0.3s ease-out forwards;
-    }
     .hero-text-smaller {
         display: block; 
         white-space: normal; /* Ensure words can break naturally without breaking mid-word */
@@ -1899,13 +1864,6 @@ body.slide-in {
     .arrow-button.arrow-button-hero{
         font-size: 1.1rem;
         letter-spacing: 0px;
-    }
-    .hero-text-smaller .letter {
-        display: inline-block;
-        word-break: normal;
-        transform: translateY(100%);
-        opacity: 0;
-        animation: slide-up 0.3s ease-out 2s forwards;
     }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 0;

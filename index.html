@@ -223,39 +223,6 @@
 
     
     <script>
-      // const heroTextElements = document.querySelectorAll('.hero-text, .hero-text-smaller');
-
-      // // Function to animate text in the same way for each element
-      // function animateText(element, delay = 0) {
-      //     const fullText = element.textContent; // Get all visible text (ignores tags)
-      //     let animatedHTML = "";
-
-      //     // Wrap each character in a span with an animation delay
-      //     fullText.split("").forEach((char, index) => {
-      //         if (char.trim()) {
-      //             // Wrap non-space characters
-      //             animatedHTML += `<span class="letter" style="animation-delay: ${index * 0.01 + delay}s">${char}</span>`;
-      //         } else {
-      //             // Keep spaces as-is (no wrapping for spaces)
-      //             animatedHTML += char;
-      //         }
-      //     });
-
-      //     // Replace the element's inner HTML with the animated spans
-      //     element.innerHTML = animatedHTML;
-      // }
-
-      // // Apply the animation to hero-text elements with calculated delays
-      // let cumulativeDelay = 0; // Keep track of the delay for each line
-      // heroTextElements.forEach((element) => {
-      //     animateText(element, cumulativeDelay);
-      //     const textLength = element.textContent.length; // Number of characters in the current line
-      //     cumulativeDelay += textLength * 0.01; // Increment the delay based on the duration of the current line
-      // });
-    
-
-
-
       const imageContainers = document.querySelectorAll('.homepage-project-image-container');
       const projectNames = document.querySelectorAll('.homepage-project-name');
       const textArrows = document.querySelectorAll('.homepage-project-name .text-arrow');
