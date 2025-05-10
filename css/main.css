@@ -401,7 +401,6 @@ body.slide-in {
 .footer{
     color: #a4a4a4;
     margin-top: 0;
-    margin-bottom: 0.5rem;
 }
 
 
@@ -952,6 +951,7 @@ body.slide-in {
     .footer{
         margin-right: 2rem;
         margin-left: 6rem;
+        margin-bottom: 0rem;
         font-size: 0.8rem;
         line-height: 1.3rem;
     }
@@ -970,8 +970,12 @@ body.slide-in {
         grid-template-columns: 1fr;
         width: 100%;
         height:auto;
+        border-bottom-style: solid;
+        border-bottom-width: 0.3px;
+        border-bottom-color: rgb(150, 150, 150);
     
         column-gap: 0rem;
+        padding-bottom: 3rem;
     }
     .about-image{
         width: 100%;
@@ -988,6 +992,27 @@ body.slide-in {
         margin-bottom: 0rem;
         letter-spacing: -0.8px;
     }
+    .grid.about-image-grid{
+        grid-template-columns: 1fr;
+        column-gap: 2rem;
+        margin-top: 2rem;
+        row-gap: 1.5rem;
+    }
+    .about-image-2{
+        width: 100%;
+        height: auto;
+        align-self: auto;
+        justify-self: auto;
+        border-radius: 1rem;
+        filter: brightness(100%);
+    }
+    .about-image-2:hover{
+        transition-property: all;
+        transition-duration: .25s;
+        filter: brightness(100%);
+    }
+
+
     /* CARDIO PAGE */
     .cover-image-section{
         margin: 6rem 2rem 0 2rem;
@@ -1459,6 +1484,7 @@ body.slide-in {
     }
     .footer{
         margin-right: 2.5rem;
+        margin-bottom: 0.5rem;
         font-size: 1.15rem;
     }
     /* ABOUT PAGE */
@@ -1476,8 +1502,12 @@ body.slide-in {
         grid-template-columns: 1fr 2.55fr;
         width: 100%;
         height:auto;
+        border-bottom-style: solid;
+        border-bottom-width: 0.3px;
+        border-bottom-color: rgb(150, 150, 150);
     
         column-gap: 3rem;
+        padding-bottom: 6rem;
     }
     .about-image{
         width: 100%;
@@ -1505,6 +1535,24 @@ body.slide-in {
         margin-top: 0rem;
         margin-bottom: 2rem;
         letter-spacing: -0.4px;
+    }
+    .grid.about-image-grid{
+        grid-template-columns: 1fr 1.5fr 1fr;
+        column-gap: 2rem;
+        margin-top: 2rem;
+    }
+    .about-image-2{
+        width: 100%;
+        height: auto;
+        align-self: auto;
+        justify-self: auto;
+        border-radius: 1rem;
+        filter: brightness(50%);
+    }
+    .about-image-2:hover{
+        transition-property: all;
+        transition-duration: .25s;
+        filter: brightness(100%);
     }
 
     /* CARDIO PAGE */
