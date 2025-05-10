@@ -865,6 +865,9 @@ body.slide-in {
         font-size: 1rem;
         letter-spacing: -0.3px;
     }
+    .arrow-button.exp{
+        font-size: 1rem;
+    }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 0rem;
     }
@@ -1352,7 +1355,7 @@ body.slide-in {
         letter-spacing: 0px;
     }
     .button.button-margin-left{
-        margin-left: 4rem;
+        margin-left: 5rem;
     }
     .face-container{
         display: block;
@@ -1398,6 +1401,9 @@ body.slide-in {
     .arrow-button.arrow-button-hero{
         font-size: 1rem;
         letter-spacing: -0.2px;
+    }
+    .arrow-button.exp{
+        font-size: 1.3rem;
     }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 0;
@@ -1715,6 +1721,8 @@ body.slide-in {
     .flex{
         display: flex;
         align-items: center;
+
+        margin-top: 4rem;
     }
     .heuristic-image{
         width: 90%;
@@ -1953,6 +1961,9 @@ body.slide-in {
     .arrow-button.arrow-button-hero{
         font-size: 1.1rem;
         letter-spacing: 0px;
+    }
+    .arrow-button.exp{
+        font-size: 1.7rem;
     }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 0;
