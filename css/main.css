@@ -1156,6 +1156,8 @@ body.slide-in {
     .flex{
         display: block;
         align-items: center;
+
+        margin-top: 2rem;
     }
     .heuristic-image{
         width: 100%;
