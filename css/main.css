@@ -786,8 +786,11 @@ body.slide-in {
     .nav-home{
         margin-left: 2rem;
     }
-    .nav-about{
+    .nav-resume{
         margin-right: 2rem;
+    }
+    .nav-about{
+        margin-right: 1.5rem;
     }
     .nav-project{
         margin-right: 1.5rem;
