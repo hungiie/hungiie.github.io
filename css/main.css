@@ -1326,11 +1326,14 @@ body.slide-in {
     .nav-home{
         margin-left: 2.5rem;
     }
+    .nav-resume{
+        margin-right: 2.5rem;
+    }
     .nav-about{
         margin-right: 2.5rem;
     }
     .nav-project{
-        margin-right: 3rem;
+        margin-right: 2.5rem;
     }
     /* HOMEPAGE - HERO SECTION */
     p{
