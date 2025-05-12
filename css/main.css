@@ -1595,9 +1595,15 @@ body.slide-in {
     }
     .about-sticky{
         position: sticky;
+        margin-bottom: 4rem;
+    }
+    .about-sticky.sticky-1{
         height: 10rem;
         top: 0rem;
-        margin-bottom: 4rem;
+    }
+    .about-sticky.sticky-2{
+        height: 10rem;
+        top: 0rem;
     }
 
     /* CARDIO PAGE */
@@ -2106,6 +2112,20 @@ body.slide-in {
         margin-bottom: 2rem;
         letter-spacing: -2px;
     }
+    .about-sticky{
+        position: sticky;
+        margin-bottom: 4rem;
+    }
+    .about-sticky.sticky-1{
+        height: 10rem;
+        top: 0rem;
+    }
+    .about-sticky.sticky-2{
+        height: 18rem;
+        top: 0rem;
+    }
+
+
     /* CARDIO PAGE */
     .cover-image-section{
         margin: 6rem 8.5rem 0 8.5rem;
