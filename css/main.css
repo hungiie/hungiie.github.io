@@ -1593,6 +1593,12 @@ body.slide-in {
         transition-duration: .25s;
         filter: brightness(80%);
     }
+    .about-sticky{
+        position: sticky;
+        height: 10rem;
+        top: 0rem;
+        margin-bottom: 4rem;
+    }
 
     /* CARDIO PAGE */
     .cover-image-section{
