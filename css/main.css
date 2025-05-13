@@ -1134,6 +1134,7 @@ body.slide-in {
     }
     .project-analysis-text.extremely-bigger{
         font-size: 1.9rem;
+        line-height: 2.6rem;
         margin-bottom: 2.5rem;
     }
     .project-analysis-text.extremely-bigger.exp{
