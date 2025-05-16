@@ -1326,7 +1326,7 @@ body.slide-in {
 }
 
 /* BREAKPOINT 3 */
-@media (min-width: 48rem) {
+@media (min-width: 32rem) {
 }
 
 /* BREAKPOINT 4 */
@@ -1603,7 +1603,8 @@ body.slide-in {
         top: 0rem;
     }
     .about-sticky.sticky-2{
-        height: 10rem;
+        align-self: start;
+        height: auto;
         top: 0rem;
     }
 
