@@ -80,8 +80,6 @@ h1{
     font-family: "Geist", Arial, sans-serif;
     font-weight: 400;
     color: var(--heading-color);
-
-    letter-spacing: -2px;
     margin: 0 0 0 0;
 }
 h2{
@@ -806,6 +804,9 @@ body.slide-in {
         letter-spacing: 0px;
         font-size: 0.8rem;
     }
+    h1{
+        letter-spacing: 0px;
+    }
     .grey-mobile{
         color: var(--bodytext-color);
     }
@@ -1354,6 +1355,9 @@ body.slide-in {
     li{
         letter-spacing: 0px;
         font-size: 1rem;
+    }
+    h1{
+        letter-spacing: -2px;
     }
     .grey-mobile{
         color: var(--bodytextdark-color);
