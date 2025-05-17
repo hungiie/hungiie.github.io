@@ -152,6 +152,9 @@ button.button-margin-top:hover{
 .no-margin-top{
     margin-top: 0;
 }
+.project-analysis-text.half-margin-top{
+    margin-top: 0.5rem;
+}
 .project-analysis-text.one-margin-bottom{
     margin-bottom: 1rem;
 }
