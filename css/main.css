@@ -22,7 +22,7 @@
     --bodytextdarker-color: rgb(30, 30, 30);
 } */
 .grey{
-    color: var(--bodytext-color);
+    color: var(--bodytextdark-color);
 }
 .dark-grey{
     color: var(--bodytextdarker-color);
