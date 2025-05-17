@@ -258,7 +258,6 @@ body.slide-in {
     text-decoration: none;
     transition-property: all;
     transition-duration: .25s;
-    letter-spacing: -0.2px;
 }
 .button-nav:hover{
     color: var(--heading-color);
@@ -435,6 +434,7 @@ body.slide-in {
     display:inline-block;
     transform-origin: left center;
     position: relative;
+    color: var(--heading-color);
 }
 .arrow-button.arrow-button-hero{
     color: var(--heading-color);
@@ -485,7 +485,6 @@ body.slide-in {
     transition-duration: .25s;
     text-decoration: none;
 
-    letter-spacing: 0px;
     margin-bottom: 1.5rem;
 }
 .project-analysis-toc:hover{
@@ -797,30 +796,22 @@ body.slide-in {
     }
     /* HOMEPAGE - HERO SECTION */
     p{
-        letter-spacing: 0px;
         font-size: 0.8rem;
     }
     li{
-        letter-spacing: 0px;
         font-size: 0.8rem;
-    }
-    h1{
-        letter-spacing: 0px;
     }
     .grey-mobile{
         color: var(--bodytext-color);
     }
     .bold{
         font-weight: 400;
-        letter-spacing: -0.4px;
     }
     .more-bold{
         font-weight: 500;
-        letter-spacing: -0.3px;
     }
     .button{
         font-size: 0.8rem;
-        letter-spacing: 0px;
     }
     .button.button-margin-left{
         margin-left: 1rem;
@@ -846,7 +837,6 @@ body.slide-in {
         margin-top: 0;
         margin-bottom: 0;
         padding-right: 3rem;
-        letter-spacing: -0.9px;
     }
     .break-sm {
         display: none;
@@ -857,19 +847,16 @@ body.slide-in {
         white-space: normal; /* Ensure words can break naturally without breaking mid-word */
         overflow: hidden;
 
-        letter-spacing: -0.5px;
         margin-top: 2rem;
         font-size: 1rem;
         line-height: 1.7rem;
         padding-right: 4rem;
-        letter-spacing: -0.3px;
     }
     .hero-text-smaller.sub{
         margin-right: 0rem;
     }
     .arrow-button.arrow-button-hero{
         font-size: 1rem;
-        letter-spacing: -0.3px;
     }
     .arrow-button.exp{
         font-size: 1rem;
@@ -998,8 +985,6 @@ body.slide-in {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* transform: translate(-5%, -17%) scale(1.1); */
-        /* transform: translate(-2%, -20%) scale(1.1); */
         transform: translate(-1%, 0%) scale(1.19, 1.2);
     }
     .about-text{
@@ -1007,7 +992,6 @@ body.slide-in {
         line-height: 2.5rem;
         margin-top: 2rem;
         margin-bottom: 0rem;
-        letter-spacing: -0.8px;
     }
     .grid.about-image-grid{
         grid-template-columns: 1fr 1fr;
@@ -1096,7 +1080,6 @@ body.slide-in {
     }
     .project-analysis-section-name{
         font-size: 1.5rem;
-        letter-spacing: -0.5px;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
@@ -1349,30 +1332,22 @@ body.slide-in {
     }
     /* HOMEPAGE - HERO SECTION */
     p{
-        letter-spacing: 0px;
         font-size: 1rem;
     }
     li{
-        letter-spacing: 0px;
         font-size: 1rem;
-    }
-    h1{
-        letter-spacing: -0px;
     }
     .grey-mobile{
         color: var(--bodytextdark-color);
     }
     .bold{
         font-weight: 400;
-        letter-spacing: -0.4px;
     }
     .more-bold{
         font-weight: 500;
-        letter-spacing: -0.3px;
     }
     .button{
         font-size: 1rem;
-        letter-spacing: 0px;
     }
     .button.button-margin-left{
         margin-left: 5rem;
@@ -1399,7 +1374,6 @@ body.slide-in {
         margin-top: 0;
         margin-bottom: 0rem;
         padding-right: 25rem;
-        letter-spacing: -1.5px;
     }
     .break-sm {
         display: none;
@@ -1413,14 +1387,12 @@ body.slide-in {
         font-size: 1rem;
         line-height: 1.9rem;
         padding-right: 0;
-        letter-spacing: -0.2px;
     }
     .hero-text-smaller.sub{
         margin-right: 42rem;
     }
     .arrow-button.arrow-button-hero{
         font-size: 1rem;
-        letter-spacing: -0.2px;
     }
     .arrow-button.exp{
         font-size: 1.3rem;
@@ -1443,13 +1415,11 @@ body.slide-in {
     .homepage-project-name{
         margin-bottom: 0;
         font-size: 2.2rem;
-        letter-spacing: -0.5px;
     }
     .homepage-project-info-container{
         flex-direction: row;
     }
     .homepage-project-info{
-        letter-spacing: 0px;
         margin-top: 1.6rem;
         margin-bottom: 1.5rem;
     }
@@ -1572,7 +1542,6 @@ body.slide-in {
         line-height: 4rem;
         margin-top: 0rem;
         margin-bottom: 2rem;
-        letter-spacing: -0.4px;
     }
     .grid.about-image-grid{
         grid-template-columns: 1fr 1fr 1fr;
@@ -1660,7 +1629,6 @@ body.slide-in {
     /* .project-analysis-heading.heading-smaller{
         font-size: 2rem;
         line-height: 2.3rem;
-        letter-spacing: -0.7px;
     } */
     .project-analysis-overview-vid-container{
         display: flex;
@@ -1681,7 +1649,6 @@ body.slide-in {
     }
     .project-analysis-section-name{
         font-size: 1.9rem;
-        letter-spacing: 0px;
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
@@ -1725,7 +1692,6 @@ body.slide-in {
     }
     .project-analysis-text.decorated-title{
         font-size: 0.9rem;
-        letter-spacing: 0.2px;
         padding: 0.8rem 1.5rem 0.8rem 1.5rem;
         margin-bottom: 2rem;
         margin-top: 4rem;
@@ -1933,11 +1899,9 @@ body.slide-in {
     }
     /* HOMEPAGE - HERO SECTION */
     p{
-        letter-spacing: 0px;
         font-size: 1.1rem;
     }
     li{
-        letter-spacing: 0px;
         font-size: 1.1rem;
     }
     .grey-mobile{
@@ -1945,15 +1909,12 @@ body.slide-in {
     }
     .bold{
         font-weight: 400;
-        letter-spacing: -0.7px;
     }
     .more-bold{
         font-weight: 500;
-        letter-spacing: -0.7px;
     }
     .button{
         font-size: 1rem;
-        letter-spacing: 0px;
     }
     .button.button-margin-left{
         margin-left: 5rem;
@@ -1979,7 +1940,6 @@ body.slide-in {
         line-height: 4.5rem;
         margin-top: 0;
         margin-bottom: 0rem;
-        letter-spacing: -2px;
     }
     .break-sm {
         display: inline;
@@ -1993,14 +1953,12 @@ body.slide-in {
         font-size: 1.1rem;
         line-height: 1.9rem;
         padding-right: 0;
-        letter-spacing: 0px;
     }
     .hero-text-smaller.sub{
         margin-right: 52rem;
     }
     .arrow-button.arrow-button-hero{
         font-size: 1.1rem;
-        letter-spacing: 0px;
     }
     .arrow-button.exp{
         font-size: 1.7rem;
@@ -2114,7 +2072,6 @@ body.slide-in {
         line-height: 3rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        letter-spacing: -2px;
     }
     .about-sticky{
         position: sticky;
@@ -2195,7 +2152,6 @@ body.slide-in {
     }
     .project-analysis-section-name{
         font-size: 1.9rem;
-        letter-spacing: -0.5px;
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
