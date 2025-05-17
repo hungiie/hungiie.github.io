@@ -369,6 +369,7 @@ body.slide-in {
 }
 .homepage-project-info{
     color: var(--bodytextdark-color);
+    font-weight: 400;
 }
 .homepage-project-info.no-margin-top{
     margin-top: 0;
@@ -1052,7 +1053,7 @@ body.slide-in {
     }
     .project-analysis-heading{
         font-size: 2.5rem;
-        font-weight: 400;
+        font-weight: 500;
     }
     .project-analysis-individual-container{
         padding-top: 1rem;
