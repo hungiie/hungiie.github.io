@@ -185,7 +185,7 @@ button.button-margin-top:hover{
     background-color: var(--bodytext-color);
 }
 .issue-container.dark-white{
-    background-color: var(--bodytextdark-color);
+    background-color: var(--bodytext-color);
 }
 .issue-container.green{
     background-color: rgb(32, 111, 59);
