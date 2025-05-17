@@ -1357,7 +1357,7 @@ body.slide-in {
         font-size: 1rem;
     }
     h1{
-        letter-spacing: -2px;
+        letter-spacing: -0px;
     }
     .grey-mobile{
         color: var(--bodytextdark-color);
