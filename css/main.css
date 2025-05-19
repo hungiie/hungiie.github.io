@@ -349,14 +349,17 @@ body.slide-in {
 /* PROJECTS SECTION */
 .project-section{
     /* opacity: 0; */
-    opacity: 1;
-    /* transform: translateY(50px);
-    transition: opacity 0.6s ease, transform 0.3s ease; */
+    opacity: 0.5;
+    transform: translateY(160px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .project-section.show {
     opacity: 1;
     transform: translateY(0);
-  }
+}
+.project-section-2{
+    opacity: 1;
+}
 .homepage-project-name{
     font-family: "Geist", Arial, sans-serif;
     font-weight: 400;
@@ -877,6 +880,9 @@ body.slide-in {
     
     /* HOMEPAGE - PROJECT SECTION */
     .project-section{
+        margin: 9rem 2rem 5rem 2rem;
+    }
+    .project-section-2{
         margin: 9rem 2rem 5rem 2rem;
     }
     .homepage-project-name{
@@ -1419,6 +1425,9 @@ body.slide-in {
 
     /* HOMEPAGE - PROJECT SECTION */
     .project-section{
+        margin: 0 7rem 15rem 7rem;
+    }
+    .project-section-2{
         margin: 0 7rem 15rem 7rem;
     }
     .homepage-project-name{
@@ -1977,6 +1986,9 @@ body.slide-in {
 
     /* HOMEPAGE - PROJECT SECTION */
     .project-section{
+        margin: 9rem 17rem 15rem 17rem;
+    }
+    .project-section-2{
         margin: 9rem 17rem 15rem 17rem;
     }
     .homepage-project-name{

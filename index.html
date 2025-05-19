@@ -157,7 +157,7 @@
     </section>
 
 
-    <section class="project-section">
+    <section class="project-section-2">
       <p class="homepage-project-name more-bold">More of my works</p>
       
       <div class="grid thumbnail-two-column">
@@ -244,22 +244,22 @@
       });
 
       // Trigger when 85% into view
-      // document.addEventListener("DOMContentLoaded", function () {
-      //   const sections = document.querySelectorAll(".project-section");
+      document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll(".project-section");
 
-      //   function revealOnScroll() {
-      //     const windowHeight = window.innerHeight;
-      //     sections.forEach((section) => {
-      //       const sectionTop = section.getBoundingClientRect().top;
-      //       if (sectionTop < windowHeight * 0.85) {
-      //         section.classList.add("show");
-      //       }
-      //     });
-      //   }
+        function revealOnScroll() {
+          const windowHeight = window.innerHeight;
+          sections.forEach((section) => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < windowHeight * 0.85) {
+              section.classList.add("show");
+            }
+          });
+        }
 
-      //   window.addEventListener("scroll", revealOnScroll);
-      //   revealOnScroll();
-      // });
+        window.addEventListener("scroll", revealOnScroll);
+        revealOnScroll();
+      });
 
 
       
