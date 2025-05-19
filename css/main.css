@@ -151,28 +151,28 @@ button.button-margin-top:hover{
 .no-margin-top{
     margin-top: 0;
 }
-.project-analysis-text.half-margin-top{
+.body-text.half-margin-top{
     margin-top: 0.5rem;
 }
-.project-analysis-text.one-margin-bottom{
+.body-text.one-margin-bottom{
     margin-bottom: 1rem;
 }
-.project-analysis-text.slightly-bigger.one-margin-top{
+.body-text.slightly-bigger.one-margin-top{
     margin-top: 1rem;
 }
-.project-analysis-text.slightly-bigger.two-margin-top{
+.body-text.slightly-bigger.two-margin-top{
     margin-top: 2rem;
 }
-.project-analysis-text.slightly-bigger.no-margin-top{
+.body-text.slightly-bigger.no-margin-top{
     margin-top: 0;
 }
-.project-analysis-text.slightly-bigger.one-margin-bottom{
+.body-text.slightly-bigger.one-margin-bottom{
     margin-bottom: 1rem;
 }
-.project-analysis-text.slightly-bigger.no-margin-bottom{
+.body-text.slightly-bigger.no-margin-bottom{
     margin-bottom: 0;
 }
-.project-analysis-text.extremely-bigger.onehalf-margin-bottom{
+.body-text.extremely-bigger.onehalf-margin-bottom{
     margin-bottom: 1.5rem;
 }
 .relative{
@@ -516,10 +516,10 @@ body.slide-in {
 .project-analysis-container{
     margin-right: 0rem;
 }
-.project-analysis-text.margin-bottom{
+.body-text.margin-bottom{
     margin-bottom: 2rem;
 }
-.project-analysis-text.no-margin-bottom{
+.body-text.no-margin-bottom{
     margin-bottom: 0;
 }
 .project-analysis-context-vid{
@@ -590,22 +590,22 @@ body.slide-in {
     display: flex;
     justify-content: center;
 }
-.project-analysis-text.decorated-title{
+.body-text.decorated-title{
     width: fit-content;
     background: linear-gradient(to right, #12B147, #072B71);
     border-radius: 100rem;
 }
-.project-analysis-text.decorated-title.jackalope-decorated-title{
+.body-text.decorated-title.jackalope-decorated-title{
     background: linear-gradient(to right, #1792D8, #072B71);
 }
-.project-analysis-text.decorated-title.no-margin-top{
+.body-text.decorated-title.no-margin-top{
     margin-top: 0;
 }
 
-.project-analysis-text.margin-top{
+.body-text.margin-top{
     margin-top: 4rem;
 }
-.project-analysis-text.one-margin-top{
+.body-text.one-margin-top{
     margin-top: 1rem;
 }
 .heuristic-container{
@@ -654,7 +654,7 @@ body.slide-in {
     transform: scale(1.05);
     filter: brightness(40%);
 }
-.project-analysis-text.refined-interface-text{
+.body-text.refined-interface-text{
     background: none;
     position: absolute;
     top: 50%;
@@ -1046,7 +1046,7 @@ body.slide-in {
         width: 100%;
         height: auto;
     }
-    .project-analysis-text.slightly-bigger.slogan{
+    .body-text.slightly-bigger.slogan{
         margin-top: 4rem;
         margin-bottom: 0;
     }
@@ -1112,34 +1112,34 @@ body.slide-in {
         border-radius: 0.5rem;
         margin-right: 0.5rem;
     }
-    .project-analysis-text{
+    .body-text{
         margin-top: 0;
         margin-bottom: 0.5rem;
         line-height: 1.2rem;
     }
-    .project-analysis-text.slightly-bigger{
+    .body-text.slightly-bigger{
         font-size: 1rem;
         margin-bottom: 1rem;
         margin-top: 2rem;
         line-height: 1.3rem;
     }
-    .project-analysis-text.bigger{
+    .body-text.bigger{
         font-size: 1rem;
         line-height: 1.4rem;
     }
-    .project-analysis-text.extremely-bigger{
+    .body-text.extremely-bigger{
         font-size: 1.9rem;
         line-height: 2.6rem;
         margin-bottom: 2.5rem;
     }
-    .project-analysis-text.extremely-bigger.exp{
+    .body-text.extremely-bigger.exp{
         margin-top: 3rem;
         margin-bottom: 1rem;
     }
-    .project-analysis-text.indent{
+    .body-text.indent{
         margin-left: 0rem;
     }
-    .project-analysis-text.decorated-title{
+    .body-text.decorated-title{
         font-size: 0.8rem;
         padding: 1rem 1.2rem 1rem 1.2rem;
         margin-bottom: 2rem;
@@ -1173,7 +1173,7 @@ body.slide-in {
     .heuristic-text-container{
         padding: 0 2rem 0 2rem;
     }
-    .project-analysis-text.refined-interface-text{
+    .body-text.refined-interface-text{
         font-size: 0.8rem;
     }
     .refined-interface-container{
@@ -1602,7 +1602,7 @@ body.slide-in {
         width: 100%;
         height: auto;
     }
-    .project-analysis-text.slightly-bigger.slogan{
+    .body-text.slightly-bigger.slogan{
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -1671,33 +1671,33 @@ body.slide-in {
         border-radius: 2rem;
         margin-right: 1rem;
     }
-    .project-analysis-text{
+    .body-text{
         margin-top: 0;
         margin-bottom: 0.5rem;
         line-height: 1.6rem;
     }
-    .project-analysis-text.slightly-bigger{
+    .body-text.slightly-bigger{
         font-size: 1.3rem;
         margin-bottom: 2rem;
         margin-top: 4rem;
         line-height: 1.7rem;
     }
-    .project-analysis-text.bigger{
+    .body-text.bigger{
         font-size: 1.5rem;
         line-height: 2rem;
     }
-    .project-analysis-text.extremely-bigger{
+    .body-text.extremely-bigger{
         font-size: 3rem;
         line-height: 3.7rem;
         margin-bottom: 2.5rem;
     }
-    .project-analysis-text.extremely-bigger.exp{
+    .body-text.extremely-bigger.exp{
         margin-top: 4rem;
     }
-    .project-analysis-text.indent{
+    .body-text.indent{
         margin-left: 2rem;
     }
-    .project-analysis-text.decorated-title{
+    .body-text.decorated-title{
         font-size: 0.9rem;
         padding: 0.8rem 1.5rem 0.8rem 1.5rem;
         margin-bottom: 2rem;
@@ -1742,7 +1742,7 @@ body.slide-in {
     .heuristic-text-container{
         padding: 0 9rem 0 9rem;
     }
-    .project-analysis-text.refined-interface-text{
+    .body-text.refined-interface-text{
         font-size: 1.2rem;
     }
     .refined-interface-container{
@@ -2111,7 +2111,7 @@ body.slide-in {
         width: 100%;
         height: auto;
     }
-    .project-analysis-text.slightly-bigger.slogan{
+    .body-text.slightly-bigger.slogan{
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -2176,32 +2176,32 @@ body.slide-in {
         border-radius: 2rem;
         margin-right: 1rem;
     }
-    .project-analysis-text{
+    .body-text{
         margin-top: 0;
         margin-bottom: 0.5rem;
         line-height: 1.7rem;
     }
-    .project-analysis-text.slightly-bigger{
+    .body-text.slightly-bigger{
         font-size: 1.7rem;
         margin-bottom: 2rem;
         margin-top: 4rem;
         line-height: 2rem;
     }
-    .project-analysis-text.bigger{
+    .body-text.bigger{
         font-size: 2rem;
         line-height: 2.8rem;
     }
-    .project-analysis-text.extremely-bigger{
+    .body-text.extremely-bigger{
         font-size: 3rem;
         margin-bottom: 2.5rem;
     }
-    .project-analysis-text.extremely-bigger.exp{
+    .body-text.extremely-bigger.exp{
         margin-top: 4rem;
     }
-    .project-analysis-text.indent{
+    .body-text.indent{
         margin-left: 2rem;
     }
-    .project-analysis-text.decorated-title{
+    .body-text.decorated-title{
         font-size: 1rem;
         padding: 1rem 1.7rem 1rem 1.7rem;
         margin-bottom: 2rem;
@@ -2244,7 +2244,7 @@ body.slide-in {
     .heuristic-text-container{
         padding: 0 9rem 0 9rem;
     }
-    .project-analysis-text.refined-interface-text{
+    .body-text.refined-interface-text{
         font-size: 1.2rem;
     }
     .refined-interface-container{
