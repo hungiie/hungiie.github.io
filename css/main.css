@@ -348,15 +348,15 @@ body.slide-in {
 
 /* PROJECTS SECTION */
 .project-section{
-    /* opacity: 0; */
-    opacity: 0.5;
-    transform: translateY(160px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* opacity: 0.5; */
+    opacity: 1;
+    /* transform: translateY(160px);
+    transition: opacity 0.5s ease, transform 0.5s ease; */
 }
-.project-section.show {
+/* .project-section.show {
     opacity: 1;
     transform: translateY(0);
-}
+} */
 .project-section-2{
     opacity: 1;
 }
