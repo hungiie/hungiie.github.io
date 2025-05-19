@@ -522,9 +522,6 @@ body.slide-in {
 .project-analysis-text.no-margin-bottom{
     margin-bottom: 0;
 }
-.project-analysis-text.more-margin-bottom{
-    margin-bottom: 3rem;
-}
 .project-analysis-context-vid{
     transition-property: all;
     transition-duration: .25s;
