@@ -1027,11 +1027,11 @@ body.slide-in {
         border-radius: 0.5rem;
         filter: brightness(100%);
     }
-    .about-image-2:hover{
+    /* .about-image-2:hover{
         transition-property: all;
         transition-duration: .25s;
         filter: brightness(100%);
-    }
+    } */
 
 
     /* CARDIO PAGE */
@@ -1569,13 +1569,13 @@ body.slide-in {
         object-fit: cover; /* Crop image to fit container */
         display: block;
         border-radius: 0.7rem;
-        filter: brightness(50%);
+        filter: brightness(90%);
     }
-    .about-image-2:hover{
+    /* .about-image-2:hover{
         transition-property: all;
         transition-duration: .25s;
         filter: brightness(80%);
-    }
+    } */
     .about-sticky{
         position: sticky;
         margin-bottom: 4rem;
@@ -2077,7 +2077,6 @@ body.slide-in {
         column-gap: 3rem;
     }
     .about-image{
-        /* transform: translate(-1%, 0%) scale(1.6); */
         transform: translate(9%, 0%) scale(1.19, 1.2);
     }
     .about-text{
