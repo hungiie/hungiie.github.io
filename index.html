@@ -33,117 +33,72 @@
   <body>
     <header>
       <nav class="nav-container">
-        <div class="nav-div-1">
-          <a class="button-nav nav-home" href="index.html">H.</a>
-        </div>
-        <div class="nav-div-2">
+        <div class="nav-inner-container">
           <a class="button-nav nav-project" href="index.html">Projects</a>
-          <a class="button-nav nav-about" href="about.html">About</a>
+          <a class="button-nav nav-project" href="about.html">About</a>
+          <a class="button-nav" id="nav-resume" href="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view?usp=sharing" target="_blank">Résumé</a>
         </div>
       </nav>
     </header>
 
     <section class="hero-section">
-
       <div class="hero-container">
-        <!-- <div class="grid intro-two-column"> -->
-          <!-- <div class="face-container">
-            <div class="eye-container">
-              <div class="eye">
-                <img class="eye-white" src="img/eye.png" width="1658" height="2656" alt="white oval">
-                <img class="ball" id="left-ball" src="img/ball.png" width="864" height="1003" alt="eye pupil">
-              </div>
-              <div class="eye">
-                <img class="eye-white" src="img/eye.png" width="1658" height="2656" alt="white oval">
-                <img class="ball" id="right-ball" src="img/ball.png" width="864" height="1003" alt="eye pupil">
-              </div>
-            </div>
-
-            <img class="mouth" src="img/mouth.png" width="67" height="25" alt="white arc">
-          </div> -->
-
           <div class="hero-text-container">
-            <h1 class="hero-text white cursive">Hi, I'm Hung, a UX designer, researcher<span class="break-sm">,<br></span> and UX engineer enthusiast.</h1>
-            <!-- <h1 class="hero-text white"></h1> -->
-            <h1 class="hero-text-smaller sub grey bold"> I'm passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</h1>
-            <!-- <h1 class="hero-text-smaller grey hero-no-margin-top bold">with a concentration in design & development for web and mobile.</h1> -->
-            <div class="grid work-experience">
-              <div>
-                <h1 class="hero-text-smaller grey bold hero-no-margin-top">Prev.&nbsp; visual designer @ <a class="button arrow-button arrow-button-hero bold" href="https://www.douglascollegeroyals.ca/landing/index" target="_blank">Douglas College, Athletics dept. <span class="text-arrow">&#8594;</span></a></h1>
-                <h1 class="hero-text-smaller grey bold hero-no-margin-top">Prev.&nbsp; media design intern @ <a class="button arrow-button arrow-button-hero bold" href="https://www.fraserhealth.ca" target="_blank">Fraser Health Authority <span class="text-arrow">&#8594;</span></a></h1>
-              </div>
-              <h1 class="hero-text-smaller grey bold hero-no-margin-top">Current UX design intern @ <a class="button arrow-button arrow-button-hero bold" href="https://research.samsung.com/srca" target="_blank">Samsung <span class="text-arrow">&#8594;</span></a></h1>
-            </div>
+            <h1 class="hero-text white cursive">Hi, I'm Hung, a <span class="hero-highlight">UX designer 🎨</span> and <span class="hero-highlight rotate-left">researcher 📚</span><span class="break-sm"><br></span> who sometimes wanders in GitHub.</h1>
+            <h1 class="hero-text-smaller grey more-bold">Current UX design intern @ <a class="button arrow-button arrow-button-hero more-bold" href="https://research.samsung.com/srca" target="_blank">Samsung <span class="text-arrow">&#8594;</span></a></h1>
           </div>
-
-        <!-- </div> -->
       </div>
     </section>
 
     <section class="project-section" id="projects">
-      <p class="homepage-project-name grey-mobile more-bold">card.io <span class="text-arrow">&#8594;</span></p>
-      <div class="homepage-project-info-container">
-        <p class="homepage-project-info">UX design & research</p>
-        <p class="homepage-project-info info-margin-left">1.5 month</p>
-        <p class="homepage-project-info info-margin-left">UX designer & researcher</p>
-        <p class="homepage-project-info info-margin-left">Figma</p>
+      <p class="homepage-project-name more-bold">View card.io <span class="text-arrow">&#8594;</span></p>
+      <p class="homepage-project-des white">A perfect cardio session starts with the perfect playlist.</p>
+      <div class="grid project-grid">
+        <p class="body-text grey bold">Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control.</p>
+        <div class="flex no-margin-top project-info-container">
+          <p class="homepage-project-info bold hero-highlight tags margin-right">UX design</p>
+          <p class="homepage-project-info bold hero-highlight tags">1.5 month</p>
+        </div>
       </div>
-      <a class="homepage-project-image-container" href="cardio.html" id="card">
+      <a class="homepage-project-image-container" href="cardio.html">
         <img class="homepage-project-image" id="cardio-cover-1" src="img/cardio-cover.png" width="4104" height="1464">
         <img class="homepage-project-image" id="cardio-cover-2" src="img/cardio-cover-2.png" width="1309" height="922">
       </a>
-      <p class="homepage-project-des">A perfect cardio session starts with the perfect playlist.</p>
     </section>
 
-    <!-- <section class="project-section" id="projects">
+    <section class="project-section" id="projects">
+      <p class="homepage-project-name more-bold">View Jackalope <span class="text-arrow">&#8594;</span></p>
+      <p class="homepage-project-des white">Helping international students in Canada settling in.</p>
       <div class="grid project-grid">
-        <div>
-          <p class="body-text slightly-bigger more-bold one-margin-bottom no-margin-top">card.io <span class="text-arrow">&#8594;</span></p>
-          <p class="body-text more-bold extremely-bigger no-margin-bottom">A perfect cardio session starts with the perfect playlist.</p>
+        <p class="body-text grey bold">Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms.</p>
+        <div class="flex no-margin-top project-info-container">
+          <p class="homepage-project-info bold hero-highlight tags margin-right">UX design & research</p>
+          <p class="homepage-project-info bold hero-highlight tags">2 months</p>
         </div>
-        <div class="project-info-container">
-          <p class="body-text no-margin-bottom grey">UX design</p>
-          <p class="body-text no-margin-bottom grey">Figma</p>
-          <p class="body-text no-margin-bottom grey">1.5 month</p>
-        </div>
-      </div>
-      <a class="homepage-project-image-container" href="cardio.html" id="card">
-        <img class="homepage-project-image" id="cardio-cover-1" src="img/cardio-cover.png" width="4104" height="1464">
-        <img class="homepage-project-image" id="cardio-cover-2" src="img/cardio-cover-2.png" width="1309" height="922">
-      </a>
-    </section> -->
-
-    <section class="project-section">
-      <p class="homepage-project-name grey-mobile more-bold">Jackalope <span class="text-arrow">&#8594;</span></p>
-      <div class="homepage-project-info-container">
-        <p class="homepage-project-info">UX design & research</p>
-        <p class="homepage-project-info info-margin-left">2 months</p>
-        <p class="homepage-project-info info-margin-left">UX designer & researcher</p>
-        <p class="homepage-project-info info-margin-left">ProtoPie</p>
       </div>
       <a class="homepage-project-image-container" href="jackalope.html">
         <img class="homepage-project-image" id="jackalope-cover-1" src="img/jackalope-cover.png" width="4104" height="1464">
         <img class="homepage-project-image" id="jackalope-cover-2" src="img/jackalope-cover-2.png" width="1309" height="922">
       </a>
-      <p class="homepage-project-des">AI-powered community app for international students in Canada.</p>
     </section>
 
-
-    <section class="project-section">
-      <p class="homepage-project-name grey-mobile more-bold">Fraser Health internship <span class="text-arrow">&#8594;</span></p>
-      <div class="homepage-project-info-container">
-        <p class="homepage-project-info">Graphic design</p>
-        <p class="homepage-project-info info-margin-left">8 months (co-op)</p>
-        <p class="homepage-project-info info-margin-left">Graphic designer</p>
-        <p class="homepage-project-info info-margin-left">Adobe Illustrator & Adobe After Effects</p>
+    <section class="project-section" id="projects">
+      <p class="homepage-project-name more-bold">View Fraser Health internship <span class="text-arrow">&#8594;</span></p>
+      <p class="homepage-project-des white">My work as a design intern at Fraser Health.</p>
+      <div class="grid project-grid">
+        <p class="body-text grey bold">I had the opportunity to be the co-op designer at Fraser Health, where I maintained & developed Fraser Health's visual branding with various media pieces.</p>
+        <div class="flex no-margin-top project-info-container">
+          <p class="homepage-project-info bold hero-highlight tags margin-right">Visual design</p>
+          <p class="homepage-project-info bold hero-highlight tags">8 months (Internship)</p>
+        </div>
       </div>
       <a class="homepage-project-image-container" href="fh.html">
         <img class="homepage-project-image" id="jackalope-cover-1" src="img/fh-cover.png" width="4104" height="1464">
         <img class="homepage-project-image" id="jackalope-cover-2" src="img/fh-cover-2.png" width="1309" height="922">
       </a>
-      <p class="homepage-project-des">Designed B2C social media content and B2B2C collaborative marketing resources for business stakeholders.</p>
     </section>
 
+<<<<<<< Updated upstream
     <!-- <section class="project-section">
       <p class="homepage-project-name grey-mobile more-bold">Influenso (coming soon 🔐) <span class="text-arrow">&#8594;</span></p>
       <div class="homepage-project-info-container">
@@ -175,6 +130,8 @@
     </section> -->
 
 
+=======
+>>>>>>> Stashed changes
     <section class="project-section-2">
       <p class="homepage-project-name more-bold">More of my works</p>
       
@@ -183,7 +140,7 @@
           <img class="homepage-project-image vault-image" src="img/memorymate.png" width="1309" height="922">
         </a>
         <div class="vault-info-container">
-          <p class="homepage-project-info vault">UX engineer (React Native).</p>
+          <p class="homepage-project-info vault"><span class="hero-highlight tags margin-right bold">UX engineer</span> <span class="hero-highlight tags margin-right bold">React Native</span> <span class="hero-highlight tags bold">Firebase</span></p>
           <p class="vault-info-big bold">React Native app built with Firebase authentication & database.</p>
           <p class="vault-info">Note-taking app for senior citizens, provides assistance in managing everyday tasks, with integration of native features and API such as Apple Maps, Text-to-speech, voice note.</p>
         </div>
@@ -194,7 +151,7 @@
           <img class="homepage-project-image vault-image" src="img/ubereats.png" width="1309" height="922">
         </a>
         <div class="vault-info-container">
-          <p class="homepage-project-info vault">UX design (UXPin).</p>
+          <p class="homepage-project-info vault"><span class="hero-highlight tags margin-right bold">UX design</span> <span class="hero-highlight tags bold">UXPin</span></p>
           <p class="vault-info-big bold">Uber Eats Interface Design case study: Nutritious Report.</p>
           <p class="vault-info">Assists and informs users about their food’s nutrition details, makes sure their dietary needs are met.</p>
         </div>
@@ -205,30 +162,21 @@
           <img class="homepage-project-image vault-image" src="img/spotify.png" width="1309" height="922">
         </a>
         <div class="vault-info-container">
-          <p class="homepage-project-info vault">HCI study & UX design (Figma).</p>
+          <p class="homepage-project-info vault"><span class="hero-highlight tags margin-right bold">HCI study</span> <span class="hero-highlight tags bold">UX design</span></p>
           <p class="vault-info-big bold">Enhancing Spotify's onboarding experience for new users.</p>
           <p class="vault-info">How can the interaction of selecting and dragging multiple songs while pressing CTRL (or CMD key on Mac), can be made more accessible and recognizable for new users during their onboarding experience?</p>
         </div>
       </div>
 
-      <!-- <div class="grid thumbnail-two-column">
-        <a class="vault-thumbnail-container">
-          <img class="homepage-project-image vault-image" src="img/jambo-cover-2.png" width="1309" height="922">
-        </a>
-        <div class="vault-info-container">
-          <p class="homepage-project-info no-margin-top">UX design & illustration (Figma & Adobe Illustrator).</p>
-          <p class="vault-info-big bold">Redesign the website for a Persian & African family-owned restaurant (coming soon).</p>
-          <p class="vault-info">Recipient of the Usability Award at FLUI 2025 Design Hackathon with more than 200 contestants.</p>
-        </div>
-      </div> -->
-
     </section>
 
     <section class="footer-section">
-      <div class="footer-container">
-        <p class="footer bold">Designed and coded by me.</p>
-        <p class="footer bold">dht4@sfu.ca (Co-op)</p>
-        <p class="footer bold">tranndhungg@gmail.com (Personal)</p>
+      <p class="footer bold">Designed and coded by me. Based in Vancouver, BC.</p>
+      <p class="footer margin-bottom bold">© 2025 Hung. All rights reserved.</p>
+      <div class="contacts-container">
+        <a href="mailto:tranndhungg@gmail.com" target="_blank"><img class="contacts" src="img/mail_mail.png" width="3300" height="3300"></a>
+        <a href="www.linkedin.com/in/hung-tran-profile" target="_blank"><img class="contacts" src="img/mail_linkedin.png" width="3300" height="3300"></a>
+        <a href="https://www.tiktok.com/@hungietran" target="_blank"><img class="contacts" src="img/mail_tiktok.png" width="3300" height="3300"></a>
       </div>
     </section>
 
@@ -244,7 +192,7 @@
       imageContainers.forEach((container, index) => {
           container.addEventListener('mouseover', () => {
               if (projectNames[index]) {
-                  projectNames[index].style.color = 'white'; // Change text color to white
+                  projectNames[index].style.color = 'rgb(70, 116, 255)'; // Change text color to white
               }
               if (textArrows[index]) {
                   textArrows[index].style.transform = 'translate(15px)'; // Move arrow
@@ -279,23 +227,22 @@
         revealOnScroll();
       });
 
+      document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll(".hero-container");
 
-      
-      // var balls = document.getElementsByClassName("ball");
-      // var wholeFace = document.getElementsByClassName("face-container");
-      // document.onmousemove = function(){
-      //   var x = event.clientX * 100 / 1600 + "%"
-      //   var y = event.clientY * 100 / 900 + "%"
-      //   var xFace = (event.clientX * 20 / window.innerWidth - 10) + "%"; // Reduced movement factor for x
-      //   var yFace = (event.clientY * 20 / window.innerHeight - 10) + "%"; // Reduced movement factor for y
+        function revealOnScroll() {
+          const windowHeight = window.innerHeight;
+          sections.forEach((section) => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < windowHeight * 0.85) {
+              section.classList.add("show");
+            }
+          });
+        }
 
-      //   for (var i=0; i<2; i++){
-      //     balls[i].style.left = x;
-      //     balls[i].style.top = y;
-      //     balls[i].style.transform = "translate(-"+x+", -"+y+")";
-      //   }
-      //   wholeFace[0].style.transform = "translate(" + xFace + ", " + yFace + ")"; // Apply movement to face-container
-      // }
+        window.addEventListener("scroll", revealOnScroll);
+        revealOnScroll();
+      });
     </script>
 
   </body>
