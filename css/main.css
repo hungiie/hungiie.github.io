@@ -272,28 +272,24 @@ button.button-margin-top:hover{
     text-align: center;
     opacity: 0;
     transform: translateY(40px);
-    transition: all 0.5s ease;
-
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .hero-container.show{
     opacity: 1;
     transform: translateY(0);
-    transition: all 0.5s ease;
-
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 /* PROJECTS SECTION */
 .project-section{
     opacity: 0;
     transform: translateY(40px);
-    transition: all 0.5s ease;
-
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .project-section.show{
     opacity: 1;
     transform: translateY(0);
-    transition: all 0.5s ease;
-
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .project-section-2{
@@ -1459,7 +1455,7 @@ button.button-margin-top:hover{
     .about-inner-section.show{
         transform: translateY(0);
         opacity: 1;
-        transition: all 0.5s ease;
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     }
 
