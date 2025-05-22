@@ -34,7 +34,7 @@
     <header>
       <nav class="nav-container">
         <div class="nav-inner-container">
-          <a class="button-nav nav-project" href="index.html">Projects</a>
+          <a class="button-nav nav-project active" href="index.html">Projects</a>
           <a class="button-nav nav-project" href="about.html">About</a>
           <a class="button-nav" id="nav-resume" href="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view?usp=sharing" target="_blank">Résumé</a>
         </div>
@@ -209,6 +209,27 @@
         window.addEventListener("scroll", revealOnScroll);
         revealOnScroll();
       });
+
+
+    //   document.addEventListener("DOMContentLoaded", function () {
+    //   const sections = document.querySelectorAll(".nav-container");
+
+    //   function revealOnScroll() {
+    //     const windowHeight = window.innerHeight;
+    //     sections.forEach((section) => {
+    //       const sectionTop = section.getBoundingClientRect().top;
+    //       if (sectionTop < windowHeight * 0.85 && !section.classList.contains("show")) {
+    //         setTimeout(() => {
+    //           section.classList.add("show");
+    //         }, 200); // Delay of 1 second (1000 ms)
+    //       }
+    //     });
+    //   }
+
+    //   window.addEventListener("scroll", revealOnScroll);
+    //   revealOnScroll();
+    // });
+
     </script>
 
   </body>
