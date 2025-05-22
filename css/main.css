@@ -271,6 +271,10 @@ button.button-margin-top:hover{
 .button-nav.active{
     border: 2px solid var(--blue-button);
 }
+.button-nav.active-sub{
+    border: 2px solid rgba(125, 152, 232, 0.5);
+    color: rgba(125, 152, 232);
+}
 .button-nav:hover{
     background-color: rgba(98, 98, 98, 0.7);
     transition-property: all;
@@ -741,6 +745,9 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
     .nav-inner-container{
         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+    .nav-project{
+        margin-right: 1rem;
     }
     /* HOMEPAGE - HERO SECTION */
     p{
