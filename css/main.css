@@ -1813,7 +1813,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         font-size: 1rem;
     }
     .nav-container{
-        padding: 1.2rem 1rem 1.2rem 1rem;
+        padding: 2rem 0 0 0;
     }
     .nav-project{
         margin-right: 2rem;
@@ -1850,8 +1850,8 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
     .hero-container{
         padding-top: 2rem;
-        padding-left: 22rem;
-        padding-right: 22rem;
+        padding-left: 29rem;
+        padding-right: 29rem;
         height: 42rem;
     }
     .hero-text{
@@ -1878,17 +1878,14 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         overflow: hidden;
 
         margin-top: 4rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 1.9rem;
     }
-    .hero-text-smaller.sub{
-        margin-right: 52rem;
-    }
     .arrow-button.arrow-button-hero{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .arrow-button.exp{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .hero-text-smaller.hero-no-margin-top{
         margin-top: 0;
@@ -1903,10 +1900,10 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     /* HOMEPAGE - PROJECT SECTION */
     .project-section{
-        margin: 9rem 17rem 15rem 17rem;
+        margin: 9rem 24rem 15rem 24rem;
     }
     .project-section-2{
-        margin: 9rem 17rem 15rem 17rem;
+        margin: 9rem 24rem 15rem 24rem;
     }
     .homepage-project-name{
         margin-bottom: 0;
@@ -1968,7 +1965,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
     /* ABOUT PAGE */
     .about-section{
-        margin: 9rem 32rem 6rem 32rem;
+        margin: 9rem 43rem 6rem 43rem;
     }
     .about-image-container{
         width: 100%;
