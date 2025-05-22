@@ -343,7 +343,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     font-weight: 400;
     transition-property: all;
     transition-duration: .5s;
-    color: var(--bodytext-color);
+    color: var(--bodytextdark-color);
 }
 .homepage-project-info-container{
     justify-content: center;
