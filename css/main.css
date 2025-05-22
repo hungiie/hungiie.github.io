@@ -282,11 +282,13 @@ button.button-margin-top:hover{
 }
 #nav-resume{
     background-color: var(--blue-button);
+    border: 2px solid var(--blue-button);
     color: var(--heading-color);
     cursor: pointer;
 }
 #nav-resume:hover{
     background-color: var(--darkblue-button);
+    border: 2px solid var(--darkblue-button);
     cursor: pointer;
 }
 
@@ -1278,14 +1280,14 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
     .button-nav{
         font-size: 0.9rem;
-        padding: 0.8rem 1rem 0.8rem 1rem;
+        padding: 0.7rem 1rem 0.7rem 1rem;
         border-radius: 1000rem;
     }
     .nav-inner-container{
         padding: 0.4rem 0.4rem 0.4rem 0.4rem;
     }
     .nav-project{
-        margin-right: 0.5rem;
+        margin-right: 1rem;
     }
     /* HOMEPAGE - HERO SECTION */
     p{
