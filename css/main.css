@@ -343,6 +343,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transform: rotate(0deg);
     color: var(--heading-color);
     border-radius: 1000rem;
+    width: auto;
     margin-bottom: 0;
     margin-right: 2rem;
 }
@@ -559,7 +560,8 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition-duration: .25s;
 }
 .statement-container{
-    background: linear-gradient(to right, #34772E, #098A73);
+    /* background: linear-gradient(to right, #34772E, #098A73); */
+    background-color: var(--darkblue-button);
 }
 .statement-container.jackalope{
     background: linear-gradient(to right, #1BADFF, #005CE5);
