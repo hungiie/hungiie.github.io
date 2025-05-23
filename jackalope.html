@@ -21,7 +21,7 @@
 
   <body>
     <header>
-      <nav class="nav-container">
+      <nav class="nav-container" id="navbar">
         <div class="nav-inner-container">
           <a class="button-nav nav-project active" href="index.html">Projects</a>
           <!-- <div class="sub-nav-container">
@@ -497,6 +497,17 @@
             } else if (document.msExitFullscreen) { // For IE11
                 document.msExitFullscreen();
             }
+        }
+
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+            } else {
+            document.getElementById("navbar").style.top = "-5.5rem";
+            }
+            prevScrollpos = currentScrollPos;
         }
 
     </script>

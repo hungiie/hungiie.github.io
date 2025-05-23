@@ -230,6 +230,8 @@ button.button-margin-top:hover{
     z-index: 10;
     width: 100%;
     align-items: center;
+    transition: top 0.5s;
+
 
     /* opacity: 0;
     transform: scale(0);
