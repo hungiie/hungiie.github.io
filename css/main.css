@@ -1535,7 +1535,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         top: 5rem;
     }
     .project-analysis-toc-container.for-fh{
-        top: 22rem;
+        top: 20rem;
     }
     .project-analysis-heading-container.for-fh{
         height: 14rem;
@@ -2058,7 +2058,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         top: 5rem;
     }
     .project-analysis-toc-container.for-fh{
-        top: 23rem;
+        top: 21rem;
     }
     .project-analysis-heading-container.for-fh{
         height: 15rem;
