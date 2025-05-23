@@ -340,12 +340,16 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .body-text.text-heuristic{
     background-color: var(--darkblue-button);
-    transform: rotate(0deg);
     color: var(--heading-color);
     border-radius: 1000rem;
     width: auto;
     margin-bottom: 0;
     margin-right: 2rem;
+    display: inline-block;
+}
+.body-text.text-heuristic.jack{
+    margin-bottom: 2rem;
+
 }
 
 .project-section-2{
