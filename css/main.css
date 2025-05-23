@@ -38,8 +38,8 @@
     opacity: 0.8;
 }
 .green{
-    /* color:rgb(29, 188, 97); */
-    color: var(--blue-button);
+    color:rgb(29, 188, 97);
+    /* color: var(--blue-button); */
 }
 .dark-green{
     color:rgb(15, 133, 66);
