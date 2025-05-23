@@ -38,10 +38,12 @@
     opacity: 0.8;
 }
 .green{
-    color:rgb(29, 188, 97);
+    /* color:rgb(29, 188, 97); */
+    color: var(--blue-button);
 }
 .dark-green{
     color:rgb(15, 133, 66);
+    /* color: var(--darkblue-button); */
 }
 .blue{
     color: var(--blue-button);
@@ -336,6 +338,14 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transform: rotate(0deg);
     color: var(--heading-color);
 }
+.body-text.text-heuristic{
+    background-color: var(--darkblue-button);
+    transform: rotate(0deg);
+    color: var(--heading-color);
+    border-radius: 1000rem;
+    margin-bottom: 0;
+    margin-right: 2rem;
+}
 
 .project-section-2{
     opacity: 1;
@@ -606,17 +616,6 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 .draft-vid-container{
     display: flex;
     justify-content: center;
-}
-.body-text.decorated-title{
-    width: fit-content;
-    background: linear-gradient(to right, #12B147, #072B71);
-    border-radius: 100rem;
-}
-.body-text.decorated-title.jackalope-decorated-title{
-    background: linear-gradient(to right, #1792D8, #072B71);
-}
-.body-text.decorated-title.no-margin-top{
-    margin-top: 0;
 }
 
 .body-text.margin-top{
@@ -1084,12 +1083,9 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     .body-text.indent{
         margin-left: 0rem;
     }
-    .body-text.decorated-title{
+    .body-text.text-heuristic{
         font-size: 0.8rem;
-        padding: 1rem 1.2rem 1rem 1.2rem;
-        margin-bottom: 2rem;
-        margin-top: 4rem;
-        margin-right: 1rem;
+        padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     }
     .statement-container{
         padding: 1rem 2rem 1rem 2rem;
@@ -1114,6 +1110,9 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     .flex.home-flex{
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+    .flex.heuristic{
+        margin-bottom: 2rem;
     }
     .heuristic-image{
         width: 100%;
@@ -1662,6 +1661,10 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
     .heuristic-text-container{
         padding: 0 9rem 0 9rem;
+    }
+    .body-text.text-heuristic{
+        font-size: 1rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
     }
     .body-text.refined-interface-text{
         font-size: 1.2rem;
