@@ -500,12 +500,6 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 .project-analysis-individual-container{
     width: 100%;
 }
-.project-analysis-toc-container{
-    margin-top: 1rem;
-    position: sticky;
-    height: 5rem;
-    top: 15rem;
-}
 .project-analysis-toc{
     display: block;
     color: var(--bodytextdark-color);
@@ -1002,6 +996,12 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         position: static;
         height: 0rem;
         top: 0rem;
+    }
+    .project-analysis-toc-container{
+        margin-top: 1rem;
+        position: sticky;
+        height: 5rem;
+        top: 12rem;
     }
     .project-analysis-toc-container{
         display: none;
@@ -1502,7 +1502,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     /* CARDIO PAGE */
     .cover-image-section{
-        margin: 6rem 2.5rem 0 2.5rem;
+        margin: 6rem 6rem 0 6rem;
     }
     .cover-image-1{
         display: block;
@@ -1527,12 +1527,12 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         margin-top: 4rem;
     }
     .project-analysis-section{
-        margin: 0 2.5rem 0 2.5rem;
+        margin: 0 6rem 0 6rem;
     }
     .project-analysis-heading-container{
         position: sticky;
-        height: 7rem;
-        top: 7rem;
+        height: 6rem;
+        top: 5rem;
     }
     .project-analysis-toc-container.for-fh{
         top: 22rem;
@@ -1541,6 +1541,10 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         height: 14rem;
     }
     .project-analysis-toc-container{
+        margin-top: 1rem;
+        position: sticky;
+        height: 5rem;
+        top: 12rem;
         display: block;
     }
     .project-analysis-heading{
@@ -2021,7 +2025,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     /* CARDIO PAGE */
     .cover-image-section{
-        margin: 6rem 8.5rem 0 8.5rem;
+        margin: 6rem 11rem 0 11rem;
     }
     .cover-image-1{
         display: block;
@@ -2046,12 +2050,12 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         margin-top: -1rem;
     }
     .project-analysis-section{
-        margin: 0 8.5rem 0 8.5rem;
+        margin: 0 11rem 0 11rem;
     }
     .project-analysis-heading-container{
         position: sticky;
         height: 7rem;
-        top: 7rem;
+        top: 5rem;
     }
     .project-analysis-toc-container.for-fh{
         top: 23rem;
@@ -2060,7 +2064,11 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         height: 15rem;
     }
     .project-analysis-toc-container{
+        margin-top: 1rem;
+        position: sticky;
         display: block;
+        height: 5rem;
+        top: 13rem;
     }
     .project-analysis-heading{
         font-size: 3.5rem;
