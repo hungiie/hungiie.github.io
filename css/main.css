@@ -327,11 +327,13 @@ button.button-margin-top:hover{
     display: inline-block;
     border-radius: 1000rem;
     background-color: var(--blue-button);
-    transform: rotate(2deg);
+    transform: rotate(3deg);
+    transition: all 0.5s;
 }
 .hero-highlight.rotate-left{
-    transform: rotate(-2deg);
+    transform: rotate(-3deg);
     background-color: var(--darkblue-button);
+    transition: all 0.5s;
 }
 .hero-highlight.tags{
     background-color: var(--darkblue-button);
