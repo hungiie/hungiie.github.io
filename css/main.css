@@ -299,29 +299,29 @@ button.button-margin-top:hover{
 /* HOMEPAGE */
 /* HERO SECTION */
 .hero-container{
-    display: flex;
+    display: block;
     align-items: center;
     text-align: center;
     opacity: 0;
     transform: translateY(40px);
-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .hero-container.show{
     opacity: 1;
     transform: translateY(0);
-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 /* PROJECTS SECTION */
 .project-section{
     opacity: 0;
     transform: translateY(40px);
-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .project-section.show{
     opacity: 1;
     transform: translateY(0);
-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .hero-highlight{
     display: inline-block;
@@ -776,16 +776,18 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         margin-top: 0.5rem;
         margin-bottom: 2rem;
     }
-    .face-container{
+    .break{
         display: none;
     }
     .hero-section{
         margin-top: 0rem;
     }
     .hero-container{
+        margin-top: 15rem;
+        margin-bottom: 15rem;
         padding-left: 4rem;
         padding-right: 4rem;
-        height: 40rem;
+        /* height: 40rem; */
     }
     .hero-text{
         display: block; 
@@ -1320,17 +1322,18 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         margin-top: unset;
         margin-bottom: unset;
     }
-    .face-container{
-        display: block;
+    .break{
+        display: unset;
     }
     .hero-section{
         margin-top: 0rem;
     }
     .hero-container{
-        padding-top: 2rem;
+        margin-top: 11.5rem;
+        margin-bottom: 9.5rem;
         padding-left: 15rem;
         padding-right: 15rem;
-        height: 42rem;
+        /* height: 42rem; */
     }
     .hero-text{
         display: block; 
@@ -1864,10 +1867,11 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         margin-top: 0rem;
     }
     .hero-container{
-        padding-top: 2rem;
+        margin-top: 15rem;
+        margin-bottom: 15rem;
         padding-left: 29rem;
         padding-right: 29rem;
-        height: 42rem;
+        /* height: 42rem; */
     }
     .hero-text{
         display: block; 
