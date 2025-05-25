@@ -14,6 +14,30 @@
     --bodytextdarker-color: rgb(93, 93, 93);
     --blue-button: rgb(70, 116, 255);
     --darkblue-button: rgb(43, 83, 203);
+
+    --bodytext-size-mobile: 0.8rem;
+    --bodytext-size-desktop: 1rem;
+    --bodytext-size-monitor: 1.1rem;
+
+    --heading-1-size-mobile: 1.9rem;
+    --heading-1-size-desktop: 3rem;
+    --heading-1-size-monitor: 3rem;
+    --heading-2-size-mobile: 1rem;
+    --heading-2-size-desktop: 1.5rem;
+    --heading-2-size-monitor: 2rem;
+    --heading-3-size-mobile: 1rem;
+    --heading-3-size-desktop: 1.3rem;
+    --heading-3-size-monitor: 1.5rem;
+
+    --nav-size-mobile: 0.8rem;
+    --nav-size-desktop: 0.9rem;
+    --nav-size-monitor: 1rem;
+
+    --border-radius-mobile: 0.5rem;
+    --border-radius-desktop: 1rem;
+    --border-radius-monitor: 1.3rem;
+
+
 }
 .lightmode{
     --base-color: white;
@@ -68,13 +92,6 @@ html {
 body {
     scroll-behavior: smooth;
 }
-/* .cursive{
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 4.5rem;
-} */
 a{
     font-family: "Geist", Arial, sans-serif;
     font-weight: 300;
@@ -133,14 +150,6 @@ button.button-margin-top:hover{
 .button:hover{
     color: var(--heading-color);
 }
-.button.in-grid{
-    display: flex;
-    justify-content:center;
-	align-items:center;
-
-    width: 13rem;
-    height: 1.5rem;
-}
 .justify-content-div{
     align-content: center;
     text-align: center;
@@ -168,25 +177,25 @@ button.button-margin-top:hover{
 .body-text.one-margin-bottom{
     margin-bottom: 1rem;
 }
-.body-text.slightly-bigger.one-margin-top{
+.heading-3.one-margin-top{
     margin-top: 1rem;
 }
-.body-text.slightly-bigger.two-margin-top{
+.heading-3.two-margin-top{
     margin-top: 2rem;
 }
-.body-text.slightly-bigger.no-margin-top{
+.heading-3.no-margin-top{
     margin-top: 0;
 }
-.body-text.slightly-bigger.one-margin-bottom{
+.heading-3.one-margin-bottom{
     margin-bottom: 1rem;
 }
-.body-text.slightly-bigger.no-margin-bottom{
+.heading-3.no-margin-bottom{
     margin-bottom: 0;
 }
-.body-text.extremely-bigger.onehalf-margin-bottom{
+.heading-1.onehalf-margin-bottom{
     margin-bottom: 1.5rem;
 }
-.body-text.extremely-bigger.no-margin-bottom{
+.heading-1.no-margin-bottom{
     margin-bottom: 0rem;
 }
 .relative{
@@ -233,11 +242,6 @@ button.button-margin-top:hover{
     width: 100%;
     align-items: center;
     transition: top 0.5s;
-
-
-    /* opacity: 0;
-    transform: scale(0);
-    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
 
     top:0rem;
 }
@@ -327,11 +331,11 @@ button.button-margin-top:hover{
     display: inline-block;
     border-radius: 1000rem;
     background-color: var(--blue-button);
-    transform: rotate(3deg);
+    transform: rotate(2deg);
     transition: all 0.5s;
 }
 .hero-highlight.rotate-left{
-    transform: rotate(-3deg);
+    transform: rotate(-2deg);
     background-color: var(--darkblue-button);
     transition: all 0.5s;
 }
@@ -540,7 +544,6 @@ button.button-margin-top:hover{
 .fh-image-container{
     width: 100%;
     overflow: hidden;
-    border-radius: 1.5rem;
 }
 .fh-image{
     display: block;
@@ -592,8 +595,6 @@ button.button-margin-top:hover{
     width: 100%;
     height: auto;
     cursor: pointer;
-
-    border-radius: 1rem;
 }
 .sketch.no-pointer{
     cursor:auto;
@@ -639,8 +640,6 @@ button.button-margin-top:hover{
     transition-property: all;
     transition-duration: .25s;
     border: 1px solid rgb(60, 60, 60);
-
-    border-radius: 1rem;
 }
 .heuristic-image.margin-top{
     margin-top: 2rem;
@@ -695,34 +694,34 @@ button.button-margin-top:hover{
 .grid{
     display: grid;
 }
-.grid.project-analysis-research-three-column.no-row-gap{
+.grid.three-column.no-row-gap{
     row-gap: 0rem;
     margin-bottom: 6rem;
 }
-.grid.heuristic-image-container.no-row-gap{
+.grid.two-column.no-row-gap{
     row-gap: 0;
 }
-.grid.heuristic-image-container.no-column-gap{
+.grid.two-column.no-column-gap{
     column-gap: 0;
 }
-.grid.heuristic-image-container.one-column-gap{
+.grid.two-column.one-column-gap{
     column-gap: 1rem;
 }
-.grid.heuristic-image-container.grid-no-margin-top-bottom{
+.grid.two-column.grid-no-margin-top-bottom{
     margin-top: 0;
     margin-bottom: 0;
 }
-.grid.heuristic-image-container.grid-two-margin-top{
+.grid.two-column.grid-two-margin-top{
     margin-top: 2rem;
 }
-.grid.project-analysis-research-three-column.one-column-gap{
+.grid.three-column.one-column-gap{
     column-gap: 1rem;
 }
-.grid.project-analysis-research-three-column.two-margin-top{
+.grid.three-column.two-margin-top{
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
-.grid.project-analysis-research-three-column.one-margin-top{
+.grid.three-column.one-margin-top{
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
@@ -744,7 +743,7 @@ button.button-margin-top:hover{
         padding: 2rem 0 0 0;
     }
     .button-nav{
-        font-size: 0.8rem;
+        font-size: var(--nav-size-mobile);
         padding: 0.7rem 0.7rem 0.7rem 0.7rem;
         border-radius: 1000rem;
     }
@@ -756,10 +755,10 @@ button.button-margin-top:hover{
     }
     /* HOMEPAGE - HERO SECTION */
     p{
-        font-size: 0.8rem;
+        font-size: var(--bodytext-size-mobile);
     }
     li{
-        font-size: 0.8rem;
+        font-size: var(--bodytext-size-mobile);
     }
     .grey-mobile{
         color: var(--bodytext-color);
@@ -771,7 +770,7 @@ button.button-margin-top:hover{
         font-weight: 500;
     }
     .button{
-        font-size: 0.8rem;
+        font-size: var(--bodytext-size-mobile);
     }
     .button.button-2{
         margin-left: 0rem;
@@ -880,7 +879,7 @@ button.button-margin-top:hover{
     }
     .homepage-project-image-container{
         margin-top: 1.3rem;
-        border-radius: 0.5rem;
+        border-radius: var(--border-radius-mobile);
     }
     .homepage-project-des{
         margin-top: 1.5rem;
@@ -890,7 +889,7 @@ button.button-margin-top:hover{
         font-size: 2rem;
     }
     .vault-thumbnail-container{
-        border-radius: 0.5rem;
+        border-radius: var(--border-radius-mobile);
         margin-bottom: 0.7rem;
     }
     .vault-info{
@@ -926,7 +925,7 @@ button.button-margin-top:hover{
         aspect-ratio: 1 / 1;
         align-self: center;
         justify-self: center;
-        border-radius: 1rem;
+        border-radius: var(--border-radius-mobile);
     }
     .grid.about-two-column{
         grid-template-columns: 1fr;
@@ -972,7 +971,7 @@ button.button-margin-top:hover{
         height: 100%;
         object-fit: cover;
         display: block;
-        border-radius: 0.5rem;
+        border-radius: var(--border-radius-mobile);
         filter: brightness(100%);
     }
     .about-inner-section{
@@ -990,11 +989,11 @@ button.button-margin-top:hover{
         display: block;
     }
     .cover-image-container{
-        border-radius: 0.5rem;
+        border-radius: var(--border-radius-mobile);
         width: 100%;
         height: auto;
     }
-    .body-text.slightly-bigger.slogan{
+    .heading-3.slogan{
         margin-top: 4rem;
         margin-bottom: 0;
     }
@@ -1035,14 +1034,14 @@ button.button-margin-top:hover{
     .project-analysis-overview-vid{
         width: 50%;
         height: auto;
-        border-radius: 0.6rem;
+        border-radius: var(--border-radius-mobile);
         margin-left: 0.5rem;
     }
     .project-analysis-context-vid{
         filter: brightness(100%);
         width: 100%;
         height: auto;
-        border-radius: 0.5rem;
+        border-radius: var(--border-radius-mobile);
     }
     .project-analysis-section-name{
         font-size: 1.5rem;
@@ -1057,13 +1056,13 @@ button.button-margin-top:hover{
     .solution-image{
         width: 30%;
         height: auto;
-        border-radius: 0.5rem;
+        border-radius: var(--border-radius-mobile);
         margin-left: 0.5rem;
     }
     .draft-vid{
         width: 30%;
         height: auto;
-        border-radius: 0.5rem;
+        border-radius: var(--border-radius-mobile);
         margin-right: 0.5rem;
     }
     .body-text{
@@ -1071,22 +1070,22 @@ button.button-margin-top:hover{
         margin-bottom: 0.5rem;
         line-height: 1.2rem;
     }
-    .body-text.slightly-bigger{
-        font-size: 1rem;
+    .heading-3{
+        font-size: var(--heading-3-size-mobile);
         margin-bottom: 1rem;
         margin-top: 2rem;
         line-height: 1.3rem;
     }
-    .body-text.bigger{
-        font-size: 1rem;
+    .heading-2{
+        font-size: var(--heading-2-size-mobile);
         line-height: 1.4rem;
     }
-    .body-text.extremely-bigger{
-        font-size: 1.9rem;
+    .heading-1{
+        font-size: var(--heading-1-size-mobile);
         line-height: 2.6rem;
         margin-bottom: 2.5rem;
     }
-    .body-text.extremely-bigger.exp{
+    .heading-1.exp{
         margin-top: 3rem;
         margin-bottom: 1rem;
     }
@@ -1099,7 +1098,7 @@ button.button-margin-top:hover{
     }
     .statement-container{
         padding: 1rem 2rem 1rem 2rem;
-        border-radius: 1.7rem;
+        border-radius: var(--border-radius-mobile);
     }
     .solution-image.solution-image-final{
         width: 100%;
@@ -1108,7 +1107,7 @@ button.button-margin-top:hover{
     }
     .issue-container{
         padding: 1rem 1rem 1rem 1rem;
-        border-radius: 1rem;
+        border-radius: var(--border-radius-mobile);
         height: 15rem;
     }
     .flex{
@@ -1135,7 +1134,7 @@ button.button-margin-top:hover{
         font-size: 0.8rem;
     }
     .refined-interface-container{
-        border-radius: 0.5rem;
+        border-radius: var(--border-radius-mobile);
         margin-bottom: 0rem;
     }
     .john{
@@ -1192,7 +1191,7 @@ button.button-margin-top:hover{
         grid-template-columns: 1fr;
         background-color: var(--bodytextlight-color);
         padding: 1rem 1rem 1rem 1rem;
-        border-radius: 2rem;
+        border-radius: var(--border-radius-mobile);
         margin-bottom: 2rem;
         column-gap: 0rem;
     }
@@ -1206,12 +1205,7 @@ button.button-margin-top:hover{
         column-gap: 0rem;
         row-gap: 1rem;
     }
-    .grid.project-analysis-user-two-column{
-        grid-template-columns: 1fr;
-    
-        column-gap: 1rem;
-    }
-    .grid.project-analysis-research-three-column{
+    .grid.three-column{
         grid-template-columns: 1fr;
     
         column-gap: 0rem;
@@ -1225,7 +1219,7 @@ button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    .grid.heuristic-image-container{
+    .grid.two-column{
         grid-template-columns: 1fr;
     
         row-gap: 1rem;
@@ -1239,7 +1233,7 @@ button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 1.3rem;
     }
-    .grid.project-analysis-research-three-column.more-projects{
+    .grid.three-column.more-projects{
         row-gap: 2rem;
         column-gap: 0;
     }
@@ -1258,7 +1252,7 @@ button.button-margin-top:hover{
     }
     .grid.project-analysis-jackalopesketch-two-column-reversed.grid-john{
         background-color: var(--heading2-color);
-        border-radius: 2rem;
+        border-radius: var(--border-radius-mobile);
         padding:1rem 1rem 2rem 1rem;
         margin-top: 2rem;
         margin-bottom: 6rem;
@@ -1290,7 +1284,7 @@ button.button-margin-top:hover{
         align-items: start;
     }
     .button-nav{
-        font-size: 0.9rem;
+        font-size: var(--nav-size-desktop);
         padding: 0.7rem 1rem 0.7rem 1rem;
         border-radius: 1000rem;
     }
@@ -1302,10 +1296,10 @@ button.button-margin-top:hover{
     }
     /* HOMEPAGE - HERO SECTION */
     p{
-        font-size: 1rem;
+        font-size: var(--bodytext-size-desktop);
     }
     li{
-        font-size: 1rem;
+        font-size: var(--bodytext-size-desktop);
     }
     .grey-mobile{
         color: var(--bodytextdark-color);
@@ -1317,7 +1311,7 @@ button.button-margin-top:hover{
         font-weight: 500;
     }
     .button{
-        font-size: 1rem;
+        font-size: var(--bodytext-size-desktop);
     }
      .button.button-2{
         margin-left: 5rem;
@@ -1422,7 +1416,7 @@ button.button-margin-top:hover{
     }
     .homepage-project-image-container{
         margin-top: 2rem;
-        border-radius: 1rem;
+        border-radius: var(--border-radius-desktop);
     }
     .homepage-project-des{
         margin-top: 1.5rem;
@@ -1432,7 +1426,7 @@ button.button-margin-top:hover{
         font-size: 2rem;
     }
     .vault-thumbnail-container{
-        border-radius: 1rem;
+        border-radius: var(--border-radius-desktop);
         margin-bottom: 0rem;
     }
     .vault-info{
@@ -1467,7 +1461,7 @@ button.button-margin-top:hover{
         height: auto;
         align-self: center;
         justify-self: center;
-        border-radius: 1rem;
+        border-radius: var(--border-radius-desktop);
         margin-top: 4rem;
     }
     .about-image{
@@ -1497,7 +1491,7 @@ button.button-margin-top:hover{
     .about-2-container{
         aspect-ratio: 1 / 1;
         overflow: hidden;
-        border-radius: 0.7rem;
+        border-radius: var(--border-radius-desktop);
     }
     .about-image-2{
         width: 100%;
@@ -1521,11 +1515,11 @@ button.button-margin-top:hover{
         display: none;
     }
     .cover-image-container{
-        border-radius: 1.5rem;
+        border-radius: var(--border-radius-desktop);
         width: 100%;
         height: auto;
     }
-    .body-text.slightly-bigger.slogan{
+    .heading-3.slogan{
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -1572,14 +1566,14 @@ button.button-margin-top:hover{
     .project-analysis-overview-vid{
         width: 12rem;
         height: auto;
-        border-radius: 1.3rem;
+        border-radius: var(--border-radius-desktop);
         margin-left: 1rem;
     }
     .project-analysis-context-vid{
         filter: brightness(50%);
         width: 100%;
         height: auto;
-        border-radius: 0.7rem;
+        border-radius: var(--border-radius-desktop);
     }
     .project-analysis-section-name{
         font-size: 1.9rem;
@@ -1589,13 +1583,13 @@ button.button-margin-top:hover{
     .solution-image{
         width: 12rem;
         height: auto;
-        border-radius: 1.6rem;
+        border-radius: var(--border-radius-desktop);
         margin-left: 1rem;
     }
     .draft-vid{
         width: 16rem;
         height: auto;
-        border-radius: 2rem;
+        border-radius: var(--border-radius-desktop);
         margin-right: 1rem;
     }
     .body-text{
@@ -1603,22 +1597,22 @@ button.button-margin-top:hover{
         margin-bottom: 0.5rem;
         line-height: 1.6rem;
     }
-    .body-text.slightly-bigger{
-        font-size: 1.3rem;
+    .heading-3{
+        font-size: var(--heading-3-size-desktop);
         margin-bottom: 2rem;
         margin-top: 4rem;
         line-height: 1.7rem;
     }
-    .body-text.bigger{
-        font-size: 1.5rem;
+    .heading-2{
+        font-size: var(--heading-2-size-desktop);
         line-height: 2rem;
     }
-    .body-text.extremely-bigger{
-        font-size: 3rem;
+    .heading-1{
+        font-size: var(--heading-1-size-desktop);
         line-height: 3.7rem;
         margin-bottom: 2.5rem;
     }
-    .body-text.extremely-bigger.exp{
+    .heading-1.exp{
         margin-top: 5rem;
     }
     .body-text.indent{
@@ -1633,7 +1627,7 @@ button.button-margin-top:hover{
     }
     .statement-container{
         padding: 2rem 5rem 2rem 5rem;
-        border-radius: 1.7rem;
+        border-radius: var(--border-radius-desktop);
     }
     .solution-image.solution-image-final{
         width: 100%;
@@ -1642,7 +1636,7 @@ button.button-margin-top:hover{
     }
     .issue-container{
         padding: 2rem 2rem 2rem 2rem;
-        border-radius: 1.8rem;
+        border-radius: var(--border-radius-desktop);
         height: 21rem;
     }
     .issue-container.quote{
@@ -1650,7 +1644,7 @@ button.button-margin-top:hover{
     }
     .issue-container.smaller{
         padding: 1rem 1.5rem 1rem 1.5rem;
-        border-radius: 0.8rem;
+        border-radius: var(--border-radius-desktop);
     }
     .cta{
         margin-left: 9rem;
@@ -1681,7 +1675,7 @@ button.button-margin-top:hover{
         font-size: 1.2rem;
     }
     .refined-interface-container{
-        border-radius: 1.5rem;
+        border-radius: var(--border-radius-desktop);
         margin-bottom: -1rem;
     }
     .persona-container{
@@ -1735,7 +1729,7 @@ button.button-margin-top:hover{
         grid-template-columns: 1fr 1fr;
         background-color: var(--bodytextlight-color);
         padding: 2rem 2rem 2rem 3rem;
-        border-radius: 3rem;
+        border-radius: var(--border-radius-desktop);
         margin-bottom: 2rem;
         column-gap: 2rem;
     }
@@ -1748,12 +1742,7 @@ button.button-margin-top:hover{
         column-gap: 4rem;
         row-gap: 1rem;
     }
-    .grid.project-analysis-user-two-column{
-        grid-template-columns: 1fr 1fr;
-    
-        column-gap: 1rem;
-    }
-    .grid.project-analysis-research-three-column{
+    .grid.three-column{
         grid-template-columns: 1fr 1fr 1fr;
     
         column-gap: 4rem;
@@ -1766,7 +1755,7 @@ button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    .grid.heuristic-image-container{
+    .grid.two-column{
         grid-template-columns: 1fr 1fr;
     
         row-gap: 2rem;
@@ -1782,7 +1771,7 @@ button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 1.8rem;
     }
-    .grid.project-analysis-research-three-column.more-projects{
+    .grid.three-column.more-projects{
         row-gap: 2.5rem;
         column-gap: 2rem;
     }
@@ -1804,7 +1793,7 @@ button.button-margin-top:hover{
     }
     .grid.project-analysis-jackalopesketch-two-column-reversed.grid-john{
         background-color: var(--heading2-color);
-        border-radius: 2rem;
+        border-radius: var(--border-radius-desktop);
         padding:4rem 3rem 5rem 5rem;
         margin-top: 2rem;
         margin-bottom: 6rem;
@@ -1830,7 +1819,7 @@ button.button-margin-top:hover{
 @media (min-width: 100rem) {
     /* NAV BAR */
     .button-nav{
-        font-size: 1rem;
+        font-size: var(--nav-size-monitor);
     }
     .nav-container{
         padding: 2rem 0 0 0;
@@ -1840,10 +1829,10 @@ button.button-margin-top:hover{
     }
     /* HOMEPAGE - HERO SECTION */
     p{
-        font-size: 1.1rem;
+        font-size: var(--bodytext-size-monitor);
     }
     li{
-        font-size: 1.1rem;
+        font-size: var(--bodytext-size-monitor);
     }
     .grey-mobile{
         color: var(--bodytextdark-color);
@@ -1855,7 +1844,7 @@ button.button-margin-top:hover{
         font-weight: 500;
     }
     .button{
-        font-size: 1rem;
+        font-size: var(--bodytext-size-desktop);
     }
      .button.button-2{
         margin-left: 5rem;
@@ -1958,7 +1947,7 @@ button.button-margin-top:hover{
     }
     .homepage-project-image-container{
         margin-top: 0;
-        border-radius: 1.3rem;
+        border-radius: var(--border-radius-monitor);
     }
     .homepage-project-des{
         font-size: 2.2rem;
@@ -1967,7 +1956,7 @@ button.button-margin-top:hover{
         line-height: 3.2rem;
     }
     .vault-thumbnail-container{
-        border-radius: 1.3rem;
+        border-radius: var(--border-radius-monitor);
         margin-bottom: 0rem;
     }
     .vault-info{
@@ -1994,7 +1983,7 @@ button.button-margin-top:hover{
         align-self: center;
         justify-self: center;
         text-align: center;
-        border-radius: 1rem;
+        border-radius: var(--border-radius-monitor);
         margin-top: 4rem;
     }
     .about-image{
@@ -2024,7 +2013,7 @@ button.button-margin-top:hover{
     .about-2-container{
         aspect-ratio: 1 / 1;
         overflow: hidden;
-        border-radius: 0.7rem;
+        border-radius: var(--border-radius-monitor);
     }
     .about-image-2{
         width: 100%;
@@ -2049,11 +2038,11 @@ button.button-margin-top:hover{
         display: none;
     }
     .cover-image-container{
-        border-radius: 1.5rem;
+        border-radius: var(--border-radius-monitor);
         width: 100%;
         height: auto;
     }
-    .body-text.slightly-bigger.slogan{
+    .heading-3.slogan{
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -2096,14 +2085,14 @@ button.button-margin-top:hover{
     .project-analysis-overview-vid{
         width: 18rem;
         height: auto;
-        border-radius: 1.3rem;
+        border-radius: var(--border-radius-monitor);
         margin-left: 1rem;
     }
     .project-analysis-context-vid{
         filter: brightness(50%);
         width: 100%;
         height: auto;
-        border-radius: 0.7rem;
+        border-radius: var(--border-radius-monitor);
     }
     .project-analysis-section-name{
         font-size: 1.9rem;
@@ -2113,13 +2102,13 @@ button.button-margin-top:hover{
     .solution-image{
         width: 14rem;
         height: auto;
-        border-radius: 1.6rem;
+        border-radius: var(--border-radius-monitor);
         margin-left: 1rem;
     }
     .draft-vid{
         width: 16rem;
         height: auto;
-        border-radius: 2rem;
+        border-radius: var(--border-radius-monitor);
         margin-right: 1rem;
     }
     .body-text{
@@ -2127,21 +2116,21 @@ button.button-margin-top:hover{
         margin-bottom: 0.5rem;
         line-height: 1.7rem;
     }
-    .body-text.slightly-bigger{
-        font-size: 1.5rem;
+    .heading-3{
+        font-size: var(--heading-3-size-monitor);
         margin-bottom: 2rem;
         margin-top: 4rem;
         line-height: 2rem;
     }
-    .body-text.bigger{
-        font-size: 2rem;
+    .heading-2{
+        font-size: var(--heading-2-size-monitor);
         line-height: 2.8rem;
     }
-    .body-text.extremely-bigger{
-        font-size: 3rem;
+    .heading-1{
+        font-size: var(--heading-1-size-monitor);
         margin-bottom: 2.5rem;
     }
-    .body-text.extremely-bigger.exp{
+    .heading-1.exp{
         margin-top: 4rem;
         margin-bottom: 2rem;
     }
@@ -2157,7 +2146,7 @@ button.button-margin-top:hover{
     }
     .statement-container{
         padding: 2rem 7rem 2rem 7rem;
-        border-radius: 1.7rem;
+        border-radius: var(--border-radius-monitor);
     }
     .solution-image.solution-image-final{
         width: 100%;
@@ -2166,7 +2155,7 @@ button.button-margin-top:hover{
     }
     .issue-container{
         padding: 2rem 2rem 2rem 2rem;
-        border-radius: 2rem;
+        border-radius: var(--border-radius-monitor);
         height: 22rem;
     }
     .issue-container.quote{
@@ -2174,7 +2163,7 @@ button.button-margin-top:hover{
     }
     .issue-container.smaller{
         padding: 1rem 1.5rem 1rem 1.5rem;
-        border-radius: 1.2rem;
+        border-radius: var(--border-radius-monitor);
     }
     .cta{
         margin-left: 9rem;
@@ -2195,7 +2184,7 @@ button.button-margin-top:hover{
         font-size: 1.2rem;
     }
     .refined-interface-container{
-        border-radius: 1.5rem;
+        border-radius: var(--border-radius-monitor);
         margin-bottom: -1rem;
     }
     .persona-container{
@@ -2246,7 +2235,7 @@ button.button-margin-top:hover{
         grid-template-columns: 1fr 1fr;
         background-color: var(--bodytextlight-color);
         padding: 2rem 2rem 2rem 3rem;
-        border-radius: 3rem;
+        border-radius: var(--border-radius-monitor);
         margin-bottom: 2rem;
         column-gap: 2rem;
     }
@@ -2259,12 +2248,7 @@ button.button-margin-top:hover{
         column-gap: 4rem;
         row-gap: 1rem;
     }
-    .grid.project-analysis-user-two-column{
-        grid-template-columns: 1fr 1fr;
-    
-        column-gap: 1rem;
-    }
-    .grid.project-analysis-research-three-column{
+    .grid.three-column{
         grid-template-columns: 1fr 1fr 1fr;
     
         column-gap: 4rem;
@@ -2277,7 +2261,7 @@ button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    .grid.heuristic-image-container{
+    .grid.two-column{
         grid-template-columns: 1fr 1fr;
     
         row-gap: 2rem;
@@ -2293,7 +2277,7 @@ button.button-margin-top:hover{
         margin-top: 2rem;
         margin-bottom: 1.8rem;
     }
-    .grid.project-analysis-research-three-column.more-projects{
+    .grid.three-column.more-projects{
         row-gap: 2.5rem;
         column-gap: 2rem;
     }
@@ -2315,7 +2299,7 @@ button.button-margin-top:hover{
     }
     .grid.project-analysis-jackalopesketch-two-column-reversed.grid-john{
         background-color: var(--heading2-color);
-        border-radius: 2rem;
+        border-radius: var(--border-radius-monitor);
         padding:4rem 3rem 5rem 5rem;
         margin-top: 2rem;
         margin-bottom: 6rem;
