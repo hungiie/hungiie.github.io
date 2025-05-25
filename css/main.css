@@ -130,16 +130,6 @@ ul{
     transition-property: all;
     transition-duration: .25s;
 }
-.button.button-margin-top{
-    display: block;
-
-    width: 8rem;
-    margin-top: 2rem;
-}
-button.button-margin-top:hover{
-    color: var(--heading-color);
-    cursor: pointer;
-}
 .button:hover{
     color: var(--heading-color);
 }
@@ -221,10 +211,6 @@ button.button-margin-top:hover{
 }
 .relative{
     position: relative;
-}
-.center{
-    text-align: center;
-    justify-content: center;
 }
 .italic{
     font-style: italic;
