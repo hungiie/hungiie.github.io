@@ -144,6 +144,10 @@ ul{
 .justify-content-div.text-right{
     text-align: right;
 }
+.body-text{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
 .heading-1{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -299,6 +303,16 @@ ul{
 }
 
 /* PROJECTS SECTION */
+#first{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+#first.show{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 .project-section{
     opacity: 0;
     transform: translateY(40px);
@@ -321,29 +335,11 @@ ul{
     background-color: var(--darkblue);
     transition: all 0.5s;
 }
-.hero-highlight.tags{
-    background-color: var(--darkblue);
-    transform: rotate(0deg);
-    color: var(--heading-color);
-}
 .highlight{
     display: inline-block;
     border-radius: 1000rem;
     background-color: var(--darkblue);
     color: var(--heading-color);
-}
-.body-text.text-heuristic{
-    background-color: var(--darkblue);
-    color: var(--heading-color);
-    border-radius: 1000rem;
-    width: auto;
-    margin-bottom: 0;
-    margin-right: 2rem;
-    display: inline-block;
-}
-.body-text.text-heuristic.jack{
-    margin-bottom: 2rem;
-
 }
 
 .project-section-2{
@@ -390,13 +386,6 @@ ul{
     justify-self: center;
     align-self: center;
 }
-.vault-info-container{
-    display: block;
-    align-self: center;
-}
-.vault-info{
-    color: var(--bodytext-color);
-}
 .footer-section{
     width: auto;
     height: auto;
@@ -414,7 +403,6 @@ ul{
 .footer.margin-bottom{
     margin-bottom: 2rem;
 }
-
 .contacts-container {
     display: flex;
     justify-content: center;  /* centers the images horizontally */
@@ -574,9 +562,6 @@ ul{
     .break{
         display: none;
     }
-    .hero-section{
-        margin-top: 0rem;
-    }
     .hero-container{
         margin-top: 13rem;
         margin-bottom: 12rem;
@@ -591,19 +576,11 @@ ul{
         line-height: 2.5rem;
         margin-top: 0;
         margin-bottom: 0;
-        /* padding-right: 3rem; */
         letter-spacing: -1px;
     }
     .hero-highlight{
         font-size: 1.55rem;
         padding: 0.3rem 1rem 0.3rem 1rem;
-    }
-    .hero-highlight.tags{
-        font-size: 0.8rem;
-        padding: 0.5rem 0.8rem 0.5rem 0.8rem;
-    }
-    .hero-highlight.tags.margin-right{
-        margin-right: 0.3rem;
     }
     .highlight{
         padding: 0.5rem 0.8rem 0.5rem 0.8rem;
@@ -684,17 +661,6 @@ ul{
     .vault-thumbnail-container{
         border-radius: var(--border-radius-mobile);
         margin-bottom: 0.7rem;
-    }
-    .vault-info{
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
-        line-height: 1rem;
-    }
-    .vault-info-big{
-        font-size: 1.2rem;
-        margin-top: 0.7rem;
-        margin-bottom: 0.5rem;
-        line-height: 1.6rem;
     }
     .grid.thumbnail-two-column{
         grid-template-columns: 1fr;
@@ -859,8 +825,6 @@ ul{
         margin-right: 0.5rem;
     }
     .body-text{
-        margin-top: 0;
-        margin-bottom: 0.5rem;
         line-height: 1.2rem;
     }
     .heading-4{
@@ -889,17 +853,6 @@ ul{
     }
     .grid.three-column{
         grid-template-columns: 1fr;
-    }
-    .grid.work-experience{
-        grid-template-columns: 1fr;
-
-        row-gap: 0rem;
-        margin-top: 2rem;
-        margin-bottom: 1.3rem;
-    }
-    .grid.three-column.more-projects{
-        row-gap: 2rem;
-        column-gap: 0;
     }
 }
 
@@ -960,9 +913,6 @@ ul{
     .break{
         display: unset;
     }
-    .hero-section{
-        margin-top: 0rem;
-    }
     .hero-container{
         margin-top: 11.5rem;
         margin-bottom: 9.5rem;
@@ -983,15 +933,8 @@ ul{
         font-size: 3.2rem;
         padding: 0.8rem 2rem 0.8rem 2rem;
     }
-    .hero-highlight.tags{
-        font-size: 1rem;
-        padding: 0.8rem 1rem 0.8rem 1rem;
-    }
-    .hero-highlight.tags.margin-right{
-        margin-right: 1rem;
-    }
     .highlight{
-        padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+        padding: 0.7rem 1.1rem 0.7rem 1.1rem;
     }
     .highlight.margin-right{
         margin-right: 1rem;
@@ -1068,17 +1011,6 @@ ul{
         border-radius: var(--border-radius-desktop);
         margin-bottom: 0rem;
     }
-    .vault-info{
-        margin-top: 1.5rem;
-        margin-bottom: 0.5rem;
-        line-height: 1.7rem;
-    }
-    .vault-info-big{
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
-        margin-bottom: 0.5rem;
-        line-height: 2.1rem;
-    }
     .grid.thumbnail-two-column{
         grid-template-columns: 1fr 1.75fr;
         width:100%;
@@ -1153,7 +1085,7 @@ ul{
         height: auto;
     }
     .project-analysis-section{
-        margin: 0rem 9rem 6rem 9rem;
+        margin: 6rem 9rem 6rem 9rem;
     }
     .project-analysis-section.first-section{
         margin: 9rem 9rem 3rem 9rem;
@@ -1165,8 +1097,6 @@ ul{
         border-radius: var(--border-radius-desktop);
     }
     .body-text{
-        margin-top: 0;
-        margin-bottom: 0.5rem;
         line-height: 1.6rem;
     }
     .heading-4{
@@ -1195,30 +1125,19 @@ ul{
         border-radius: var(--border-radius-desktop);
         border: 1px solid var(--bodytextdarker-color);
     }
-
-    .grid.three-column{
-        grid-template-columns: 1fr 1fr 1fr;
-    
-        column-gap: 4rem;
-        row-gap: 2rem;
+    .textcard-container-small{
+        text-align: center;
+        padding: 2rem 3rem 3rem 3rem;
+        border-radius: var(--border-radius-desktop);
+        border: 1px solid var(--bodytextdarker-color);
     }
+
+
     .grid.two-column{
         grid-template-columns: 1fr 1fr;
     }
     .grid.three-column{
         grid-template-columns: 1fr 1fr 1fr;
-    }
-    .grid.work-experience{
-        grid-template-columns: 1fr 1.5fr;
-
-        row-gap: 2rem;
-        column-gap: 2rem;
-        margin-top: 2rem;
-        margin-bottom: 1.8rem;
-    }
-    .grid.three-column.more-projects{
-        row-gap: 2.5rem;
-        column-gap: 2rem;
     }
     .grid.project-grid{
         grid-template-columns: 2fr 1fr;
@@ -1266,9 +1185,6 @@ ul{
     .face-container{
         display: block;
     }
-    .hero-section{
-        margin-top: 0rem;
-    }
     .hero-container{
         margin-top: 15rem;
         margin-bottom: 15rem;
@@ -1287,13 +1203,6 @@ ul{
     .hero-highlight{
         font-size: 3.2rem;
         padding: 0.8rem 2rem 0.8rem 2rem;
-    }
-    .hero-highlight.tags{
-        font-size: 1rem;
-        padding: 0.5rem 1rem 0.5rem 1rem;
-    }
-    .hero-highlight.tags.margin-right{
-        margin-right: 1rem;
     }
     .highlight{
         font-size: 1rem;
@@ -1370,11 +1279,6 @@ ul{
     .vault-thumbnail-container{
         border-radius: var(--border-radius-monitor);
         margin-bottom: 0rem;
-    }
-    .vault-info{
-        margin-top: 1.5rem;
-        margin-bottom: 0.5rem;
-        line-height: 2rem;
     }
     .grid.thumbnail-two-column{
         grid-template-columns: 1fr 1.8fr;
@@ -1491,8 +1395,6 @@ ul{
         margin-right: 1rem;
     }
     .body-text{
-        margin-top: 0;
-        margin-bottom: 0.5rem;
         line-height: 1.7rem;
     }
     .heading-4{
@@ -1526,18 +1428,6 @@ ul{
     }
     .grid.three-column{
         grid-template-columns: 1fr 1fr 1fr;
-    }
-    .grid.work-experience{
-        grid-template-columns: 1fr 1.5fr;
-
-        row-gap: 2rem;
-        column-gap: 2rem;
-        margin-top: 2rem;
-        margin-bottom: 1.8rem;
-    }
-    .grid.three-column.more-projects{
-        row-gap: 2.5rem;
-        column-gap: 2rem;
     }
     .grid.project-grid{
         grid-template-columns: 2fr 1fr;
