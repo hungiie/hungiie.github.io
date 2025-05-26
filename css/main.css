@@ -185,6 +185,9 @@ ul{
 .background-darkblue{
     background-color: var(--darkblue);
 }
+.background-blue{
+    background-color: var(--blue);
+}
 .background-black{
     background-color: var(--heading2-color);
 }
