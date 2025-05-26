@@ -25,6 +25,7 @@
     --heading-2-size-mobile: 1.5rem;
     --heading-3-size-mobile: 1rem;
     --heading-4-size-mobile: 1rem;
+    --heading-5-size-mobile: 1rem;
 
 
     --border-radius-desktop: 1rem;
@@ -34,6 +35,7 @@
     --heading-2-size-desktop: 2rem;
     --heading-3-size-desktop: 1.5rem;
     --heading-4-size-desktop: 1.3rem;
+    --heading-5-size-desktop: 1.1rem;
     
     --border-radius-monitor: 1.3rem;
     --nav-size-monitor: 1rem;
@@ -42,6 +44,7 @@
     --heading-2-size-monitor: 1.5rem;
     --heading-3-size-monitor: 2rem;
     --heading-4-size-monitor: 1.5rem;
+    --heading-5-size-monitor: 1.2rem;
 }
 
 .grey{
@@ -165,6 +168,10 @@ ul{
     padding: 0 0 0 0;
 }
 .heading-4{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.heading-5{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
@@ -761,10 +768,6 @@ ul{
         width: 100%;
         height: auto;
     }
-    .heading-4.slogan{
-        margin-top: 4rem;
-        margin-bottom: 0;
-    }
     .project-analysis-section{
         margin: 0 2rem 0 2rem;
     }
@@ -838,6 +841,10 @@ ul{
     }
     .body-text{
         line-height: 1.2rem;
+    }
+    .heading-5{
+        font-size: var(--heading-5-size-mobile);
+        line-height: 1.3rem;
     }
     .heading-4{
         font-size: var(--heading-4-size-mobile);
@@ -1114,6 +1121,10 @@ ul{
     .body-text{
         line-height: 1.6rem;
     }
+    .heading-5{
+        font-size: var(--heading-5-size-desktop);
+        line-height: 1.5rem;
+    }
     .heading-4{
         font-size: var(--heading-4-size-desktop);
         line-height: 1.7rem;
@@ -1141,7 +1152,7 @@ ul{
     }
     .textcard-container-small{
         text-align: center;
-        padding: 2rem 3rem 3rem 3rem;
+        padding: 2rem 2rem 3rem 2rem;
         border-radius: var(--border-radius-desktop);
     }
     .textcard-inner-container-1{
@@ -1423,10 +1434,12 @@ ul{
     .body-text{
         line-height: 1.7rem;
     }
+    .heading-5{
+        font-size: var(--heading-5-size-monitor);
+        line-height: 1.3rem;
+    }
     .heading-4{
         font-size: var(--heading-4-size-monitor);
-        /* margin-bottom: 2rem;
-        margin-top: 4rem; */
         line-height: 2rem;
     }
     .heading-3{
