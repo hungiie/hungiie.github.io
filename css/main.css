@@ -1028,7 +1028,7 @@ p{
 
     .textcard-container{
         text-align: center;
-        padding: 2rem 8rem 3rem 8rem;
+        padding: 2rem 8rem 2rem 8rem;
         border-radius: var(--border-radius-desktop);
     }
     .textcard-container-small{
