@@ -105,6 +105,8 @@ p{
     font-family: "Geist", Arial, sans-serif;
     font-weight: 300;
     color: var(--bodytext-color);
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 .button{
     font-family: "Geist", Arial, sans-serif;
