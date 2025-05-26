@@ -175,11 +175,14 @@ ul{
 .background-white{
     background-color: var(--bodytextlight-color);
 }
-.background-blue{
-    background-color: var(--blue);
+.background-darkblue{
+    background-color: var(--darkblue);
 }
 .background-black{
     background-color: var(--heading2-color);
+}
+.background-grey{
+    background-color: var(--greybackground-color);
 }
 .align-center-div{
     text-align: center;
@@ -1100,7 +1103,7 @@ ul{
         margin: 6rem 9rem 6rem 9rem;
     }
     .project-analysis-section.first-section{
-        margin: 9rem 9rem 3rem 9rem;
+        margin: 8rem 9rem 3rem 9rem;
     }
 
     .vertical-video{
@@ -1142,7 +1145,6 @@ ul{
         border-radius: var(--border-radius-desktop);
     }
     .textcard-inner-container-1{
-        background-color: var(--greybackground-color);
         padding: 2rem 2rem 2rem 2rem;
         border-top-left-radius: var(--border-radius-desktop);
         border-top-right-radius: var(--border-radius-desktop);
@@ -1150,7 +1152,6 @@ ul{
 
     }
     .textcard-inner-container-2{
-        background-color: var(--blue);
         padding: 2rem 2rem 2rem 2rem;
         border-bottom-left-radius: var(--border-radius-desktop);
         border-bottom-right-radius: var(--border-radius-desktop);
