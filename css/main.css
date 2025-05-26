@@ -57,6 +57,9 @@
     color: var(--heading-color);
     opacity: 0.8;
 }
+.black{
+    color: var(--heading2-color);
+}
 .green{
     color:rgb(29, 188, 97);
 }
@@ -166,6 +169,18 @@ ul{
     padding: 0 0 0 0;
 }
 
+.grey-border{
+    border: 1px solid var(--bodytextdarker-color);
+}
+.background-white{
+    background-color: var(--bodytextlight-color);
+}
+.background-blue{
+    background-color: var(--blue);
+}
+.background-black{
+    background-color: var(--heading2-color);
+}
 .align-center-div{
     text-align: center;
 }
@@ -1120,13 +1135,11 @@ ul{
         text-align: center;
         padding: 2rem 8rem 3rem 8rem;
         border-radius: var(--border-radius-desktop);
-        border: 1px solid var(--bodytextdarker-color);
     }
     .textcard-container-small{
         text-align: center;
         padding: 2rem 3rem 3rem 3rem;
         border-radius: var(--border-radius-desktop);
-        border: 1px solid var(--bodytextdarker-color);
     }
     .textcard-inner-container-1{
         background-color: var(--greybackground-color);
