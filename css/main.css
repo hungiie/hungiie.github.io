@@ -495,7 +495,7 @@ p{
 
 
 /* CARDIO PAGE  */
-.cover-image-container{
+.image-container{
     overflow: hidden;
 }
 .cover-image{
@@ -503,20 +503,26 @@ p{
     height: auto;
     transform: scale(1.03);
 }
-.image{
-    width: 100%;
-    height: auto;
-}
 .grid{
     display: grid;
 }
+/* .zoom{
+    transform: scale(1.01);
+} */
+.width-auto{
+    width: auto;
+}
 .width-100{
     width: 100%;
-    height: auto;
 }
 .width-20{
     width: 20%;
+}
+.height-auto{
     height: auto;
+}
+.height-100{
+    height: 100%;
 }
 
 
@@ -580,6 +586,9 @@ p{
     }
     .break{
         display: none;
+    }
+    .round-border{
+        border-radius: var(--border-radius-mobile);
     }
     .hero-container{
         margin-top: 13rem;
@@ -742,7 +751,7 @@ p{
     .cover-image-2{
         display: block;
     }
-    .cover-image-container{
+    .image-container{
         border-radius: var(--border-radius-mobile);
         width: 100%;
         height: auto;
@@ -848,6 +857,9 @@ p{
     }
     .break{
         display: unset;
+    }
+    .round-border{
+        border-radius: var(--border-radius-desktop);
     }
     .hero-container{
         margin-top: 11.5rem;
@@ -1004,7 +1016,7 @@ p{
     .cover-image-2{
         display: none;
     }
-    .cover-image-container{
+    .image-container{
         border-radius: var(--border-radius-desktop);
         width: 100%;
         height: auto;
@@ -1116,6 +1128,9 @@ p{
         margin-left: 5rem;
         margin-top: unset;
         margin-bottom: unset;
+    }
+    .round-border{
+        border-radius: var(--border-radius-monitor);
     }
     .hero-container{
         margin-top: 15rem;
@@ -1270,7 +1285,7 @@ p{
     .cover-image-2{
         display: none;
     }
-    .cover-image-container{
+    .image-container{
         border-radius: var(--border-radius-monitor);
         width: 100%;
         height: auto;
