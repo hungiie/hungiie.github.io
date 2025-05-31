@@ -145,10 +145,6 @@ p {
     text-align: left;
 }
 
-.justify-content-div.text-right {
-    text-align: right;
-}
-
 .body-text {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -714,6 +710,9 @@ p {
         font-size: 1rem;
         line-height: 1.7rem;
     }
+    .justify-content-div.text-right {
+        text-align: unset;
+    }
 
     .arrow-button.arrow-button-hero {
         font-size: 1rem;
@@ -1043,6 +1042,9 @@ p {
         line-height: 1.8rem;
         padding-left: 12rem;
         padding-right: 12rem;
+    }
+    .justify-content-div.text-right {
+        text-align: right;
     }
 
     .arrow-button.arrow-button-hero {
