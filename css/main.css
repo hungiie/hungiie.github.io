@@ -616,6 +616,9 @@ p {
 .width-20 {
     width: 20%;
 }
+.width-60 {
+    width: 60%;
+}
 
 .height-auto {
     height: auto;
@@ -966,6 +969,9 @@ p {
     .grid.three-two {
         grid-template-columns: 1fr;
     }
+    .grid.two-three {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* BREAKPOINT 2 */
@@ -1313,6 +1319,9 @@ p {
 
     .grid.three-two {
         grid-template-columns: 3fr 2fr;
+    }
+    .grid.two-three {
+        grid-template-columns: 2fr 3fr;
     }
 }
 
