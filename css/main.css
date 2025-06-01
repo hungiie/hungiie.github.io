@@ -831,6 +831,7 @@ p {
 
     .hello-container {
         height: 5.5rem;
+        text-align: center;
     }
 
     .about-text {
@@ -839,12 +840,6 @@ p {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-
-    .hello-container {
-        height: 5.5rem;
-        text-align: center;
-    }
-
     .about-2-container {
         aspect-ratio: 1 / 1;
         overflow: hidden;
@@ -1170,7 +1165,7 @@ p {
     }
 
     .hello-container {
-        height: unset;
+        height: 7rem;
         text-align: center;
     }
 
