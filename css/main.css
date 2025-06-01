@@ -769,7 +769,6 @@ p {
 
 /* BREAKPOINT 4 */
 @media (min-width: 68rem) {
-
     /* NAV BAR */
     .nav-container {
         padding: 1.5rem 0 0 0;
@@ -870,7 +869,7 @@ p {
 
     /* HOMEPAGE - PROJECT SECTION */
     .project-section {
-        margin: 0 13rem 15rem 13rem;
+        margin: 0 12rem 15rem 12rem;
     }
     .project-section-2 {
         margin: 0 12rem 15rem 12rem;
