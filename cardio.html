@@ -54,6 +54,9 @@
             <img class="cover-image cover-image-1" id="cover-1" src="img/cardio-long-cover.png" width="4104" height="1464">
             <img class="cover-image cover-image-2" id="cover-2" src="img/cardio-cover-2.png" width="1309" height="922">
         </div> -->
+    </section>
+
+    <section class="project-analysis-section full-width" id="first-1">
         <div class="textcard-container-small background-grey margin-top-6 margin-bottom-6 ">
             <div class="grid two-column column-gap-1">
                 <div class="image-container justify-content-div background-black">
@@ -512,6 +515,21 @@
 
         document.addEventListener("DOMContentLoaded", function () {
             const section = document.querySelector("#first");
+
+            function revealOnScroll() {
+                const windowHeight = window.innerHeight;
+                const sectionTop = section.getBoundingClientRect().top;
+                if (sectionTop < windowHeight * 0.85) {
+                    section.classList.add("show");
+                }
+            }
+
+            window.addEventListener("scroll", revealOnScroll);
+            revealOnScroll();
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const section = document.querySelector("#first-1");
 
             function revealOnScroll() {
                 const windowHeight = window.innerHeight;
