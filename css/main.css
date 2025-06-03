@@ -101,6 +101,7 @@ p {
 .justify-content-div.text-left {
     text-align: left;
 }
+.text-left{text-align: left;}
 .body-text {margin: 0 0 0 0; padding: 0 0 0 0;}
 .heading-1 { margin: 0 0 0 0; padding: 0 0 0 0;}
 .heading-2 { margin: 0 0 0 0; padding: 0 0 0 0;}
@@ -728,8 +729,13 @@ p {
     }
     .textcard-container-small {
         text-align: center;
-        padding: 1rem 1rem 1rem 1rem;
+        padding: 1rem 1rem 1.5rem 1rem;
         border-radius: var(--border-radius-mobile);
+    }
+    .textcard-container-equalpadding {
+        text-align: center;
+        padding: 1rem 1rem 1rem 1rem;
+        border-radius: var(--border-radius-desktop);
     }
     .textcard-inner-container-1 {
         padding: 1rem 1rem 1rem 1rem;
@@ -1029,6 +1035,11 @@ p {
         overflow: hidden;
     }
     .textcard-container-small {
+        text-align: center;
+        padding: 2rem 2rem 3rem 2rem;
+        border-radius: var(--border-radius-desktop);
+    }
+    .textcard-container-equalpadding {
         text-align: center;
         padding: 2rem 2rem 2rem 2rem;
         border-radius: var(--border-radius-desktop);
