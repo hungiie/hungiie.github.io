@@ -41,7 +41,7 @@
     --nav-size-monitor: 1rem;
     --bodytext-size-monitor: 1.1rem;
     --heading-1-size-monitor: 3rem;
-    --heading-2-size-monitor: 1.5rem;
+    --heading-2-size-monitor: 2.5rem;
     --heading-3-size-monitor: 2rem;
     --heading-4-size-monitor: 1.5rem;
     --heading-5-size-monitor: 1.2rem;
@@ -96,6 +96,7 @@ p {
 .inline-block{display: inline-block;}
 .justify-content-div {
     align-content: center;
+    align-items: center;
     text-align: center;
     justify-content: center;
 }
@@ -118,6 +119,7 @@ p {
 .heading-5 { margin: 0 0 0 0; padding: 0 0 0 0;}
 
 .grey-border { border: 1px solid #383838; }
+.blue-border { border: 1px solid var(--blue); }
 .background-white { background-color: var(--bodytextlight-color); }
 .background-darkblue { background-color: var(--darkblue);}
 .background-blue { background-color: var(--blue); }
@@ -605,7 +607,6 @@ p {
         display: block;
     }
     .homepage-project-image-container {
-        margin-top: 1.3rem;
         border-radius: var(--border-radius-mobile);
     }
     .homepage-project-des {
@@ -918,7 +919,6 @@ p {
         display: none;
     }
     .homepage-project-image-container {
-        margin-top: 2rem;
         border-radius: var(--border-radius-desktop);
     }
     .homepage-project-des {
@@ -1197,7 +1197,6 @@ p {
         display: none;
     }
     .homepage-project-image-container {
-        margin-top: 0;
         border-radius: var(--border-radius-monitor);
     }
     .homepage-project-des {
