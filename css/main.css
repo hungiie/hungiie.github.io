@@ -762,6 +762,13 @@ p {
         border-bottom-right-radius: var(--border-radius-mobile);
         overflow: hidden;
     }
+    .persona-container {
+        text-align: center;
+        padding: 1rem 1rem 1rem 1rem;
+        border-radius: var(--border-radius-desktop);
+        overflow: hidden;
+        border: 6px solid rgba(255, 255, 255, 0.1);
+    }
     .video-zoom {
         transform: scale(2) translateY(1rem);
     }
@@ -778,6 +785,9 @@ p {
         grid-template-columns: 1fr;
     }
     .grid.three-two {
+        grid-template-columns: 1fr;
+    }
+    .grid.one-three-one{
         grid-template-columns: 1fr;
     }
     .grid.two-three {
@@ -1074,7 +1084,6 @@ p {
         border-radius: var(--border-radius-desktop);
         overflow: hidden;
         border: 6px solid rgba(255, 255, 255, 0.1);
-        box-shadow: 0 0 20px rgba(0,0,0, 0.7);
     }
     .video-zoom {
     transform: scale(1.8) translateY(6rem);
@@ -1092,6 +1101,9 @@ p {
     }
     .grid.three-two {
         grid-template-columns: 3fr 2fr;
+    }
+    .grid.one-five-one{
+        grid-template-columns: 1fr 5fr 1fr;
     }
     .grid.two-three {
         grid-template-columns: 2fr 3fr;
