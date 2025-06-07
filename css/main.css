@@ -208,8 +208,8 @@ p {
     width: fit-content;
     border-radius: 1000rem;
     background-color: rgba(68, 68, 68, 0.5);
-    backdrop-filter: blur(11px);
-    -webkit-backdrop-filter: blur(11px);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
     border: 2px solid rgba(255, 255, 255, 0.1);
     justify-content: center;
     align-items: center;
