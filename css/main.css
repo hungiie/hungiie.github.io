@@ -189,6 +189,7 @@ p {
 .relative {position: relative;}
 .italic {font-style: italic;}
 .flex {display: flex;}
+.align-items-center{ align-items: center;}
 
 /* NAV BAR */
 .nav-container {
@@ -699,8 +700,7 @@ p {
         height: auto;
     }
     .project-analysis-section {
-        margin-right: 2rem;
-        margin-left: 2rem;
+        margin: 3rem 2rem 3rem 2rem;
     }
     .project-analysis-section.first-section {
         margin: 10rem 2rem 0 2rem;
@@ -833,6 +833,7 @@ p {
     .more-bold {font-weight: 500;}
     .button {
         font-size: var(--bodytext-size-desktop);
+        line-height: normal;
     }
     .button.button-2 {
         margin-left: 2rem;
