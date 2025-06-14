@@ -41,7 +41,7 @@
     --nav-size-monitor: 1rem;
     --bodytext-size-monitor: 1.1rem;
     --heading-1-size-monitor: 3rem;
-    --heading-2-size-monitor: 2.5rem;
+    --heading-2-size-monitor: 2.2rem;
     --heading-3-size-monitor: 2rem;
     --heading-4-size-monitor: 1.5rem;
     --heading-5-size-monitor: 1.2rem;
@@ -1307,7 +1307,7 @@ p {
     }
     .heading-5 {
         font-size: var(--heading-5-size-monitor);
-        line-height: 1.3rem;
+        line-height: 1.9rem;
     }
     .heading-4 {
         font-size: var(--heading-4-size-monitor);
@@ -1322,7 +1322,7 @@ p {
     }
     .heading-2 {
         font-size: var(--heading-2-size-monitor);
-        line-height: 2.6rem;
+        line-height: 3.2rem;
     }
     .cta {
         margin-left: 9rem;
