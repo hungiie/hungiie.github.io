@@ -42,7 +42,7 @@
     --bodytext-size-monitor: 1.1rem;
     --heading-1-size-monitor: 3rem;
     --heading-2-size-monitor: 2.2rem;
-    --heading-3-size-monitor: 2rem;
+    --heading-3-size-monitor: 1.8rem;
     --heading-4-size-monitor: 1.5rem;
     --heading-5-size-monitor: 1.2rem;
 }
@@ -1302,7 +1302,7 @@ p {
     }
     .heading-3 {
         font-size: var(--heading-3-size-monitor);
-        line-height: 2.8rem;
+        line-height: 2.4rem;
     }
     .heading-1 {
         font-size: var(--heading-1-size-monitor);
