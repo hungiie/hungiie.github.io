@@ -189,6 +189,7 @@ p {
 .relative {position: relative;}
 .italic {font-style: italic;}
 .flex {display: flex;}
+.space-between {justify-content: space-between;}
 .align-items-center{ align-items: center;}
 
 /* NAV BAR */
@@ -952,7 +953,7 @@ p {
 
     /* ABOUT PAGE */
     .about-section {
-        margin: 9rem 30rem 6rem 30rem;
+        margin: 10rem 30rem 6rem 30rem;
     }
     .about-image-container {
         width: 100%;
@@ -1225,7 +1226,7 @@ p {
     }
     /* ABOUT PAGE */
     .about-section {
-        margin: 9rem 42rem 6rem 42rem;
+        margin: 11rem 38rem 6rem 38rem;
     }
     .about-image-container {
         width: 100%;
