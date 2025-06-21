@@ -37,7 +37,7 @@
     --heading-4-size-desktop: 1.3rem;
     --heading-5-size-desktop: 1.1rem;
 
-    --border-radius-monitor: 1.3rem;
+    --border-radius-monitor: 1rem;
     --nav-size-monitor: 1rem;
     --bodytext-size-monitor: 1.1rem;
     --heading-1-size-monitor: 3rem;
@@ -1216,7 +1216,7 @@ p {
         margin-bottom: 0rem;
     }
     .grid.thumbnail-two-column {
-        grid-template-columns: 1fr 1.8fr;
+        grid-template-columns: 1fr 1.5fr;
         width: 100%;
         height: auto;
 
