@@ -65,7 +65,7 @@ export const ThemeSelector = ({ className }: ThemeSelectorProps) => {
   const colorMap: Record<string, string> = {
     Blue: '#0B8EFF',
     Pink: '#FF3AA0',
-    Green: '#38BD2E',
+    Green: '#1e9915',
     Orange: '#FF7A00',
   };
 
