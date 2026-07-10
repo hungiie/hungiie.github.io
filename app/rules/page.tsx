@@ -215,7 +215,7 @@ export default function Rules() {
                                     </div>
                                     <div className="flex flex-col justify-start">
                                         <Image src="/yehe.png" width={3099} height={3363} className="w-full mb-2 rounded-2xl shadow-md" alt="Hung Tran" style={{ filter: 'contrast(85%)' }}/> 
-                                        <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Last day as an intern</p>
+                                        <p className="text-sm text-[var(--colour-bodytext-3)] leading-loose">Our own UX-mas 🎅</p>
                                     </div>
                                 </div>
                             </div>
