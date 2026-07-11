@@ -113,13 +113,13 @@ export default function Home2() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-15">
               <SlideUpNoThres>
-                <ProjectThumbnailNew isLink="video-link" link="rules" type="UX design, 2025" name="Samsung Knox Rules: Context-aware device management" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcPoster="rule-poster.png" target="_self"/>
+                <ProjectThumbnailNew isLink="video-link" link="rules" type="UX design, shipped" name="Samsung Knox Rules: Context-aware device management" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcPoster="rule-poster.png" target="_self"/>
               </SlideUpNoThres>
               <SlideUpNoThres>
-                  <ProjectThumbnailNew isLink="image-link" link="organizations" type="Design system, 2025" name="Samsung Knox Organizations: Hierarchical device management" desc="Designed and wrote system documentation for a scalable table component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcPoster="" target="_self"/>
+                  <ProjectThumbnailNew isLink="image-link" link="organizations" type="Design system, shipped" name="Samsung Knox Organizations: Hierarchical device management" desc="Designed and wrote system documentation for a scalable table component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcPoster="" target="_self"/>
               </SlideUpNoThres>
               <SlideUp>
-                  <ProjectThumbnailNew isLink="video-link" link="cardio" type="UX design, 2024" name="card.io: Perfect cardio session starts with a perfect playlist" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcPoster="/cardio-poster.png" target="_self"/>
+                  <ProjectThumbnailNew isLink="video-link" link="cardio" type="UX design, POC" name="card.io: Perfect cardio session starts with a perfect playlist" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcPoster="/cardio-poster.png" target="_self"/>
               </SlideUp>
               {/* <SlideUp>
                   <ProjectThumbnailNew isLink="coming-soon" link="" type="UX research, 2026" name="Samsung Health's wearable experiences (In progress)" desc="Conducted research to inform future Samsung Health wearable experiences, including Galaxy Watch, Galaxy Ring, and the Samsung Health app." imageSrc="/shealth.png" imageSrcPoster="" target="_self"/>

@@ -36,6 +36,8 @@ export default function Rules() {
                             <Heading text="About the work" variant="black"/>
                         </div>
                          <div>
+                            {/* <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Status: <span className="text-[var(--colour-bodytext)]">Shipped</span></p> */}
+                            {/* <div className="mb-6"></div> */}
                             <p className="text-sm text-[var(--colour-bodytext)] leading-loose">During my time at Samsung, my work focused on designing features for <span className="inline-block"><MyButton link="https://www.samsungknox.com/en/solutions/it-solutions/knox-manage" target="_blank" variant="hyperlink" text="Knox Manage" textSize="text-sm"/></span> - a B2B SaaS device management solution that allows IT admins to remotely manage & ensure security for fleets of Samsung devices.</p>
                             <div className="mb-6"></div>
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
