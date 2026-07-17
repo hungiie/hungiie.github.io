@@ -116,7 +116,7 @@ export default function Home2() {
                 <ProjectThumbnailNew isLink="video-link" link="rules" type="UX design, shipped" name="Samsung Knox Rules: Context-aware device management" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcPoster="rule-poster.png" target="_self"/>
               </SlideUpNoThres>
               <SlideUpNoThres>
-                  <ProjectThumbnailNew isLink="image-link" link="organizations" type="Design system, shipped" name="Samsung Knox Organizations: Hierarchical device management" desc="Designed and wrote system documentation for a scalable table component that visualizes the inheritance logic among parent-child entities." imageSrc="/organize.png" imageSrcPoster="" target="_self"/>
+                  <ProjectThumbnailNew isLink="image-link" link="organizations" type="Design system, shipped" name="Samsung Knox Organizations: Hierarchical device management" desc="Designed and wrote system documentation for a scalable table component that visualizes the inheritance logic among parent-child entities." imageSrc="/organizations.png" imageSrcPoster="" target="_self"/>
               </SlideUpNoThres>
               <SlideUp>
                   <ProjectThumbnailNew isLink="video-link" link="cardio" type="UX design, POC" name="card.io: Perfect cardio session starts with a perfect playlist" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcPoster="/cardio-poster.png" target="_self"/>
