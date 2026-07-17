@@ -8,7 +8,7 @@
 //     <div className="w-[65px] h-[65px]">
 //       <div className="relative aspect-square rounded-full overflow-hidden bg-black border-none">
 //         <Image
-//           src="/yay.jpg"
+//           src="/aboot.jpeg"
 //           fill
 //           alt="Hung Tran"
 //           className="object-cover"
@@ -39,7 +39,7 @@ export default function Me() {
       <div className="w-[65px] h-[65px]">
         <div className="relative aspect-square rounded-full overflow-hidden bg-black border-none">
           <Image
-            src="/yay.jpg"
+            src="/aboot.jpeg"
             fill
             alt="Hung Tran"
             className="object-cover"

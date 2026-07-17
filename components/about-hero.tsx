@@ -193,7 +193,7 @@ export default function AboutHero() {
               animate={{ scale: hovered === "Selfie #2837" ? 1.02 : 1 }}
               transition={{ type: "spring", stiffness: 200 }}
             >
-              <Image src="/yay.jpg" width={3099} height={3363} className="w-full mb-2 rounded-3xl shadow-2xl -rotate-2" alt="Hung Tran" style={{ filter: "contrast(100%)" }}/>
+              <Image src="/aboot.jpeg" width={3099} height={3363} className="w-full mb-2 rounded-3xl shadow-2xl -rotate-2" alt="Hung Tran" style={{ filter: "contrast(100%)" }}/>
             </motion.div>
           </div>
 
