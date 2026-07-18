@@ -15,9 +15,9 @@ export default function AboutHero() {
 
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="w-full 2xl:w-[90%] grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr_2fr_1fr_1fr_1fr]">
+      <div className="w-full 2xl:w-[90%] grid grid-cols-1 lg:grid-cols-[1fr_1fr_1fr_2fr_1fr_1fr_1fr]">
         {/* column 1 */}
-        <div className="w-full justify-center items-center hidden md:flex">
+        <div className="w-full justify-center items-center hidden lg:flex">
           {/* <motion.div
             onHoverStart={() => setHovered("Tim Drake #1 fan")}
             onHoverEnd={() => setHovered(null)}
@@ -50,7 +50,7 @@ export default function AboutHero() {
 
 
         {/* column 2 */}
-        <div className="w-full justify-center items-center hidden md:flex">
+        <div className="w-full justify-center items-center hidden lg:flex">
           <motion.div
             onHoverStart={() => setHovered("Madison Beer Spinnin' tour 🎤")}
             onHoverEnd={() => setHovered(null)}
@@ -83,7 +83,7 @@ export default function AboutHero() {
 
 
         {/* column 3 */}
-        <div className="w-full flex-col justify-center items-center hidden md:flex">
+        <div className="w-full flex-col justify-center items-center hidden lg:flex">
 
           {/* top */}
           <motion.div
@@ -186,7 +186,7 @@ export default function AboutHero() {
           className="w-full flex flex-col justify-center items-center relative"
         >
 
-          <div className="w-[55%]">
+          <div className="w-[55%] md:w-[35%] lg:w-[55%]">
             <motion.div
               onHoverStart={() => setHovered("Selfie #2837")}
               onHoverEnd={() => setHovered(null)}
@@ -197,16 +197,16 @@ export default function AboutHero() {
             </motion.div>
           </div>
 
-          <div className="mt-10 text-sm text-[var(--colour-bodytext-3)] z-10 pointer-events-none hidden md:block">
+          <div className="mt-10 text-sm text-[var(--colour-bodytext-3)] z-10 pointer-events-none hidden lg:block">
             Hung's stories
           </div>
-          <div className="mt-1 text-sm text-[var(--colour-bodytext-3)] z-10 pointer-events-none hidden md:block">
+          <div className="mt-1 text-sm text-[var(--colour-bodytext-3)] z-10 pointer-events-none hidden lg:block">
             {getCenterText()}
           </div>
         </motion.div>
 
         {/* column 5 */}
-        <div className="w-full flex-col justify-center items-center hidden md:flex">
+        <div className="w-full flex-col justify-center items-center hidden lg:flex">
 
           {/* top */}
           <motion.div
@@ -269,7 +269,7 @@ export default function AboutHero() {
         </div>
 
         {/* column 6 */}
-        <div className="w-full justify-center items-center hidden md:flex">
+        <div className="w-full justify-center items-center hidden lg:flex">
           <motion.div
             onHoverStart={() => setHovered("Bellini enthusiast 🍹")}
             onHoverEnd={() => setHovered(null)}
@@ -299,7 +299,7 @@ export default function AboutHero() {
         </div>
 
         {/* column 7 */}
-        <div className="w-full flex-col justify-center items-center hidden md:flex">
+        <div className="w-full flex-col justify-center items-center hidden lg:flex">
 
           {/* top */}
           {/* <motion.div
