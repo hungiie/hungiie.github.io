@@ -14,7 +14,7 @@ export default function MyNav2(props: Props) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 250) {
+      if (window.scrollY > 100) {
         setShowNav(true);
       } else {
         setShowNav(false);

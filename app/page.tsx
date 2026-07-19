@@ -111,7 +111,7 @@ export default function Home2() {
             {/* <Heading text="These are what I have done." variant="black"/>
             <div className="mb-12"></div> */}
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-25">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-20">
               <SlideUpNoThres>
                 <ProjectThumbnailNew isLink="video-link" link="rules" type="UX design, shipped" name="Samsung Knox Rules: Context-aware device management" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcPoster="rule-poster.png" target="_self"/>
               </SlideUpNoThres>
@@ -122,11 +122,11 @@ export default function Home2() {
                   <ProjectThumbnailNew isLink="video-link" link="cardio" type="UX design, POC" name="card.io: Perfect cardio session starts with a perfect playlist" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcPoster="/cardio-poster.png" target="_self"/>
               </SlideUp>
               <SlideUp>
-                  <ProjectThumbnailNew isLink="coming-soon" link="#" type="UX design, shipped" name="Ednoda: Simplify lesson planning for ESL teachers (coming soon)" desc="" imageSrc="/ednodap.png" imageSrcPoster=".png" target="_self"/>
+                  <ProjectThumbnailNew isLink="coming-soon" link="#" type="UX design, shipped" name="Ednoda: Simplify lesson planning for ESL teachers (🚧)" desc="" imageSrc="/ednodap.png" imageSrcPoster=".png" target="_self"/>
               </SlideUp>
-              {/* <SlideUp>
-                  <ProjectThumbnailNew isLink="coming-soon" link="" type="UX research, 2026" name="Samsung Health's wearable experiences (In progress)" desc="Conducted research to inform future Samsung Health wearable experiences, including Galaxy Watch, Galaxy Ring, and the Samsung Health app." imageSrc="/shealth.png" imageSrcPoster="" target="_self"/>
-              </SlideUp> */}
+              <SlideUp>
+                  <ProjectThumbnailNew isLink="coming-soon" link="#" type="UX research, in process" name="Samsung Health's wearable experiences (🚧)" desc="Conducted research to inform future Samsung Health wearable experiences, including Galaxy Watch, Galaxy Ring, and the Samsung Health app." imageSrc="/shealth.png" imageSrcPoster="" target="_self"/>
+              </SlideUp>
             </div>
 
             {/* <Heading text="My other work spans development, visual design, and service design." variant="black"/>
