@@ -39,7 +39,7 @@ export default function Health() {
                             <p className="text-md text-[var(--colour-bodytext)] leading-loose">During my time on the <span><MyButton variant="hyperlink" text="Samsung Health" link="https://www.samsung.com/ca/apps/samsung-health/" textSize="text-md" target="_blank"/></span> team as a UX Researcher, I gained hands-on experience across the UX research process. I learned how to conduct desk research, design surveys, and facilitate semi-structured user interviews with clear objectives.</p>
                             <div className="mb-6"></div>
                             <p className="mb-1 text-sm text-[var(--colour-bodytext)] leading-loose">Special thanks to:</p>
-                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Kezia Taufiq (UX Researcher), Rutuja Haldankar (UX Researcher), and Juan Rodriguez (UX Researcher)</p>
+                            <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Kezia Taufiq (UX Researcher), Rutuja Haldankar (UX Researcher), Juan Rodriguez (UX Researcher)</p>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ export default function Health() {
                             </div>
                             <div className="mb-3"></div>
                             <div className="flex flex-col justify-center bg-[var(--container-bg-2)] p-7 rounded-2xl">
-                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I can't share the project's details publicly, but I&rsquo;d be happy to elaborate more on my experience and design process during an interview.</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I can't share the project's details publicly, but I&rsquo;d be happy to elaborate more on my experience during an interview.</p>
                                 <div className="mb-9"></div>
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span>!</p>
                             </div>
