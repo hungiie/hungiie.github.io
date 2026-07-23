@@ -73,9 +73,11 @@ export default function Health() {
                             </div>
                             <div className="mb-3"></div>
                             <div className="bg-[var(--container-bg)] flex flex-col p-7 rounded-2xl">
-                                <p className="text-sm text-[var(--main-colour)] leading-loose">Overarching goal</p>
+                                <p className="text-sm text-[var(--main-colour)] leading-loose">Research objectives</p>
                                 <div className="mb-4"></div>
-                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Understanding the market demand for weight management among health-conscious users and the ecosystem of applications and wearables that support it. From these product insights, identifying gaps between user demand and existing solutions to determine where Samsung can intervene, while considering Samsung Health's current offerings.</p>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Understanding the market demand for healthy weight journeys among health-conscious users and the ecosystem of applications and wearables that support them.</p>
+                                <div className="mb-2"></div>
+                                <p className="text-sm text-[var(--colour-bodytext)] leading-loose">From these product insights, identifying gaps between user needs and existing solutions to determine where Samsung can intervene, while considering Samsung Health's current offerings and exploring opportunities to drive user engagement, create new value propositions, and support business growth through potential monetization opportunities.</p>
                             </div>
                             <div className="mb-3"></div>
                             <div className="flex flex-col justify-center bg-[var(--container-bg-2)] p-7 rounded-2xl">
