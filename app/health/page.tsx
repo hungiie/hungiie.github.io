@@ -84,7 +84,7 @@ export default function Health() {
                             <div className="mb-3"></div>
                             <div className="flex flex-col justify-center bg-[var(--container-bg-2)] p-7 rounded-2xl">
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Due to NDA restrictions, I can't share the project's details publicly, but I&rsquo;d be happy to elaborate more on my experience during an interview.</p>
-                                <div className="mb-9"></div>
+                                <div className="mb-2"></div>
                                 <p className="text-sm text-[var(--colour-bodytext)] leading-loose">Feel free to send me an <span className="inline-block"><MyButton link="mailto:d.hungtran12@gmail.com" target="_blank" variant="hyperlink" text="email" textSize="text-sm"/></span>!</p>
                             </div>
                         </div>
