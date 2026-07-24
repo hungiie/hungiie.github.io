@@ -221,6 +221,12 @@ export default function Organizations() {
                     </div>
                 </div>
 
+                <div className="mb-40"></div>
+                                
+                <div className="w-full flex flex-col md:flex-row justify-center gap-3">
+                    <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
+                </div>
+
                 <div className="w-full">
                     <Footer/>
                 </div>
