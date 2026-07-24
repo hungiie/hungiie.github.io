@@ -65,7 +65,8 @@ export default function Health() {
                                     <Image src="/shapp.jpg" width={1469} height={1469} className="w-full" alt=""/> 
                                 </a>
                             </div>
-                            <div className="mb-3"></div>
+                            <p className="mt-2 text-sm text-[var(--colour-bodytext-3)] leading-loose">Managing weight in Samsung Health. Image sourced from Samsung Health website.</p>
+                            <div className="mb-6"></div>
                             <div className="bg-[var(--container-bg)] flex flex-col p-7 rounded-2xl">
                                 <p className="text-sm text-[var(--main-colour)] leading-loose">Current state of Samsung Health</p>
                                 <div className="mb-4"></div>
