@@ -36,8 +36,54 @@ export default function Visuals() {
 
                 <div className="mb-20"></div>
 
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-4">Fraser Health's Official Corporate Brochure 🩺🫀</p>
+                <div className="w-full grid grid-cols-1 md:grid-cols-1 gap-4">
+                    <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl">
+                        <ImageZoom className="w-[70%]">
+                            <Image src="/fh-1.png" width={1200} height={1200} className="w-[100%] justify-center object-cover rounded-2xl  " alt="Visual design"/>
+                        </ImageZoom>
+                    </div>
+                    <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl">
+                        <ImageZoom className="w-[70%]">
+                            <Image src="/fh-2.png" width={1200} height={1200} className="w-[100%] object-cover rounded-2xl  " alt="Visual design"/>
+                        </ImageZoom>
+                    </div>
+                </div>
+
+                <div className="mb-30"></div>
+
+                <div className="w-full flex justify-between">
+                    <p className="text-md text-[var(--colour-bodytext-3)]">Fraser Health's Planetary Health promotional video 🌱</p>
+                    <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=ZBhZYYxJFnw" textSize="text-sm" target="_blank"/>
+                </div>
+                <div className="mb-4"></div>
+                <div className="bg-[var(--container-bg)] w-full flex justify-center items-center py-15 mb-2">
+                    <div className="w-[60%]">
+                        <video className="object-cover overflow-hidden rounded-3xl" autoPlay controls muted loop playsInline>
+                            <source src="videographics.mp4"type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+
+                <div className="mb-30"></div>
+
+                <div className="w-full flex justify-between">
+                    <p className="text-md text-[var(--colour-bodytext-3)]">Fraser Health's UPCC looping tutorial 🏥</p>
+                    <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=OhkqwG9JYLw" textSize="text-sm" target="_blank"/>
+                </div>
+                <div className="mb-4"></div>
+                <div className="bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl py-15 mb-2">
+                    <div className="w-[60%]">
+                        <video className="object-cover overflow-hidden rounded-3xl" autoPlay controls muted loop playsInline>
+                            <source src="upcc.mp4"type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+
+                <div className="mb-40"></div>
+
                 <SlideUpNoThres>
-                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">VSA - Movie Night promotions 🎥</p>
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-4">VSA - Movie Night promotions 🎥</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
                     <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-2xl">
                         <Image src="/movie-2.png" width={1200} height={1200} className="w-full h-full object-cover" alt="Visual design"/>
@@ -59,7 +105,7 @@ export default function Visuals() {
 
                 <div className="mb-30"></div>
 
-                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">VSA - Halloween costume contest promotions 🎃</p>
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-4">VSA - Halloween costume contest promotions 🎃</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
                     <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-2xl">
                         <Image src="/halloween-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-2xl" alt="Visual design"/>
@@ -69,7 +115,7 @@ export default function Visuals() {
 
                 <div className="mb-30"></div>
 
-                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">VSA - Back to School promotions 🏫</p>
+                <p className="text-md text-[var(--colour-bodytext-3)] mb-4">VSA - Back to School promotions 🏫</p>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
                     <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-2xl">
                         <Image src="/vsa-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-2xl" alt="Visual design"/>
@@ -89,8 +135,6 @@ export default function Visuals() {
                     <ImageZoom>
                         <Image src="/w-1.png" width={1200} height={1200} className="w-full h-full object-cover rounded-2xl  " alt="Visual design"/>
                     </ImageZoom>
-                    <div></div>
-                    <div></div>
                     <ImageZoom>
                         <Image src="/w-2.png" width={1200} height={1200} className="w-full h-full object-cover rounded-2xl  " alt="Visual design"/>
                     </ImageZoom>
@@ -99,53 +143,9 @@ export default function Visuals() {
                     </ImageZoom>
                 </div> */}
 
-                <div className="mb-30"></div>
-
-                <p className="text-md text-[var(--colour-bodytext-3)] mb-9">Fraser Health's Official Corporate Brochure 🩺</p>
-                <div className="w-full grid grid-cols-2 md:grid-cols-2 gap-2">
-                    <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl">
-                        <ImageZoom>
-                            <Image src="/fh-1.png" width={1200} height={1200} className="w-[100%] object-cover rounded-2xl  " alt="Visual design"/>
-                        </ImageZoom>
-                    </div>
-                    <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl">
-                        <ImageZoom>
-                            <Image src="/fh-2.png" width={1200} height={1200} className="w-[100%] object-cover rounded-2xl  " alt="Visual design"/>
-                        </ImageZoom>
-                    </div>
-                </div>
-
-                <div className="mb-30"></div>
-
-                <div className="w-full flex justify-between">
-                    <p className="text-md text-[var(--colour-bodytext-3)]">Fraser Health's Planetary Health 🌱</p>
-                    <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=ZBhZYYxJFnw" textSize="text-sm" target="_blank"/>
-                </div>
-                <div className="mb-9"></div>
-                <div className="bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl py-15 mb-2">
-                    <div className="w-[60%]" style={{ clipPath: "inset(2px 2px)" }}>
-                        <video className="object-cover" autoPlay controls muted loop playsInline>
-                            <source src="videographics.mp4"type="video/mp4" />
-                        </video>
-                    </div>
-                </div>
-
-                <div className="mb-30"></div>
-
-                <div className="w-full flex justify-between">
-                    <p className="text-md text-[var(--colour-bodytext-3)]">Fraser Health's UPCC 🏥</p>
-                    <MyButton variant="blue-button-outline" text="View on Youtube" link="https://www.youtube.com/watch?v=OhkqwG9JYLw" textSize="text-sm" target="_blank"/>
-                </div>
-                <div className="mb-9"></div>
-                <div className="bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl py-15 mb-2">
-                    <div className="w-[60%]" style={{ clipPath: "inset(2px 2px)" }}>
-                        <video className="object-cover" autoPlay controls muted loop playsInline>
-                            <source src="upcc.mp4"type="video/mp4" />
-                        </video>
-                    </div>
-                </div>
-
                 <div className="mb-40"></div>
+
+                
 
                 <div className="w-full flex justify-center items-center">
                     <MyButton variant="blue-button-outline" text="Return to home" link="/" textSize="text-sm" target="_self"/>
