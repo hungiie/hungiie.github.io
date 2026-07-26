@@ -81,7 +81,7 @@ export default function Visuals() {
                         <div className="md:sticky md:top-30 md:self-start mb-12 md:mb-0">
                             <p className="text-md text-[var(--colour-bodytext)] mb-4">Fraser Health's Planetary Health video 🌱</p>
                             <div className="mb-9"></div>
-                            <MyButton variant="blue-button-outline" text="View on Youtube &#8599;" link="https://www.youtube.com/watch?v=ZBhZYYxJFnw" textSize="text-sm" target="_blank"/>
+                            <MyButton variant="blue-button-outline" text="View on YouTube &#8599;" link="https://www.youtube.com/watch?v=ZBhZYYxJFnw" textSize="text-sm" target="_blank"/>
                         </div>
                         <div className="flex flex-col gap-2">
                             <video className="object-cover overflow-hidden rounded-3xl" autoPlay controls muted loop playsInline>
@@ -111,7 +111,7 @@ export default function Visuals() {
                         <div className="md:sticky md:top-30 md:self-start mb-12 md:mb-0">
                             <p className="text-md text-[var(--colour-bodytext)] mb-4">Fraser Health's UPCC looping tutorial 🏥</p>
                             <div className="mb-9"></div>
-                            <MyButton variant="blue-button-outline" text="View on Youtube &#8599;" link="https://www.youtube.com/watch?v=OhkqwG9JYLw" textSize="text-sm" target="_blank"/>
+                            <MyButton variant="blue-button-outline" text="View on YouTube &#8599;" link="https://www.youtube.com/watch?v=OhkqwG9JYLw" textSize="text-sm" target="_blank"/>
                         </div>
                         <div className="flex flex-col gap-2">
                             <video className="object-cover overflow-hidden rounded-3xl" autoPlay controls muted loop playsInline>
