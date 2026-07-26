@@ -44,13 +44,13 @@ export default function Visuals() {
                             <MyButton variant="blue-button-outline" text="View on official site &#8599;" link="https://www.fraserhealth.ca/-/media/Project/FraserHealth/FraserHealth/About-Us/Corporate-Brochure/Organizational-Brochure-2024_FINAL.pdf" textSize="text-sm" target="_blank"/>
                         </div>
                         <div className="flex flex-col gap-2">
-                            <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl px-10 py-10">
+                            <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl px-15 py-15">
                                 <ImageZoom>
                                     <Image src="/fh-1.png" width={1200} height={1200} className="w-[100%] object-cover rounded-2xl shadow-[0px_0px_25px_rgba(0,0,0,0.035)]" alt="Visual design"/>
                                 </ImageZoom>
                             </div>
                             <div></div>
-                            <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl px-10 py-10">
+                            <div className=" bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl px-15 py-15">
                                 <ImageZoom>
                                     <Image src="/fh-2.png" width={1200} height={1200} className="w-[100%] object-cover rounded-2xl shadow-[0px_0px_25px_rgba(0,0,0,0.035)]" alt="Visual design"/>
                                 </ImageZoom>
