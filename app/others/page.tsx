@@ -168,6 +168,30 @@ export default function Visuals() {
                     <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-2xl flex justify-center items-center">
                         <Image src="/vsa-3.png" width={1200} height={1200} className="w-[90%] justify-self-center-safe rounded-2xl" alt="Visual design"/>
                     </ImageZoom>
+                    <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-2xl flex justify-center items-center">
+                        <Image src="/vsa-4.png" width={1200} height={1200} className="w-[90%] justify-self-center-safe rounded-2xl" alt="Visual design"/>
+                    </ImageZoom>
+                    <div className="col-span-2 row-span-2 bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl p-45">
+                        <video className="object-cover overflow-hidden rounded-3xl" autoPlay controls muted loop playsInline>
+                            <source src="club day post.mp4"type="video/mp4" />
+                        </video>
+                    </div>
+                    <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-2xl flex justify-center items-center">
+                        <Image src="/vsa-6.png" width={1200} height={1200} className="w-[90%] justify-self-center-safe rounded-2xl" alt="Visual design"/>
+                    </ImageZoom>
+                    <div className="bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl p-15">
+                        <video className="object-cover overflow-hidden rounded-3xl" autoPlay controls muted loop playsInline>
+                            <source src="Part 1.mp4"type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className="bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl p-15">
+                        <video className="object-cover overflow-hidden rounded-3xl" autoPlay controls muted loop playsInline>
+                            <source src="Part 2.mp4"type="video/mp4" />
+                        </video>
+                    </div>
+                    {/* <ImageZoom className="bg-[var(--container-bg)] overflow-hidden rounded-2xl flex justify-center items-center p-15">
+                        <Image src="/IWD.png" width={1200} height={1200} className="justify-self-center-safe rounded-3xl" alt="Visual design"/>
+                    </ImageZoom> */}
                 </div>
                 </SlideUpNoThres>
 
