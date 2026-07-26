@@ -138,7 +138,7 @@ export default function Visuals() {
 
                 <SlideUpNoThres>
                     <div className="w-full flex justify-between items-center mb-9">
-                        <p className="text-md text-[var(--colour-bodytext-3)]">VSA promotions 📸</p>
+                        <p className="text-md text-[var(--colour-bodytext)]">VSA promotions 📸</p>
                         <MyButton variant="blue-button-outline" text="View VSA site &#8599;" link="https://www.instagram.com/vsasfu" textSize="text-sm" target="_blank"/>
                     </div>
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2">
