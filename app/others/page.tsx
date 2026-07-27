@@ -181,12 +181,12 @@ export default function Visuals() {
                     </ImageZoom>
                     <div className="bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl p-15">
                         <video className="object-cover overflow-hidden rounded-3xl" autoPlay controls muted loop playsInline>
-                            <source src="Part 1.mp4"type="video/mp4" />
+                            <source src="Part 2.mp4"type="video/mp4" />
                         </video>
                     </div>
                     <div className="bg-[var(--container-bg)] w-full flex justify-center items-center rounded-2xl p-15">
                         <video className="object-cover overflow-hidden rounded-3xl" autoPlay controls muted loop playsInline>
-                            <source src="Part 2.mp4"type="video/mp4" />
+                            <source src="Part 1.mp4"type="video/mp4" />
                         </video>
                     </div>
                 </div>
