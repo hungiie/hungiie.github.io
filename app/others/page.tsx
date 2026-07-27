@@ -38,7 +38,7 @@ export default function Visuals() {
 
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
-                        <div className="md:sticky md:top-30 md:self-start mb-12 md:mb-0">
+                        <div className="md:sticky md:top-25 md:self-start mb-12 md:mb-0">
                             <p className="text-md text-[var(--colour-bodytext)] mb-4">Fraser Health's Corporate Brochure 🩺</p>
                             <div className="mb-9"></div>
                             <MyButton variant="blue-button-outline" text="View on official site &#8599;" link="https://www.fraserhealth.ca/-/media/Project/FraserHealth/FraserHealth/About-Us/Corporate-Brochure/Organizational-Brochure-2024_FINAL.pdf" textSize="text-sm" target="_blank"/>
@@ -78,7 +78,7 @@ export default function Visuals() {
 
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
-                        <div className="md:sticky md:top-30 md:self-start mb-12 md:mb-0">
+                        <div className="md:sticky md:top-25 md:self-start mb-12 md:mb-0">
                             <p className="text-md text-[var(--colour-bodytext)] mb-4">Fraser Health's Planetary Health video 🌱</p>
                             <div className="mb-9"></div>
                             <MyButton variant="blue-button-outline" text="View on YouTube &#8599;" link="https://www.youtube.com/watch?v=ZBhZYYxJFnw" textSize="text-sm" target="_blank"/>
@@ -108,7 +108,7 @@ export default function Visuals() {
 
                 <div className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-[1.5fr_3fr] gap-x-4">
-                        <div className="md:sticky md:top-30 md:self-start mb-12 md:mb-0">
+                        <div className="md:sticky md:top-25 md:self-start mb-12 md:mb-0">
                             <p className="text-md text-[var(--colour-bodytext)] mb-4">Fraser Health's UPCC looping tutorial 🏥</p>
                             <div className="mb-9"></div>
                             <MyButton variant="blue-button-outline" text="View on YouTube &#8599;" link="https://www.youtube.com/watch?v=OhkqwG9JYLw" textSize="text-sm" target="_blank"/>
