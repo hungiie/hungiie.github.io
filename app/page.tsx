@@ -122,13 +122,13 @@ export default function Home2() {
                   <ProjectThumbnailNew isLink="video-link" link="cardio" type="UX design, POC" name="card.io: Perfect cardio session starts with a perfect playlist" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcPoster="/cardio-poster.png" target="_self"/>
               </SlideUp>
               <SlideUp>
-                  <ProjectThumbnailNew isLink="image-link" link="health" type="UX research, in process" name="Samsung Health: Supporting a healthy weight journey" desc="Conducted research to inform future Samsung Health wearable experiences, including Galaxy Watch, Galaxy Ring, and the Samsung Health app." imageSrc="/shealth.png" imageSrcPoster="" target="_self"/>
+                  <ProjectThumbnailNew isLink="image-link" link="health" type="UX research" name="Samsung Health: Supporting a healthy weight journey" desc="Conducted research to inform future Samsung Health wearable experiences, including Galaxy Watch, Galaxy Ring, and the Samsung Health app." imageSrc="/shealth.png" imageSrcPoster="" target="_self"/>
               </SlideUp>
               {/* <SlideUp>
                   <ProjectThumbnailNew isLink="image-link" link="#" type="UX design, shipped" name="Ednoda: Simplify lesson planning for ESL teachers" desc="" imageSrc="/ednodap.png" imageSrcPoster=".png" target="_self"/>
               </SlideUp> */}
               <SlideUp>
-                  <ProjectThumbnailNew isLink="image-link" link="others" type="Graphics, animations" name="Other works" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/other.png" imageSrcPoster="" target="_self"/>
+                  <ProjectThumbnailNew isLink="image-link" link="others" type="Graphics & animations" name="Other works" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/other.png" imageSrcPoster="" target="_self"/>
               </SlideUp>
             </div>
 
