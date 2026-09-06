@@ -116,19 +116,19 @@ export default function Home2() {
                 <ProjectThumbnailNew isLink="video-link" link="rules" type="UX design, shipped" name="Samsung Knox Rules: Context-aware device management" desc="Designed a device management feature that triggers actions when specific conditions are met (time, location, device status, etc.)" imageSrc="/Rule video.mp4" imageSrcDark="/Rule video.mp4" imageSrcPoster="rule-poster.png" imageSrcPosterDark="rule-poster.png" target="_self"/>
               </SlideUpNoThres>
               <SlideUpNoThres>
-                  <ProjectThumbnailNew isLink="image-link" link="organizations" type="Design system, shipped" name="Samsung Knox Organizations: Hierarchical device management" desc="Designed and wrote system documentation for a scalable table component that visualizes the inheritance logic among parent-child entities." imageSrc="/organizations.png" imageSrcDark="/organizations-d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
+                  <ProjectThumbnailNew isLink="image-link" link="organizations" type="Design system, shipped" name="Samsung Knox Organizations: Hierarchical device management" desc="Designed and wrote system documentation for a scalable table component that visualizes the inheritance logic among parent-child entities." imageSrc="/organizations.png" imageSrcDark="/organizations.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
               </SlideUpNoThres>
               <SlideUp>
-                  <ProjectThumbnailNew isLink="video-link" link="cardio" type="UX design, POC" name="card.io: Perfect cardio session starts with a perfect playlist" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/cardio video-d.mp4" imageSrcPoster="/cardio-poster.png" imageSrcPosterDark="/cardio-poster-d.png" target="_self"/>
+                  <ProjectThumbnailNew isLink="video-link" link="cardio" type="UX design, POC" name="card.io: Perfect cardio session starts with a perfect playlist" desc="Designed a Spotify feature that guides runners in creating personalized cardio playlists, helping them feel confident and in control." imageSrc="/cardio video.mp4" imageSrcDark="/cardio video.mp4" imageSrcPoster="/cardio-poster.png" imageSrcPosterDark="/cardio-poster.png" target="_self"/>
               </SlideUp>
               <SlideUp>
-                  <ProjectThumbnailNew isLink="image-link" link="health" type="UX research" name="Samsung Health: Supporting a healthy weight journey" desc="Conducted research to inform future Samsung Health wearable experiences, including Galaxy Watch, Galaxy Ring, and the Samsung Health app." imageSrc="/shealth.png" imageSrcDark="/shealth-d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
+                  <ProjectThumbnailNew isLink="image-link" link="health" type="UX research" name="Samsung Health: Supporting a healthy weight journey" desc="Conducted research to inform future Samsung Health wearable experiences, including Galaxy Watch, Galaxy Ring, and the Samsung Health app." imageSrc="/shealth.png" imageSrcDark="/shealth.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
               </SlideUp>
               {/* <SlideUp>
                   <ProjectThumbnailNew isLink="image-link" link="#" type="UX design, shipped" name="Ednoda: Simplify lesson planning for ESL teachers" desc="" imageSrc="/ednodap.png" imageSrcPoster=".png" target="_self"/>
               </SlideUp> */}
               <SlideUp>
-                  <ProjectThumbnailNew isLink="image-link" link="others" type="Graphics & animations" name="Other works" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/other.png" imageSrcDark="/other-d.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
+                  <ProjectThumbnailNew isLink="image-link" link="others" type="Graphics & animations" name="Other works" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/other.png" imageSrcDark="/other.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
               </SlideUp>
             </div>
 
