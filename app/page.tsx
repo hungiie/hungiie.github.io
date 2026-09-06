@@ -127,9 +127,9 @@ export default function Home2() {
               {/* <SlideUp>
                   <ProjectThumbnailNew isLink="image-link" link="#" type="UX design, shipped" name="Ednoda: Simplify lesson planning for ESL teachers" desc="" imageSrc="/ednodap.png" imageSrcPoster=".png" target="_self"/>
               </SlideUp> */}
-              <SlideUp>
+              {/* <SlideUp>
                   <ProjectThumbnailNew isLink="image-link" link="others" type="Graphics & animations" name="Other works" desc={`I like to play around with visual design and motions. Here's the damage.`} imageSrc="/other.png" imageSrcDark="/other.png" imageSrcPoster="" imageSrcPosterDark="" target="_self"/>
-              </SlideUp>
+              </SlideUp> */}
             </div>
 
             {/* <Heading text="My other work spans development, visual design, and service design." variant="black"/>
